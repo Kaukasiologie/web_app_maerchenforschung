@@ -148,6 +148,10 @@ class Handler(BaseHTTPRequestHandler):
 
     def _labler_train_on_labled_text(self):
         data = self._basic_form_handling()
+        print(80 * '-')
+        print(self.path)
+        print(data)
+        print(80 * '-')
         if data is None:
             err = 'Wrong data was provided!'
             self._send_response(None, err)
@@ -156,6 +160,10 @@ class Handler(BaseHTTPRequestHandler):
         try:
             pos_coef, pos_features = train_the_model(data)
             res = {"pos_coef": pos_coef, "pos_features": pos_features}
+            print(80 * '-')
+            print(self.path)
+            print(res)
+            print(80 * '-')
             self._send_response(res, None)
         except ValueError as e:
             err = f"Training fehlgeschlagen wegen Python Error: {e}"
@@ -239,8 +247,7 @@ class Handler(BaseHTTPRequestHandler):
 
 def main():
     pid = os.getpid()
-    log("!!!!!!!!!!!!!!!!!!!!!! START  !!!!!!!!!!!!!!!!!!!!!!!!!",
-        context='main')
+    log("!!!!!!!!!!!!!!!!!!!  START  !!!!!!!!!!!!!!!!!!!!!!!", context='main')
     log(f"running a server with pid {pid}", context='main')
 
     startup()

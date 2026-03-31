@@ -5,7 +5,9 @@ from pathlib import Path
 LogType = Enum('LogType', [('Error', 'ERROR'),
                ('Warning', 'WARNING'), ('Info', 'INFO')])
 
-LOGFILE = Path("viz_server.log")
+# LOGFILE = Path("viz_server.log")
+# gToDo: revert this to logfile
+LOGFILE = None
 if LOGFILE:
     LOGFILE.touch()
 

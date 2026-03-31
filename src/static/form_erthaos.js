@@ -197,6 +197,7 @@ async function server_request(target, bodyJson) {
         form_data = new FormData(e.target).entries();
         filtered_data = Array.from(form_data).filter(([_, v]) => String(v).trim() !== '')
         const body = Object.fromEntries(filtered_data)
+        console.log(body)
         AppState.form1_data = body
 
         const get_labels_btn = document.getElementById('get-labels');

@@ -116,10 +116,6 @@ def render_static(name: Path):
     return tpl.encode("utf-8")
 
 
-#############################################################################
-# ############################       GET      ###############################
-#############################################################################
-
 def make_graph_page(template_name, config_name):
     fields = load_json_safely(config_name)
 
@@ -154,15 +150,11 @@ def make_grundform_page(template_name, config_name):
 ERTHAOS_LABLED_DATAFRAMES = dict()  # type: ignore
 
 
-def cached_parse_xml(xml_filename, language):
-    if xml_filename in ERTHAOS_LABLED_DATAFRAMES:
-        df_labeld: pd.DataFrame = (
-            ERTHAOS_LABLED_DATAFRAMES.get(xml_filename))  # type: ignore
-    else:
-        special_chars = get_special_charachter_list(language)
-        df_labeld = parse_xml_into_dataframe(
-            f'xml_sources/{xml_filename}', special_chars)
-        ERTHAOS_LABLED_DATAFRAMES[xml_filename] = df_labeld
+def parse_xml(xml_filename, language):
+
+    special_chars = get_special_charachter_list(language)
+    df_labeld = parse_xml_into_dataframe(
+        f'xml_sources/{xml_filename}', special_chars)
 
     return df_labeld
 
@@ -185,7 +177,7 @@ def get_label_list(request_json):
 
     xml_language = language_dict['value'][xml_filename]
 
-    df_labeld = cached_parse_xml(xml_filename, xml_language)
+    df_labeld = parse_xml(xml_filename, xml_language)
     return '\n'.join(df_labeld['index_string'].to_list())
 
 
@@ -204,8 +196,8 @@ def train_the_model(request_json):
     episode_selection_config = fill_missing_data_with_defaults(
         request_json, episode_selection_config)
 
-    xml_database_name_field = get_element(
-        xml_selection_config, 'xml_database_name')
+    xml_database_name_field = get_element(xml_selection_config,
+                                          'xml_database_name')
 
     if xml_database_name_field is None:
         log('xml_database_name_field is None',
@@ -226,10 +218,13 @@ def train_the_model(request_json):
     gesep_list = gesep_raw.split("|")
 
     selected_episode_opt = request_json.get('elim', None)
-    df_maerchen = cached_parse_xml(xml_database_name, stopwords_sprache)
+    df_maerchen = parse_xml(xml_database_name, stopwords_sprache)
+    print(80 * '>')
+    print(df_maerchen)
+    print(80 * '<')
 
-    pos_coef, pos_features = model_training(
-        gesep_list, selected_episode_opt, stopwords_sprache, df_maerchen)
+    pos_coef, pos_features = model_training(gesep_list, selected_episode_opt,
+                                            stopwords_sprache, df_maerchen)
 
     return pos_coef.tolist(), pos_features.tolist()
 
@@ -260,11 +255,6 @@ def label_new_text_(data):
         xml_database_path, stopwords_sprache, special_charachters,
         coeff_cutoff, pos_coefs, pos_features)
     return sorted_similarities_unlabeled, quelle, inhalt
-
-
-#############################################################################
-# ############################       POST     ###############################
-#############################################################################
 
 
 def get_element(config, name):

@@ -15,7 +15,6 @@ gesuchte_episoden = []: Die Abfragewerte für das Zielmotiv mit entsprechende La
 Stoppwortliste für die bestimmte Sprache.
 """
 
-# Alle Abhängigkeiten importieren
 from io import StringIO
 import nltk
 # Importieren der ElementTree-Bibliothek zum Parsen von XML
@@ -35,10 +34,8 @@ def get_root_node(xml_database_name):
     return ET.parse(xml_database_name).getroot()
 
 
-NS = {'tei': 'http://www.tei-c.org/ns/1.0'}  # 3 Namespace definieren
-# Beispiel: Referenzliste laden
-REFERENZ_LISTE = lade_referenz_liste_aus_xsd(
-    "kf/vmf_d1.xsd")  # passe den Pfad an
+NS = {'tei': 'http://www.tei-c.org/ns/1.0'}
+REFERENZ_LISTE = lade_referenz_liste_aus_xsd("kf/vmf_d1.xsd")
 
 PARAM_NGRAMM_RANGE = (1, 1)
 PARAM_MIN_DF = 2
@@ -48,7 +45,6 @@ SONDERZEICHEN_CONFIG_PATH = "configs/sonderzeichen_config.json"
 
 
 # GLOBAL STATE
-
 USED_STOPWORDS = dict()  # type: ignore
 
 SPECIAL_CHARACHTER_DICT = dict()  # type: ignore
@@ -93,7 +89,8 @@ def get_base_stopwords_list(language):
 def parse_xml_into_dataframe(xml_database_name, special_charachters):
     # gelabelte XML daten parsen und dataframe erstellen
     maerchen = parse_xml(get_root_node(xml_database_name),
-                         NS, REFERENZ_LISTE, special_charachters, parse_labels=True)
+                         NS, REFERENZ_LISTE, special_charachters,
+                         parse_labels=True)
     # xml header
     maerchen_header = 'quelle,index_string,inhalt,index_binar'
     maerchen = f'{maerchen_header}\n{maerchen}'
@@ -124,12 +121,8 @@ def model_training(gesep_list, selected_episode_opt, stopwords_sprache, df_maerc
         # eliminiert. Dadurch wird es verhindert, dass die Datensetzen mit gleichen Inhalte nicht als negative Werte entgegengesetzt werden.
         # Zeilen mit index_binar = 1 entfernen, wenn index_string nicht "a000" enthält PARAM_elim = "a425"
 
-        df_maerchen = df_maerchen[~(
-            (df_maerchen['index_binar'] == 0) &
-            (~df_maerchen['index_string'].str.contains(
-                selected_episode_opt, na=False))
-        )
-        ]
+        # TurnOffFormatOnSave
+        df_maerchen = df_maerchen[~((df_maerchen['index_binar'] == 0) & (~df_maerchen['index_string'].str.contains(selected_episode_opt, na=False)))]
 
     X_train: pd.Series = df_maerchen.inhalt
     y_train: pd.Series = df_maerchen.index_binar
@@ -142,10 +135,8 @@ def model_training(gesep_list, selected_episode_opt, stopwords_sprache, df_maerc
                                                           PARAM_NGRAMM_RANGE,
                                                           perform_regularization_sweep=False)
 
-    feature_names = np.array(
-        model_tfidf_logreg.named_steps["tfidfvectorizer"].get_feature_names_out())
-    coefficients = model_tfidf_logreg.named_steps["logisticregression"].coef_[
-        0]
+    feature_names = np.array(model_tfidf_logreg.named_steps["tfidfvectorizer"].get_feature_names_out())
+    coefficients = model_tfidf_logreg.named_steps["logisticregression"].coef_[0]
 
     pos_coef, pos_features = feature_set_selection(coefficients, feature_names)
     return pos_coef, pos_features
