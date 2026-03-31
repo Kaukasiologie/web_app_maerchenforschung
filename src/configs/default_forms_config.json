@@ -1,0 +1,51 @@
+[
+    {
+        "name": "datei",
+        "label": "Repertoire",
+        "type": "select",
+        "value": [
+            "georgisch.xml",
+            "dagestanisch.xml",
+            "deutsch.xml",
+            "test.xml"
+        ],
+        "info": "Herkunft des jeweiligen Repertoires entsprechend dem Namen der XML-TEI-Korpusdatei (z. B. dagestanisch, georgisch, ossetisch usw.).",
+        "public": true
+    },
+    {
+        "name": "haeufigkeit",
+        "label": "Knotenwert ≥",
+        "type": "number",
+        "info": "Erwartet wird eine natürliche Zahl, die das minimale Vorkommen eines Knotens bestimmt.",
+        "value": 0,
+        "min": 0,
+        "max": 100,
+        "public": true
+    },
+    {
+        "name": "min_edge_weight",
+        "label": "Kantenwert ≥",
+        "type": "number",
+        "info": "Erwartet wird eine natürliche Zahl, die angibt, wie oft zwei Knoten mindestens gemeinsam vorkommen müssen.",
+        "value": 0,
+        "min": 0,
+        "max": 100,
+        "public": true
+    },
+    {
+        "name": "gesuchter_knoten",
+        "label": "Typ markieren",
+        "type": "text",
+        "info": "Erwartet wird eine Typnummer (z. B. a300). Der entsprechende Knoten wird im Graphen rot markiert (falls vorhanden; andernfalls wird die Eingabe ignoriert).",
+        "value": "",
+        "public": true
+    },
+    {
+        "name": "show_full_name",
+        "label": "Vollst&auml;ndiger Name",
+        "type": "checkbox",
+        "info": "Entspricht der vollständigen Bezeichnung des Typs. Ohne Aktivierung dieser Option werden die Typen lediglich durch ihre Nummer angezeigt.",
+        "value": false,
+        "public": true
+    }
+]

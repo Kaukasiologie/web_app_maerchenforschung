@@ -1,0 +1,61 @@
+/* tooltip */
+.inline {
+    display: inline-block;
+    margin-right: 2px;
+}
+
+/* This is the i in a circle */
+.info {
+    --scale: 0;
+    --arrow-size: 13px;
+    --tooltip-color: #333;
+
+    position: relative;
+    display: inline-block;
+    background: #afaaaf;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    border-radius: 10px;
+    border-bottom: 1px dotted black;
+    cursor: pointer;
+    z-index: 100;
+}
+
+/* These are the tooltips for the i */
+.info::before,
+.info::after {
+    position: absolute;
+    top: 0;
+    left: 2rem;
+    transition: 80ms transform;
+    transform-origin: left center;
+}
+
+/* main tooltip with the information text */
+.info::before {
+    content: attr(data-tooltip);
+    color: white;
+    padding: .5rem;
+    width: max-content;
+    max-width: 200px;
+    text-justify: distribute-all-lines;
+    text-align: left;
+    background: var(--tooltip-color);
+    border-radius: 3px;
+    transform: translateY(-40%) scale(var(--scale));
+}
+
+.info:hover::before,
+.info:hover::after {
+    --scale: 1;
+}
+
+/* tooltip arrow */
+.info::after {
+    content: '';
+    left: 0.5rem;
+    border: var(--arrow-size) solid transparent;
+    border-right-color: var(--tooltip-color);
+    transform: translateY(-30%) scale(var(--scale));
+}

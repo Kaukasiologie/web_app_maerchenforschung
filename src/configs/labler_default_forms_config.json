@@ -1,0 +1,45 @@
+{
+    "xml_selection": [
+        {
+            "name": "xml_database_name",
+            "label": "Repertoire",
+            "type": "select",
+            "value": [
+                "dagestanisch.xml",
+                "test.xml"
+            ],
+            "info": "Herkunft des jeweiligen Repertoires entsprechend dem Namen der XML-TEI-Korpusdatei (z. B. dagestanisch, georgisch, ossetisch usw.).",
+            "public": true
+        },
+        {
+            "name": "language",
+            "label": "Sprache",
+            "type": "text",
+            "value": {
+                "dagestanisch.xml": "russian",
+                "test.xml": "german"
+            },
+            "info": "Stopwort Sprache.",
+            "public": false
+        }
+    ],
+    "episode_selection": [
+        {
+            "name": "gesep",
+            "label": "Gesuchtes Label",
+            "type": "text",
+            "value": "",
+            "info": "Beliebiger Teil oder vollst&auml;ndiger Zeichenkette des Markupelements sowie ihre Komposition. Es ist m&ouml;glich, mehrere solcher Labels durch den logischen Operator &quot;oder&quot; zu verbinden; daf&uuml;r wird das Zeichen &quot;|&quot; verwendet.",
+            "required": true,
+            "public": true
+        },
+        {
+            "name": "elim",
+            "label": "Nur g&uuml;ltig f&uuml;r...",
+            "type": "text",
+            "value": "",
+            "info": "gefolgt vom Wert eines a-Attributs, z. B. a300. Datens&auml;tze, die diesen a-Wert nicht besitzen, jedoch dieselben b- und/oder c-Attributwerte aufweisen, werden aus der Aggregation ausgeschlossen. Dadurch wird verhindert, dass Datens&auml;tze mit &auml;hnlichem Inhalt f&auml;lschlich als negative Gegenwerte interpretiert werden. Z.B.: ENTF&Uuml;HRUNG|ENTF&Uuml;HRUNG _beheben",
+            "public": true
+        }
+    ]
+}

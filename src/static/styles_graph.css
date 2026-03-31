@@ -1,0 +1,35 @@
+@import "styles_base.css";
+@import "styles_tooltip.css";
+
+/* small toggle button visually positioned (optional) */
+.form-toggle-btn {
+    z-index: 10;
+    position: fixed;
+    left: 8px;
+    top: 8px;
+    background: var(--background);
+    color: var(--forground);
+    padding: 6px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+#form-toggle:checked~.container .form {
+    width: var(--form-closed-w);
+    padding-left: 2px;
+    padding-right: 2px;
+    visibility: hidden;
+    opacity: var(--panel-closed-opacity);
+}
+
+/* output should fill remaining space */
+.image {
+    flex: 1;
+    padding: 0px;
+    gap: 0px;
+}
+
+#output {
+    min-height: 100%
+}

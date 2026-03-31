@@ -1,0 +1,37 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="static/styles_graph.css">
+    <!-- <script type="text/javascript" src="https://unpkg.com/vis&#45;network@9.1.2/dist/vis&#45;network.min.js"></script> -->
+    <!-- <link href="https://unpkg.com/vis&#45;network@9.1.2/dist/dist/vis&#45;network.min.css" rel="stylesheet" /> -->
+    <script type="text/javascript" src="https://unpkg.com/vis-network@9.1.2/dist/vis-network.min.js"></script>
+    <link href="https://unpkg.com/vis-network@9.1.2/dist/dist/vis-network.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <label for="form-toggle" class="form-toggle-btn">☰</label>
+    <input type="checkbox" id="form-toggle" hidden>
+    <div class="container">
+        <aside class="form">
+
+            <h3> Typenbestand in Graphen </h3>
+            <form id="dataForm" action="/update_graph" method="post">
+                {{ forms }}
+                <div>
+                    <button id="regenerate-button" type="submit" class="send-button">Graph (re)generieren</button>
+                </div>
+                <br />
+                <div>
+                    <a href="https://folklore.uni-jena.de/Hilfe.html" class>Hilfe</a>
+                </div>
+            </form>
+        </aside>
+        <div id="image" class="image">
+        </div>
+    </div>
+</body>
+
+<script type="text/javascript" src="static/form_graph.js"></script>
+
+</html>

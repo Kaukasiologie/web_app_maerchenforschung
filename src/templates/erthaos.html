@@ -1,0 +1,97 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="static/styles_erthaos.css">
+    <script type="text/javascript" src="https://unpkg.com/vis-network@9.1.2/dist/vis-network.min.js"></script>
+    <link href="https://unpkg.com/vis-network@9.1.2/dist/dist/vis-network.min.css" rel="stylesheet" />
+
+    <script src="https://cdn.plot.ly/plotly-3.3.0.min.js" charset="utf-8"></script>
+
+</head>
+
+<body>
+    <div class="cardtainer">
+        <input type="checkbox" calss="card-toggle" id='card-toggle-1' hidden>
+        <label for="card-toggle-1" class="card-toggle-label" id='card-toggle-label-1'> </label>
+        <div id="card-1" class="card">
+            <aside class="sidepanel">
+               <h3>
+  Anpassen
+<span style="cursor: help; font-weight: bold; border: 1px solid #007BFF; border-radius: 50%; padding: 0 5px;" title="Informationen zur Zusammensetzung des Labels finden Sie auf der Seite &quot;Markup&quot; und den darunter angeordneten Abschnitte: Attribut a-d.">i</span>
+ </h3> 
+               <form id="xmlSelectorForm" action="/labler_get_gesep_list" method="post">
+                    {{ forms1 }}
+                    <br />
+                    <br />
+                    <button id="get-labels" type="submit" class="send-button">Labels extrahieren</button>
+                </form>
+                <br />
+		<br />
+                <div>
+                     <a href="https://folklore.uni-jena.de/Hilfe.html" class>Hilfe</a>
+                </div>
+            </aside>
+
+            <div class="text-container">
+                <div>
+                    <input type="text" id="search" placeholder="🔍︎" oninput="filterText()" on>
+                </div>
+                <div class="text-area" id="episodeLabelsText">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br />
+
+    <div class="cardtainer">
+        <input type="checkbox" calss="card-toggle" id='card-toggle-2' hidden>
+        <label for="card-toggle-2" id='card-toggle-label-2' class="card-toggle-label"> </label>
+        <div id="card-2" class="card">
+            <aside class="sidepanel">
+  
+                <h3>
+  Training und Motiverkennung
+<span style="cursor: help; font-weight: bold; border: 1px solid #007BFF; border-radius: 50%; padding: 0 5px;" title="Sie k&ouml;nnen die Anzahl der Merkmale korrigieren, indem Sie auf die gew&uuml;nschte Stelle der Grafik klicken - erst nachdem beim &Uuml;berfahren mit der Maus ein Koeffizient angezeigt wird.">i</span>
+ </h3>
+                <form id="episodeSelectorForm" action="/labler_train_on_labled_text" method="post">
+                    {{ forms2 }}
+                    <br />
+<br />
+                    <button id="select-labels" type="submit" class="send-button">Training</button>
+                </form>
+                <br />
+<br />
+                <button id="label-new-text" class="send-button invisible">Motiverkennung</button>
+                <br />
+<br/ >
+                <div>
+                     <a href="https://folklore.uni-jena.de/Hilfe.html" class>Hilfe</a>
+
+                </div>
+            </aside>
+
+            <div class="text-with-plot">
+                <div class="text-area wrappable full-height" id="positiveFeaturesText"></div>
+                <div id="visualization" class="plot"></div>
+            </div>
+
+        </div>
+    </div>
+
+    <br />
+
+    <div class="cardtainer">
+        <input type="checkbox" calss="card-toggle" id='card-toggle-3' hidden>
+        <label for="card-toggle-3" id='card-toggle-label-3' class="card-toggle-label"> </label>
+        <div id="card-3" class="card">
+            <div class="text-area full-height" id="finalText"> </div>
+        </div>
+    </div>
+
+</body>
+
+<script type="text/javascript" src="static/form_erthaos.js"></script>
+
+</html>

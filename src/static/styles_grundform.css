@@ -1,0 +1,63 @@
+@import "styles_base.css";
+@import "styles_tooltip.css";
+
+
+.vertical-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
+
+#search {
+    min-height: var(--search-height);
+    max-height: var(--search-height);
+    flex-grow: 5;
+}
+
+.text-area {
+    border: 3px solid #ccc;
+    padding: 10px;
+    overflow-y: auto;
+    white-space: pre-wrap;
+    background-color: var(--background);
+    color: var(--forground);
+    user-select: text;
+    pointer-events: auto;
+    border-radius: var(--border-radius);
+    flex-grow: 35;
+}
+
+.error {
+    color: red;
+    font-size: 0.9em;
+    height: var(--error-height);
+    resize: vertical;
+    border-radius: var(--border-radius);
+    overflow: auto;
+    flex-grow: 1;
+}
+
+.invisible {
+    visibility: hidden;
+    height: 0;
+    max-height: 0;
+    transition: height var(--transition), padding var(--transition);
+}
+
+
+.sidepanel {
+    width: var(--form-open-w);
+    min-width: var(--form-open-w);
+    height: 100%;
+    background: var(--saturated-background);
+    color: var(--forground);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 12px;
+    box-sizing: border-box;
+    border-radius: var(--border-radius);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    overflow: visible;
+}

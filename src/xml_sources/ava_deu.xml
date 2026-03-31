@@ -1,0 +1,1816 @@
+<?xml version='1.0' encoding='utf-8'?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xmlns:a="www.dglab.uni-jena.de/vmf/a" xmlns:b1="www.dglab.uni-jena.de/vmf/b1" xmlns:b2="www.dglab.uni-jena.de/vmf/b2" xmlns:b3="www.dglab.uni-jena.de/vmf/b3" xmlns:b4="www.dglab.uni-jena.de/vmf/b4" xmlns:b5="www.dglab.uni-jena.de/vmf/b5" xmlns:c1="www.dglab.uni-jena.de/vmf/c1" xmlns:c2="www.dglab.uni-jena.de/vmf/c2" xmlns:c3="www.dglab.uni-jena.de/vmf/c3" xmlns:c4="www.dglab.uni-jena.de/vmf/c4" xmlns:c5="www.dglab.uni-jena.de/vmf/c5" xmlns:d1="www.dglab.uni-jena.de/vmf/d1" xmlns:d2="www.dglab.uni-jena.de/vmf/d2" xmlns:d3="www.dglab.uni-jena.de/vmf/d3" xmlns:d4="www.dglab.uni-jena.de/vmf/d4" xmlns:d5="www.dglab.uni-jena.de/vmf/d5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 kf/tei_all.xsd">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title></title>
+   </titleStmt>
+   <publicationStmt>
+    <ab></ab>
+   </publicationStmt>
+   <sourceDesc>
+    <ab></ab>
+   </sourceDesc>
+  </fileDesc>
+ </teiHeader>
+ <teiCorpus n="ava_deu">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+     <title></title>
+    </titleStmt>
+    <publicationStmt>
+     <ab></ab>
+    </publicationStmt>
+    <sourceDesc>
+     <ab></ab>
+    </sourceDesc>
+   </fileDesc>
+  </teiHeader>
+
+  <TEI n="test">
+   <teiHeader>
+    <fileDesc>
+     <titleStmt>
+      <title xml:lang="deu">I. Bašir und das Mädchen</title>
+      <author>
+       <persName key="gnd:116977795">
+        <forename>Ernst</forename>
+        <surname>Lewy</surname>
+       </persName>
+      </author>
+      <respStmt>
+       <resp>Annotated according to the ATU system</resp>
+       <name>
+        <persName key="gnd:133557154">
+         <forename>Elguja</forename>
+         <surname>Dadunashvili</surname>
+        </persName>
+       </name>
+       <name>
+        <persName key="gnd:1154734161">
+         <forename>Diana</forename>
+         <surname>Forker</surname>
+        </persName>
+       </name>
+      </respStmt>
+     </titleStmt>
+     <publicationStmt>
+      <publisher>
+       <name ref="gnd:4028557-1">Institute of Slavic and Caucasus Studies. Friedrich Schiller University Jena</name>
+      </publisher>
+      <pubPlace>
+       <genName ref="https://www.geonames.org/2895044/jena.html">Jena</genName>
+      </pubPlace>
+      <date>2024</date>
+      <distributor>
+       <addName>DFG project “Caucasian narratives in the discourse of comparative fairy tale research”</addName>
+       <ref target="https://github.com/edadunashvili">Software und Texte</ref>
+      </distributor>
+      <availability>
+       <p>
+        <ref target="https://creativecommons.org/licenses/by/4.0/">CC BY</ref>
+       </p>
+      </availability>
+     </publicationStmt>
+     <sourceDesc>
+      <biblFull>
+       <titleStmt>
+        <title xml:lang="eng">Ernst Lewy Avar texts with translation. With comments, corrections and contributions from Johannes Bechert† and M.-K. M. Gimbatov, Aina Kazimagomedova, P. A. Saidova and S. Šaxtamanov</title>
+        <title xml:lang="deu">Ernst Lewy Awarische Texte mit Übersetzung. Mit Kommentaren, Korrekturen und Beiträgen von Johannes Bechert† sowie von M.-K. M. Gimbatov, Aina Kazimagomedova, P. A. Saidova und S. Šaxtamanov</title>
+        <author role="editor">
+         <persName key="gnd:12368806X">
+          <forename>Winfried</forename>
+          <surname>Boeder</surname>
+         </persName>
+        </author>
+        <author role="contributor">
+         <persName key="gnd:115823581">
+          <forename>Johannes</forename>
+          <surname>Bechert</surname>
+         </persName>
+        </author>
+        <author role="author">
+         <persName key="gnd:116977795">
+          <forename>Ernst</forename>
+          <surname>Lewy</surname>
+         </persName>
+        </author>
+        <respStmt>
+         <resp></resp>
+         <name></name>
+        </respStmt>
+       </titleStmt>
+       <extent>
+        <measure unit="words"></measure>
+        <measure unit="pages"></measure>
+       </extent>
+       <publicationStmt>
+        <publisher>BIS-Verlag der Carl von Ossietzky Universität Oldenburg</publisher>
+        <distributor>
+         <ref target="http://oops.uni-oldenburg.de/3182/">Verlag, kostenfrei zugänglich</ref>
+        </distributor>
+        <date when="2007">The year 2007</date>
+        <availability>
+         <licence></licence>
+        </availability>
+       </publicationStmt>
+      </biblFull>
+     </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+     <langUsage>
+      <language ident="deu">
+       <index indexName="iso639-3"></index>
+       <ref target="http://www-01.sil.org/iso639-3/codes.asp"></ref>
+      </language>
+     </langUsage>
+     <textClass>
+      <keywords>
+       <term type="writingSystem">utf-8</term>
+      </keywords>
+      <keywords scheme="http://uri.gbv.de/terminology/bk/">
+       <term type="text.libraryClassification.basisklassifikation" key="18.92">Sonstige asiatische Sprachen und Literaturen</term>
+       <term type="text.libraryClassification.basisklassifikation" key="73.63">Orale Traditionen</term>
+      </keywords>
+     </textClass>
+     <creation>
+      <placeName>
+       <country ref="https://www.geonames.org/2921044/federal-republic-of-germany.html">Germany</country>
+       <region ref="https://www.geonames.org/2842566/saxony.html">Saxony</region>
+       <district></district>
+       <settlement ref="https://www.geonames.org/2940130/chemnitz.html">Kriegsgefangenenlager Chemnitz</settlement>
+       <geo></geo>
+      </placeName>
+      <date>1950</date>
+     </creation>
+     <particDesc>
+      <person role="speaker">
+       <persName>
+        <forename>Nazmuddin</forename>
+        <surname>Sajpudin</surname>
+       </persName>
+       <age>31</age>
+       <birth>
+        <date when="1887">The year 1887</date>
+        <placeName>
+         <country ref="https://www.geonames.org/2017370/russian-federation.html">Russian-Federation</country>
+         <region ref="https://www.geonames.org/567293/dagestan.html">Dagestan</region>
+         <district ref="https://www.geonames.org/557977/gunibskiy-rayon.html">Gunibskiy Rayon</district>
+         <settlement>Gunib</settlement>
+        </placeName>
+       </birth>
+      </person>
+      <person role="researcher">
+       <persName key="gnd:116977795">
+        <forename>Ernst</forename>
+        <surname>Lewy</surname>
+       </persName>
+      </person>
+      <person role="translator">
+       <persName key="gnd:116977795">
+        <forename>Ernst</forename>
+        <surname>Lewy</surname>
+       </persName>
+      </person>
+     </particDesc>
+    </profileDesc>
+    <revisionDesc>
+     <listChange>
+      <change>
+       <name></name>
+       <date></date>
+      </change>
+     </listChange>
+    </revisionDesc>
+   </teiHeader>
+   <text xml:id="zyx_cc_ava_deu_204">
+    <body>
+     <head>I. Bašir und das Mädchen </head>
+     <p>
+      <seg a:ana="N" b1:ana="h" c1:ana="KRANKHEIT" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="N" d2:ana="N" d3:ana="N" d4:ana="N" d5:ana="N"> Ein König hatte zwei Söhne. Der ältere hieß Omar, der jüngere Bašir. Der König liebte den Sohn, der Basir hieß, sehr. Der König wurde krank.</seg>
+      <seg a:ana="N" b1:ana="h" c1:ana="STERBEN" b2:ana="F" c2:ana="Erbschaft_teilen" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="rHHDem" d2:ana="rEHDem" d3:ana="fEHDam" d4:ana="N" d5:ana="N">Er rief seine beiden Söhne zu sich. “O ihr meine Kinder, wenn ich plötzlich sterbe, dann ist mein Vermächtnis für euch: «Lebt einig miteinander.» Teilt mein nachgebliebenes Erbe zu gleichen Teilen.” Der König starb.</seg>
+      <seg a:ana="N" b1:ana="h" c1:ana="Erbschaft_teilen" b2:ana="H" c2:ana="WAFFE_oder_Ausrüstung_erhalten" b3:ana="h" c3:ana="KONTAKT_abbrechen" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="rEHDem" d2:ana="fEHDam" d3:ana="N" d4:ana="N" d5:ana="N"> Nach dem Tod des Vaters hielt sich Omar nicht lange an das Vermächtnis des Vaters. Er fing an, Basir zu benachteiligen. Er dachte nach, auf welche Weise er sich Basirs entledigen könnte. Basir erriet, was Omar vorhatte (“in Omars Herz war”). Basir bat Omar: “O du mein älterer Bruder Omar, gib mir ein Pferd zum Besteigen und Waffen zum Überhängen.” Omar gab Basir Pferd und Waffen. Nachdem er das Pferd bestiegen hatte, ob zum Leben, ob zum Tode, ging Basirweg.</seg>
+      <seg a:ana="N" b1:ana="H" c1:ana="Unterkommen" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="rEHDem" d2:ana="rHPPem" d3:ana="N" d4:ana="N" d5:ana="N"> Basir war ein sehr schöner Mann. Basir gelangte in irgendein Dorf (Aul). Dort fragte Basir nach einem Mann, bei dem er bleiben könnte. Ein reicher Mann nahm Basir zu sich, damit er den Hof kehre. </seg>
+      <seg a:ana="N" b1:ana="H" c1:ana="Liebe_wird_ausgelöst" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="rEHDem" d2:ana="rEPPew" d3:ana="N" d4:ana="N" d5:ana="N">Der reiche Mann hatte eine Tochter, die niemals die Welt gesehen hatte. Eines schönen Tages stieg Basir ins obere Zimmer. Er sah dieses schöne Mädchen, und das Mädchen sah Basir. Da verliebten sich die beiden ineinander. Das Mädchen hieß Asijat. </seg>
+      <seg a:ana="N" b1:ana="F" c1:ana="BOTSCHAFTEN_versenden" b2:ana="F" c2:ana="Umgang_mit_Einladung_oder_Bestellung" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="rEPPew" d2:ana="rEVMew" d3:ana="N" d4:ana="N" d5:ana="N">Sie sagte zu ihrer Dienerin: “Diesen Jemand rufe (du) zu mir.” Die Dienerin sagte zu Asijat: “Schämst du dich nicht zu sagen: «Rufe diesen Jemand»?” Asijat wurde sehr zornig auf die Dienerin. Sie schrieb einen Brief und schickte ihn an Basir: “Du Jemand, sehen will ich (dich) sehr. Komm zu mir. </seg>
+      <seg a:ana="N" b1:ana="h" c1:ana="Umgang_mit_Einladung_oder_Bestellung" b2:ana="Hh" c2:ana="BOTSCHAFTEN_versenden" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="rEHDem" d2:ana="N" d3:ana="N" d4:ana="N" d5:ana="N">Basir schrieb auf Asijats Brief die Antwort: “Dein Brief hat mich erreicht. Deinem Brief entsprechend zu dir zu kommen ist mir nicht möglich in Anbetracht meiner Niedrigkeit.”</seg>
+      <seg a:ana="N" b1:ana="H" c1:ana="BOTSCHAFTEN_versenden" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="rEPPew" d2:ana="N" d3:ana="N" d4:ana="N" d5:ana="N"> Asijat schrieb die Antwort: “Wie niedrig du auch sein magst, außer dir liebe ich niemanden.” Basir glaubte nicht Asijats Brief. </seg>
+      <seg a:ana="N" b1:ana="H" c1:ana="Begegnung" b2:ana="F" c2:ana="FLUCHT_vorbereiten" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="rEHDem" d2:ana="rEPPew" d3:ana="N" d4:ana="N" d5:ana="N">Basirs Zimmer war am Eingang der Pforte. Eines Nachts ging Asijat zu Basir. Als er zur Tür hineinging, (um)fasste sie Basirs Hals und gab ihm drei Küsse. Dann fragte Asijat Basir: “Woher bist du? Wie bist du hierher geraten?” Basir erzählte alles, was ihm geschehen war. Da liebte Asijat Basir noch mehr. Dann sagte Asijat: “Ich nehme Geld mit, das für unser Leben reicht. Wir fliehen beide und nehmen gute Pferde zum Reiten für uns beide mit.”</seg>
+      <seg a:ana="N" b1:ana="H" c1:ana="FLUCHT_ergreifen" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="rEHDem" d2:ana="rEPPew" d3:ana="N" d4:ana="N" d5:ana="N"> Asijat nahm alles Nötige, gute Pferde zum Reiten nahmen sie und flohen von dort fort. Es gab keine Pferde, die sie hätten einholen können, es gab sie nicht hinter (ihren) Pferden. </seg>
+      <seg a:ana="N" b1:ana="f" c1:ana="GEFAHR_durch_Kannibalismus" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="rEHDem" d2:ana="rEPPew" d3:ana="rEANeu" d4:ana="N" d5:ana="N">Nach drei Tagen kamen sie auf einen Berg. Auf diesem Berge fanden sie eine Feste. Die Feste erblickend, sagte Asijat: “Einmal habe ich gehört, dass in dieser Feste Qarte leben. Das könnte diese Feste sein. Komm, lass uns umkehren.” Basir sagte zu Asijat: “Ohne diese Qarten gesehen zu haben, werde ich nicht umkehren.”</seg>
+      <seg a:ana="N" b1:ana="h" c1:ana="GEFAHR_durch_Kannibalismus" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="N" d2:ana="N" d3:ana="N" d4:ana="N" d5:ana="N">Da umzingelten die Qarten sie und führten sie in die Feste. Sie warfen sie in einen Kessel und fraßen die beiden auf. </seg>
+     </p>
+    </body>
+   </text>
+  </TEI>
+
+  <TEI n="0850">
+   <teiHeader>
+    <fileDesc>
+     <titleStmt>
+      <title xml:lang="deu">II. Das edle Mädchen</title>
+      <author>
+       <persName key="gnd:116977795">
+        <forename>Ernst</forename>
+        <surname>Lewy</surname>
+       </persName>
+      </author>
+      <respStmt>
+       <resp>Annotated according to the ATU system</resp>
+       <name>
+        <persName key="gnd:133557154">
+         <forename>Elguja</forename>
+         <surname>Dadunashvili</surname>
+        </persName>
+       </name>
+       <name>
+        <persName key="gnd:1154734161">
+         <forename>Diana</forename>
+         <surname>Forker</surname>
+        </persName>
+       </name>
+      </respStmt>
+     </titleStmt>
+     <publicationStmt>
+      <publisher>
+       <name ref="gnd:4028557-1">Institute of Slavic and Caucasus Studies. Friedrich Schiller University Jena</name>
+      </publisher>
+      <pubPlace>
+       <genName ref="https://www.geonames.org/2895044/jena.html">Jena</genName>
+      </pubPlace>
+      <date>2024</date>
+      <distributor>
+       <addName>DFG project “Caucasian narratives in the discourse of comparative fairy tale research”</addName>
+       <ref target="https://github.com/edadunashvili">Software und Texte</ref>
+      </distributor>
+      <availability>
+       <p>
+        <ref target="https://creativecommons.org/licenses/by/4.0/">CC BY</ref>
+       </p>
+      </availability>
+     </publicationStmt>
+     <sourceDesc>
+      <biblFull>
+       <titleStmt>
+        <title xml:lang="eng">Ernst Lewy Avar texts with translation. With comments, corrections and contributions from Johannes Bechert† and M.-K. M. Gimbatov, Aina Kazimagomedova, P. A. Saidova and S. Šaxtamanov</title>
+        <title xml:lang="deu">Ernst Lewy Awarische Texte mit Übersetzung. Mit Kommentaren, Korrekturen und Beiträgen von Johannes Bechert† sowie von M.-K. M. Gimbatov, Aina Kazimagomedova, P. A. Saidova und S. Šaxtamanov</title>
+        <author role="editor">
+         <persName key="gnd:12368806X">
+          <forename>Winfried</forename>
+          <surname>Boeder</surname>
+         </persName>
+        </author>
+        <author role="contributor">
+         <persName key="gnd:115823581">
+          <forename>Johannes</forename>
+          <surname>Bechert</surname>
+         </persName>
+        </author>
+        <author role="author">
+         <persName key="gnd:116977795">
+          <forename>Ernst</forename>
+          <surname>Lewy</surname>
+         </persName>
+        </author>
+        <respStmt>
+         <resp></resp>
+         <name></name>
+        </respStmt>
+       </titleStmt>
+       <extent>
+        <measure unit="words"></measure>
+        <measure unit="pages"></measure>
+       </extent>
+       <publicationStmt>
+        <publisher>BIS-Verlag der Carl von Ossietzky Universität Oldenburg</publisher>
+        <distributor>
+         <ref target="http://oops.uni-oldenburg.de/3182/">Verlag, kostenfrei zugänglich</ref>
+        </distributor>
+        <date when="2007">The year 2007</date>
+        <availability>
+         <licence></licence>
+        </availability>
+       </publicationStmt>
+      </biblFull>
+     </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+     <langUsage>
+      <language ident="deu">
+       <index indexName="iso639-3"></index>
+       <ref target="http://www-01.sil.org/iso639-3/codes.asp"></ref>
+      </language>
+     </langUsage>
+     <textClass>
+      <keywords>
+       <term type="writingSystem">utf-8</term>
+      </keywords>
+      <keywords scheme="http://uri.gbv.de/terminology/bk/">
+       <term type="text.libraryClassification.basisklassifikation" key="18.92">Sonstige asiatische Sprachen und Literaturen</term>
+       <term type="text.libraryClassification.basisklassifikation" key="73.63">Orale Traditionen</term>
+      </keywords>
+     </textClass>
+     <creation>
+      <placeName>
+       <country ref="https://www.geonames.org/2921044/federal-republic-of-germany.html">Germany</country>
+       <region ref="https://www.geonames.org/2842566/saxony.html">Saxony</region>
+       <district></district>
+       <settlement ref="https://www.geonames.org/2940130/chemnitz.html">Kriegsgefangenenlager Chemnitz</settlement>
+       <geo></geo>
+      </placeName>
+      <date>1950</date>
+     </creation>
+     <particDesc>
+      <person role="speaker">
+       <persName>
+        <forename>Nazmuddin</forename>
+        <surname>Sajpudin</surname>
+       </persName>
+       <age>31</age>
+       <birth>
+        <date when="1887">The year 1887</date>
+        <placeName>
+         <country ref="https://www.geonames.org/2017370/russian-federation.html">Russian-Federation</country>
+         <region ref="https://www.geonames.org/567293/dagestan.html">Dagestan</region>
+         <district ref="https://www.geonames.org/557977/gunibskiy-rayon.html">Gunibskiy Rayon</district>
+         <settlement>Gunib</settlement>
+        </placeName>
+       </birth>
+      </person>
+      <person role="researcher">
+       <persName key="gnd:116977795">
+        <forename>Ernst</forename>
+        <surname>Lewy</surname>
+       </persName>
+      </person>
+      <person role="translator">
+       <persName key="gnd:116977795">
+        <forename>Ernst</forename>
+        <surname>Lewy</surname>
+       </persName>
+      </person>
+     </particDesc>
+    </profileDesc>
+    <revisionDesc>
+     <listChange>
+      <change>
+       <name></name>
+       <date></date>
+      </change>
+     </listChange>
+    </revisionDesc>
+   </teiHeader>
+   <text xml:id="zyx_cc_ava_deu_205">
+    <body>
+     <head>II. Das edle Mädchen </head>
+     <p>
+      <seg a:ana="a882" b1:ana="F" c1:ana="Umgang_mit_Einladung_oder_Bestellung" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="rEHDam" d2:ana="fEPPem" d3:ana="N" d4:ana="N" d5:ana="N"> Es waren einmal zwei Kameraden, die einander sehr ergeben waren. Von den beiden hieß der eine Ali, der andere Omar (“die beiden Namen waren...”). Eines Nachts gingen sie alle beide zu eines Mannes Hochzeit. Alle Mädchen mussten zu dieser Hochzeit tanzen kommen. Alis Schwester kam nicht dorthin. Dass sie nicht kam, erfuhren die Leute. Die Leute sagten: “Schickt jemanden, sie zu rufen.” Ali sagte zu Omar: “Mein Freund, gehe meine Schwester rufen.” Sogleich brach er auf.</seg>
+      <seg a:ana="a882" b1:ana="h" c1:ana="Sexuelle_NÖTIGUNG" b2:ana="H" c2:ana="Sexuelle_NÖTIGUNG_ablehnen" b3:ana="H" c3:ana="TÖTUNG" b4:ana="H" c4:ana="Sexueller_NÖTIGUNG_entkommen" b5:ana="N" c5:ana="N" d1:ana="rEHDew" d2:ana="fEPPem" d3:ana="N" d4:ana="N" d5:ana="N">Nachdem er in Alis Haus gegangen war (“in A.s Haus gegangen seiend”), weckte er Alis Schwester. Als er sie geweckt hatte, sagte er: “Mach dich bereit, zur Hochzeit zu gehen.” Patimat stand sogleich auf, die Kleider anziehend machte sie sich fertig. Omar sagte zu Patimat: “Noch sind nicht alle versammelt. Lass uns beide ein wenig spazieren (“herumstreifen”) gehen.” Omar führte sie, Patimat verließ das Dorf, nach draußen, fern vom Dorfe führte er sie. Omar sagte zu Patimat: “Hier musst du dich mit mir hinlegen.” Patimat sagte zu Omar: “Schämst du dich nicht, mir ein solches Wort zu sagen? Weil du das vorhattest (“im Herzen hattest”), hast du mich hierher geführt?” Omar sagte zu Patimat: “Ohne viel zu reden, lege dich auf den Boden.” Patimat bat Omar: “Aus Achtung für deinen Freund, meinen Bruder Ali, lass du mich.” Ohne irgendwie mit dieser Bitte Patimats einverstanden zu sein, drängte er sie mit Gewalt auf den Boden. Patimat zog Omars Pistole aus dem Futteral und schoss Omar in die Stirn. Sogleich, ohne etwas zu sagen (“ohne zu finden den Mund zu sprechen”), starb Omar. </seg>
+      <seg a:ana="a882" b1:ana="H" c1:ana="Vorgang_deuten" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="rEHDew" d2:ana="rEHDam" d3:ana="N" d4:ana="N" d5:ana="N">Patimat ließ ihn dort und floh nach Hause. Patimat fand Ali noch nicht zurückgekehrt. Sie lag auf dem Bett und weinte. Nach nicht langer Zwischenzeit kam Ali nach Hause. Ali fand Patimat weinend. Ali fragte Patimat: “Warum weinst du? Warum bist du nicht zur Hochzeit gekommen? Omar wurde doch von mir geschickt, dich zu rufen! (“wurde Omar nicht geschickt...?”)” Da schrie Patimat sehr laut und begann zu weinen. Ali sagte: “Was dir geschehen ist, erzähle mir schnell.” Patimat erzählte ihrem Bruder Ali alles, was mit Omar und ihr selbst geschehen war. Da stand Ali auf und ging zu der Stelle, wo das geschehen war. Von dort ging er nach Hause und beruhigte die Weinende und dankte seiner Schwester sehr. Da erhellte sich die Nacht.</seg>
+      <seg a:ana="a882" b1:ana="F" c1:ana="PROVOKATION" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="rEHDew" d2:ana="N" d3:ana="N" d4:ana="N" d5:ana="N"> Allen Leuten wurde Patimats Verhalten bekannt. Alle Leute verfluchten Omar, und dankten Patimat. Nachdem die Leute nachdacht hatten, begruben sie Omar an der Landstraße (“auf dem Weg, wo Leute entlang gingen”). Auf den Grabstein hatte man geschrieben, was mit Patimat geschehen war. Wer immer es las, verfluchte Omar. Patimat sagte: “Einem Mann glaube ich nicht mehr.” Sie war eine berühmte Schönheit.</seg>
+      <seg a:ana="a882" b1:ana="H" c1:ana="PROVOKATION" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="rEPPem" d2:ana="N" d3:ana="N" d4:ana="N" d5:ana="N"> Ein Königssohn reiste umher. Er sah Omars Grab. Er kam zu ihm und las das auf dem Grabmal Geschriebene. Er schwor an dieser Stelle: “Außer diesem Mädchen werde ich keine Frau heiraten,” [sagte er zu seinem Vater]. Der Name dieses Jünglings war Ezer.</seg>
+      <seg a:ana="a882" b1:ana="F" c1:ana="HEIRATSABSICHT_kundtun" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="rEPPem" d2:ana="rHPPem" d3:ana="N" d4:ana="N" d5:ana="N"> Ezer sagte seinem Vater, als er nach Hause kam: “An einem Ort habe ich ein Grab gefunden. Auf der Steinplatte war geschrieben, was geschehen war dem (“jenem”) toten Manne und einem Mädchen. Außer diesem Mädchen (“Tochter, junge Frau”)werde ich kein anderes zur Frau nehmen,” sagte er zu seinem Vater. Der Vater sagte zu Ezer: “Meinetwegen werde ich dich mit ihr verheiraten, aber du wirst nicht mit ihr auskommen können.” </seg>
+      <seg a:ana="a882" b1:ana="H" c1:ana="Heiraten" b2:ana="F" c2:ana="Keuschheit" b3:ana="F" c3:ana="Tapferkeit_beweisen" b4:ana="h" c4:ana="KONTAKT_abbrechen" b5:ana="N" c5:ana="N" d1:ana="rEHDew" d2:ana="rEPPem" d3:ana="N" d4:ana="N" d5:ana="N">Ezer heiratete Patimat. Alle Freunde und Verwandten eingeladen, feierten sie eine schöne Hochzeit. Nach der Hochzeit ließen sie die Jungvermählten sich niederlegen. Ezer sagte zu Patimat: “Zieh’ mir bitte die Stiefel aus.” Patimat sagte zu Ezer: “Das ist keine Sache, die ich dir tun werde. Rufe die Dienerin, (mir) die Stiefel auszuziehen.” Da stand Ezer auf und sagte: “Danke, meine Freundin, dir werde ich jetzt meine Fähigkeit an dir zeigen.” Patimat sagte: “Nachdem ich deine Fähigkeit gesehen haben werde, werde ich alles tun, was du auch sagst.” Ezer stand dann auf, zog sich an, bestieg ein gutes Pferd und ging weg. Zu (seiner) Frau sagte Ezer: “Ohne dir meine Fähigkeit gezeigt zu haben, werde ich nicht zurückkehren.”</seg>
+      <seg a:ana="a882" b1:ana="h" c1:ana="Sich_ZURÜCKZIEHEN" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="rEHDew" d2:ana="N" d3:ana="N" d4:ana="N" d5:ana="N"> Als Ezer gegangen war, schloss Patimat das Zimmer, wo ihr Gespräch stattgefunden hatte, zu. “Solange Ezer nicht zurückkehrt, wird es nicht geöffnet werden,” sagte sie. </seg>
+      <seg a:ana="a882" b1:ana="H" c1:ana="Unterkommen" b2:ana="F" c2:ana="Tapferkeit_beweisen" b3:ana="F" c3:ana="WETTBEWERB" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="rEPPem" d2:ana="rEVMew" d3:ana="N" d4:ana="N" d5:ana="N">Ezer gelangte nach einer Woche zu einem großen Dorf. Da er in diesem Dorf keine Gastfreunde hatte, stieg Ezer bei einer Witwe ab. Die Witwe sagte zu Ezer: “Ich bin eine arme Frau. Für einen so reichen Mann wie dich gibt es reiche Leute, warum steigst du nicht bei ihnen ab?” Ezer sagte zu der Witwe: “Ich bin ein Wanderer.” Die Witwe sagte zu Ezer: “Bei einem König wird ein Fest stattfinden. Bei diesem Fest werden alle Leute sein. Der König wird drei Trinkhörner aufstellen. Wenn der, der alle diese drei Trinkhörner austrinkt, in drei Fähigkeiten gegen ihn selbst nicht gewinnt, tötet ihn der König. Wenn er gewinnt, muss der König ihm seine eigene Tochter geben.” Da dachte Ezer: “Geh’ ich, geh’ ich nicht zu diesem Fest?” </seg>
+      <seg a:ana="a882" b1:ana="F" c1:ana="Reitkünste_zeigen" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="rEVMeU" d2:ana="rEPPem" d3:ana="oEANem" d4:ana="N" d5:ana="N">Ezer ging zu dem Fest, was auch passieren mochte. Als Ezer als Gast kam, standen alle Leute auf und bezeugten ihm Achtung und ließen ihn sitzen. Ezer sieht: Der König stellt ein Trinkhorn hin. Niemand nahm es von dem König. Ezer fragte die Leute: “Was ist das für ein Trinkhorn? Warum nimmt es niemand?” Die Leute erzählten Ezer: “Dieses Horn wird auf das Wohl des Pferds des Königs selbst getrunken (“dieses Horn ist bezüglich des Pferds des Königs selbst”). Wer denkt: «Mein Pferd wird gewinnen», trinkt den Becher.” Ezer nahm ihn und trank das Trinkhorn. </seg>
+      <seg a:ana="a882" b1:ana="F" c1:ana="WETTBEWERB" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="rEVMeU" d2:ana="rEPPem" d3:ana="oEANem" d4:ana="N" d5:ana="N">Dann sah Ezer ebenso ein Trinkhorn, das alle Leute nicht trinken konnten. Ezer fragte: “Was ist das für ein Trinkhorn?” Die Leute erzählten Ezer: “Diesen Becher trinkt der Mann, der denkt: «Ich gewinne gegen den König beim Steinwurf.»” Auf sich selbst vertrauend (“Herz setzend”), trank Ezer. </seg>
+      <seg a:ana="a882" b1:ana="F" c1:ana="Wette_um_die_VERFÜHRUNG" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="rEVMeU" d2:ana="rEPPem" d3:ana="oEANem" d4:ana="N" d5:ana="N">Das dritte Mal sah Ezer: Ebenso kreisend kehrt das Trinkhorn zum König zurück. Wieder fragte Ezer: “Was ist das für ein Trinkhorn?” Die Leute erzählten ihm: “Dieses Trinkhorn trinkt der Mann, der seiner Frau vertraut.” Ezer trank auch das dritte Trinkhorn; er vertraute doch seiner Frau. </seg>
+      <seg a:ana="a882" b1:ana="H" c1:ana="Reitkünste_zeigen" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="rEPPem" d2:ana="oEANem" d3:ana="N" d4:ana="N" d5:ana="N">Da sagten die Leute: “Getrunken hast du alles, nun werden wir sehen, wie du alle Dinge vollführst.” Der König sagte zu Ezer: “Mach dein Pferd bereit, dass es morgen mit meinem zusammen rennt.” Ezer machte sein Pferd bereit, führte früh sein Pferd heraus, und kam zu dem König. Man ließ des Königs und sein Pferd rennen. Ezers Pferd gewann.</seg>
+      <seg a:ana="a882" b1:ana="H" c1:ana="WETTBEWERB_angehen" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="rEPPem" d2:ana="oEANem" d3:ana="N" d4:ana="N" d5:ana="N"> Beim zweiten Male sagte der König zu Ezer: “Jetzt mach dich zum Steinwurf mit mir bereit.” Ezer sagte: “Ich bin bereit.” Dann warf der König einen Stein. Auch Ezer warf, Ezer gewann auch im Steinwurf gegen den König. </seg>
+      <seg a:ana="a882" b1:ana="f" c1:ana="Auftrag_zur_VERFÜHRUNG" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="oEANem" d2:ana="fEPPpM" d3:ana="N" d4:ana="N" d5:ana="N">Dann nahm der König Ezer mit zu einem Pfosten. Der König schickte die beiden Söhne seines Wesirs, um Ezers Frau zu täuschen. </seg>
+      <seg a:ana="a882" b1:ana="h" c1:ana="Sexuelle_NÖTIGUNG" b2:ana="F" c2:ana="Loyalität_vortäuschen" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="rEHDew" d2:ana="fEPPpM" d3:ana="N" d4:ana="N" d5:ana="N">Die beiden kamen nach fünf Tagen zu Ezers Dorf. Sie stiegen an Ezers Wohnstätte ab. Ezers Frau, Patimat, empfing die Gastfreunde, ihnen Achtung bezeigend. Sie stellte den Gastfreunden das Essen hin, sorgte dafür, dass sie äßen, und zeigte ihnen das Bett zum Schlafen. Die Gastfreunde sagten zu Patimat: “Du hast alles gut gemacht, aber einfach nur eine gute Nacht wünschen solltest du nicht. Du solltest dich zu uns legen.” Patimat sagte zu den Gastfreunden: “Auch das ist keine unmögliche Sache. Ich komme gleich und lege mich zu euch.” </seg>
+      <seg a:ana="a882" b1:ana="F" c1:ana="IDENTITÄT_ändern" b2:ana="F" c2:ana="Geänderte_IDENTITÄT_vortäuschen" b3:ana="F" c3:ana="Auftrag_zur_VERFÜHRUNG" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="rEHDew" d2:ana="rEHDpw" d3:ana="N" d4:ana="N" d5:ana="N">Patimat ging in ihr Zimmer. Patimat sagte zu ihrer Dienerin: “Zieh dir meine Kleider an und lege dich zu den Gastfreunden schlafen.” </seg>
+      <seg a:ana="a882" b1:ana="H" c1:ana="IDENTITÄT_ändern" b2:ana="H" c2:ana="Geänderte_IDENTITÄT_vortäuschen" b3:ana="F" c3:ana="VERFÜHRUNG_angehen" b4:ana="F" c4:ana="MARKIERUNGEN_anbringen" b5:ana="N" c5:ana="N" d1:ana="rEHDpw" d2:ana="fEPPeM" d3:ana="N" d4:ana="N" d5:ana="N">Die Dienerin zog Patimats Kleider an und ging, sich zu den Gastfreunden zu legen. Die Gastfreunde wussten nicht, dass es nicht Patimat war. Patimat hatte zu der Dienerin gesagt: “Was auch immer von den Gastfreunden getan wird, verbiete es nicht.” Sie hatten beliebiges Vergnügen mit ihr, nahmen ihr vom Finger einen Ring und schnitten ihr den Zopf vom Kopf. </seg>
+      <seg a:ana="a882" b1:ana="H" c1:ana="Vorgang_deuten" b2:ana="H" c2:ana="Auftrag_zur_VERFÜHRUNG" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="rEHDew" d2:ana="rEHDpw" d3:ana="N" d4:ana="N" d5:ana="N">Indessen wurde die Nacht hell. Zu dieser Stunde stand sie (sc. die Dienerin) auf und kam weinend zu Patimat. Patimat erzählte sie alles, was man ihr angetan hatte. Patimat sagte: “Das ist ohne Bedeutung, was sie auch getan haben; mach dir keine Sorgen (“es ist keine Notwendigkeit”).” </seg>
+      <seg a:ana="a882" b1:ana="H" c1:ana="Gespräche_belauschen" b2:ana="F" c2:ana="VERLEUMDUNG_beheben" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="rEHDew" d2:ana="fEPPpM" d3:ana="N" d4:ana="N" d5:ana="N">Zu der Stunde kochte Patimat für die Gastfreunde (das Wasser im) Ssamowar und stellte ihn den Gastfreunden hin. Sie goss ihnen den Tee ein und wandte sich zurück. Patimat hörte die Gastfreunde zueinander sagen: “Jetzt wird man doch sehen, welches Ding wir Ezer antun werden!” Das hörte Patimat in ihrem eigenen Zimmer sitzend und sagte bei sich selbst: ”Das werden wir noch sehen, was ihr tun werdet.” </seg>
+      <seg a:ana="a882" b1:ana="H" c1:ana="IDENTITÄT_ändern" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="rEHDew" d2:ana="N" d3:ana="N" d4:ana="N" d5:ana="N">Nach dem Tee fingen die Gastfreunde an, sich bereit zu machen, um ihres Weges zu gehen. Patimat sagte zu den Gastfreunden: “Wohin eilt ihr? Bleibt heute Nacht noch hier.” Die Gastfreunde gingen, indem sie Patimat dankten. Als sie gegangen waren, zog Patimat gute Männerkleider an, bestieg ein gutes Pferd und ritt ihnen nach. </seg>
+      <seg a:ana="a882" b1:ana="H" c1:ana="Geänderte_IDENTITÄT_vortäuschen" b2:ana="F" c2:ana="WETTBEWERB" b3:ana="H" c3:ana="WETTBEWERB_angehen" b4:ana="F" c4:ana="MARKIERUNGEN_anbringen" b5:ana="N" c5:ana="N" d1:ana="rEHDew" d2:ana="fEPPeM" d3:ana="N" d4:ana="N" d5:ana="N">Eines schönen Tages stiegen die Gäste zu Mittag auf einer Ebene ab, um zu essen. Als die Gastfreunde aßen, erreichte sie Patimat. Nachdem sie vom Pferde abgestiegen war, die Satteldecke (“Filz, Filzmantel (Burka)”) und das Reitzeug abgenommen hatte, das Pferd fressen ließ und die Decke unterlegt hatte, setzte sich Patimat obendrauf zum Essen nieder. Patimat fragte die Gastfreunde: “Woher, wohin geht ihr?” Die Gastfreunde erzählten Patimat alles, was ihnen und Ezer geschehen war und alles, was mit Ezers Frau geschehen war. Patimat sagte dann: “Lasst uns gegen die Langeweile (“Herz an etwas festmachend”) einzeln (nacheinander) mit dem Gewehr nach einem Ziele schießen.” Die jungen Leute waren einverstanden, nach dem Ziele zu schießen. “Um welche Sache wetten wir (“welche Wett–Sache legen wir”)?” fragte Patimat. “Wette, worum du willst,” sagten jene. Patimat sagte: “Wenn ich gewinne, werde ich euch mein Siegel auf die Wirbelsäule drücken. Wenn ihr gewinnt, werde ich tun, was ihr wollt.” Sie stimmten dieser Vereinbarung zu, schossen nach dem Ziel, zuerst die Gastfreunde, dann Patimat. Patimat gewann gegen sie beim Schießen. Sie drückte ihr Siegel auf ihre Wirbelsäule. Dann gingen die Gäste ihres Weges.</seg>
+      <seg a:ana="a882" b1:ana="H" c1:ana="Unterkommen" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="rEHDew" d2:ana="rEVMew" d3:ana="N" d4:ana="N" d5:ana="N"> Patimat machte sich ohne Verzug fertig, ihres Weges zu gehen. Sie band die Decke auf dem Pferde fest und bestieg das Pferd, und bewegte sich hinter ihnen her. An diesem Tage gelangte sie abends zu ihrem Dorf. Sie stieg ab in einem Hause am Rande des Dorfes. Dieses Haus war das derselben Witwe, bei der Ezer abgestiegen war. Als sie ins Haus eintrat und den Gruß gab, gab die Witwe den Gruß zurück und empfing den Gastfreund. Diese Nacht verbrachte sie dort irgendwie. </seg>
+      <seg a:ana="a882" b1:ana="F" c1:ana="VERLEUMDUNG_beheben" b2:ana="F" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="rEHDew" d2:ana="rEVMew" d3:ana="N" d4:ana="N" d5:ana="N">Am Morgen aufgestanden, hörte der Mann (sc. die als Mann verkleidete Patimat), der hinausging (“auf die Straße”), den Lärmen (“Stimme, Laut”) des Festes. Er (sie) fragte die Witwe: “Was ist das für ein Lärmen?” Die Witwe erzählte ihm (ihr): “Dieses Lärmen ist an der Heimstätte des Königs. Irgendein Mann war zu mir gekommen. Zu der Zeit war bei dem König ein Festvergnügen. Der zu diesem Festvergnügen gegangene Mann stritt mit dem König, um den König zu besiegen und trank die drei Trinkhörner des Königs. In zwei Fähigkeiten schlug er den König. In der dritten verlor er gegen den König. Heute wird er getötet. Aus diesem freudigen Anlass ist dieses Fest.” Patimat sagte zu der Witwe: “Jetzt werde ich zu des Königs Heimstätte gehen.” </seg>
+      <seg a:ana="a882" b1:ana="F" c1:ana="Umgang_mit_Werben_um_den_Auftrag" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="rEHDew" d2:ana="fEVMeM" d3:ana="N" d4:ana="N" d5:ana="N">Von dort ging er (sie) zu des Königs Heimstätte. Dort fand er (sie) für sich ein fröhliches Fest. Dort sagte er (sie) zu den Leuten: “Ich will den König sehen.” Da brachten die Leute ihn (sie) zu dem König hin. </seg>
+      <seg a:ana="a882" b1:ana="F" c1:ana="Intensive_Erkundungsaktion" b2:ana="h" c2:ana="Intensive_Erkundungsaktion" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="rEHDew" d2:ana="oEANem" d3:ana="N" d4:ana="N" d5:ana="N">Der König fragte: “Was wünschst du (“Wunsch ist was”)?” Er (sie) sagte zu dem König: “Zwei von meinen Sklaven sind verlorengegangen. Sie sollen an deiner Heimstätte sein, habe ich gehört, und ich bin gekommen.” Der König, nachdem er alle Leute versammelt hatte, sagte zu dem Gastfreund: “Sieh nach, ob sich unter denen da nicht deine Sklaven befinden.” Der Gastfreund sagte: “Da sind sie nicht.” Der König sagte: “Außer meinen beiden Wesirssöhnen habe ich keine Leute mehr.” Der Gast sagte: “Ich möchte diese deine beiden Wesirssöhne sehen.” Sogleich ließ der König sie rufen.</seg>
+      <seg a:ana="a882" b1:ana="H" c1:ana="Intensive_Erkundungsaktion" b2:ana="H" c2:ana="MARKIERUNGEN_erkennen" b3:ana="H" c3:ana="Wechsel_der_IDENTITÄT_eingestehen" b4:ana="H" c4:ana="VERLEUMDUNG_beheben" b5:ana="H" c5:ana="Wette_um_die_VERFÜHRUNG" d1:ana="rEHDew" d2:ana="oEANem" d3:ana="fEPPeM" d4:ana="rEPPem" d5:ana="N"> Der Gastfreund sagte: “Jene sind sie.” Der König sagte: “Wie sollen sie deine Sklaven sein? Jene sind meine Wesirssöhne.” “Wessen Söhne sie auch sein mögen, mein Siegel ist auf ihnen. Sie sind meine Sklaven.” “Zeige dein Siegel,” sagte der König. Nachdem man sie die Kleider ausziehen ließ (“sie die Kleider ausziehen lassend”), sollte der König ihre Wirbelsäule sehen, und es fand sich an ihnen das Siegel des Gastfreundes. Dann erzählte der Gast: “Ich bin kein Mann; ich bin die Frau des Mannes, der an den Pfosten gebunden ist, um von euch getötet zu werden. Weder haben diese von dir gesandten Männer mir den Ring genommen, noch haben sie mir den Zopf vom Kopf abgeschnitten. Ob er abgeschnitten ist, sieh nach.” Indem sie ihre Mütze abnahm, zeigte Patimat ihren Kopf dem Volk: “Die Person, der sie den Zopf abgeschnitten haben und den Ring weggenommen haben, ist meine Dienerin.” Da ließ der König den angebundenen Ezer frei: Von Neuem ein Fest veranstaltend, gab er seine Tochter dem Ezer.</seg>
+      <seg a:ana="a882" b1:ana="H" c1:ana="KONTAKT_wiederherstellen" b2:ana="H" c2:ana="Auf_dem_Heimweg" b3:ana="H" c3:ana="Tapferkeit_beweisen" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="rEHDew" d2:ana="rEPPem" d3:ana="N" d4:ana="N" d5:ana="N"> Nachdem man alles noch Nötige gegeben hatte, gingen die Gastfreunde ihres Weges. Ezer sagte da zu Patimat: “Deine Fähigkeit hat meine Fähigkeit besiegt, ich bin dir ergeben (“ich bin dir untertan”).” Auf diese Weise in Freude brachten sie ihr Leben hin.</seg>
+     </p>
+    </body>
+   </text>
+  </TEI>
+
+  <TEI n="0300">
+   <teiHeader>
+    <fileDesc>
+     <titleStmt>
+      <title xml:lang="deu">IIa. Jugenderinnerung</title>
+      <author>
+       <persName key="gnd:116977795">
+        <forename>Ernst</forename>
+        <surname>Lewy</surname>
+       </persName>
+      </author>
+      <respStmt>
+       <resp>Annotated according to the ATU system</resp>
+       <name>
+        <persName key="gnd:133557154">
+         <forename>Elguja</forename>
+         <surname>Dadunashvili</surname>
+        </persName>
+       </name>
+       <name>
+        <persName key="gnd:1154734161">
+         <forename>Diana</forename>
+         <surname>Forker</surname>
+        </persName>
+       </name>
+      </respStmt>
+     </titleStmt>
+     <publicationStmt>
+      <publisher>
+       <name ref="gnd:4028557-1">Institute of Slavic and Caucasus Studies. Friedrich Schiller University Jena</name>
+      </publisher>
+      <pubPlace>
+       <genName ref="https://www.geonames.org/2895044/jena.html">Jena</genName>
+      </pubPlace>
+      <date>2024</date>
+      <distributor>
+       <addName>DFG project “Caucasian narratives in the discourse of comparative fairy tale research”</addName>
+       <ref target="https://github.com/edadunashvili">Software und Texte</ref>
+      </distributor>
+      <availability>
+       <p>
+        <ref target="https://creativecommons.org/licenses/by/4.0/">CC BY</ref>
+       </p>
+      </availability>
+     </publicationStmt>
+     <sourceDesc>
+      <biblFull>
+       <titleStmt>
+        <title xml:lang="eng">Ernst Lewy Avar texts with translation. With comments, corrections and contributions from Johannes Bechert† and M.-K. M. Gimbatov, Aina Kazimagomedova, P. A. Saidova and S. Šaxtamanov</title>
+        <title xml:lang="deu">Ernst Lewy Awarische Texte mit Übersetzung. Mit Kommentaren, Korrekturen und Beiträgen von Johannes Bechert† sowie von M.-K. M. Gimbatov, Aina Kazimagomedova, P. A. Saidova und S. Šaxtamanov</title>
+        <author role="editor">
+         <persName key="gnd:12368806X">
+          <forename>Winfried</forename>
+          <surname>Boeder</surname>
+         </persName>
+        </author>
+        <author role="contributor">
+         <persName key="gnd:115823581">
+          <forename>Johannes</forename>
+          <surname>Bechert</surname>
+         </persName>
+        </author>
+        <author role="author">
+         <persName key="gnd:116977795">
+          <forename>Ernst</forename>
+          <surname>Lewy</surname>
+         </persName>
+        </author>
+        <respStmt>
+         <resp></resp>
+         <name></name>
+        </respStmt>
+       </titleStmt>
+       <extent>
+        <measure unit="words"></measure>
+        <measure unit="pages"></measure>
+       </extent>
+       <publicationStmt>
+        <publisher>BIS-Verlag der Carl von Ossietzky Universität Oldenburg</publisher>
+        <distributor>
+         <ref target="http://oops.uni-oldenburg.de/3182/">Verlag, kostenfrei zugänglich</ref>
+        </distributor>
+        <date when="2007">The year 2007</date>
+        <availability>
+         <licence></licence>
+        </availability>
+       </publicationStmt>
+      </biblFull>
+     </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+     <langUsage>
+      <language ident="deu">
+       <index indexName="iso639-3"></index>
+       <ref target="http://www-01.sil.org/iso639-3/codes.asp"></ref>
+      </language>
+     </langUsage>
+     <textClass>
+      <keywords>
+       <term type="writingSystem">utf-8</term>
+      </keywords>
+      <keywords scheme="http://uri.gbv.de/terminology/bk/">
+       <term type="text.libraryClassification.basisklassifikation" key="18.92">Sonstige asiatische Sprachen und Literaturen</term>
+       <term type="text.libraryClassification.basisklassifikation" key="73.63">Orale Traditionen</term>
+      </keywords>
+     </textClass>
+     <creation>
+      <placeName>
+       <country ref="https://www.geonames.org/2921044/federal-republic-of-germany.html">Germany</country>
+       <region ref="https://www.geonames.org/2842566/saxony.html">Saxony</region>
+       <district></district>
+       <settlement ref="https://www.geonames.org/2940130/chemnitz.html">Kriegsgefangenenlager Chemnitz</settlement>
+       <geo></geo>
+      </placeName>
+      <date>1950</date>
+     </creation>
+     <particDesc>
+      <person role="speaker">
+       <persName>
+        <forename>Nazmuddin</forename>
+        <surname>Sajpudin</surname>
+       </persName>
+       <age>31</age>
+       <birth>
+        <date when="1887">The year 1887</date>
+        <placeName>
+         <country ref="https://www.geonames.org/2017370/russian-federation.html">Russian-Federation</country>
+         <region ref="https://www.geonames.org/567293/dagestan.html">Dagestan</region>
+         <district ref="https://www.geonames.org/557977/gunibskiy-rayon.html">Gunibskiy Rayon</district>
+         <settlement>Gunib</settlement>
+        </placeName>
+       </birth>
+      </person>
+      <person role="researcher">
+       <persName key="gnd:116977795">
+        <forename>Ernst</forename>
+        <surname>Lewy</surname>
+       </persName>
+      </person>
+      <person role="translator">
+       <persName key="gnd:116977795">
+        <forename>Ernst</forename>
+        <surname>Lewy</surname>
+       </persName>
+      </person>
+     </particDesc>
+    </profileDesc>
+    <revisionDesc>
+     <listChange>
+      <change>
+       <name></name>
+       <date></date>
+      </change>
+     </listChange>
+    </revisionDesc>
+   </teiHeader>
+   <text xml:id="zyx_cc_ava_deu_206">
+    <body>
+     <head>IIa. Jugenderinnerung </head>
+     <p>
+      <seg a:ana="N" b1:ana="H" c1:ana="Auftrag_zum_Kochen" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="rEHDem" d2:ana="rEHDam" d3:ana="N" d4:ana="N" d5:ana="N"> Als ich klein war, ging ich zu unseren Schafhirten. Dahin gekommen, schlachteten die Schafhirten für mich ein Schaf und bewirteten mich (“machten Gastfreundschaft”). Ein Schafhirte setzte das Fleisch aufs Feuer und machte Chinkal. Wir führten Gespräche.</seg>
+      <seg a:ana="a303" b1:ana="f" c1:ana="PROVOKATION" b2:ana="h" c2:ana="PROVOKATION" b3:ana="f" c3:ana="PROVOKATION" b4:ana="H" c4:ana="PROVOKATION" b5:ana="H" c5:ana="VERTREIBUNG" d1:ana="rEHDem" d2:ana="rEHDaM" d3:ana="rEANew" d4:ana="rEHDam" d5:ana="N">Da kam eine Frau. Ich staunte sehr, wie und woher der Mensch gekommen war. Ich hatte große Angst (“Sehr Angst bekommen habend”). Sie nahmen das Fleisch vom Feuer und fingen an zu essen. Ein Schafhirt gab ihr einen Vorderfuß mit Fleisch. Sie war nicht damit zufrieden. Da nahm der Schafhirt den heißen Vorderfuß mit Fleisch und schlug ihn ihr ins Gesicht. Da erhob sie ein lautes Geschrei und verschwand aus dem Blickfeld, ich weiß nicht wohin (“wohin auch immer gehend”). </seg>
+      <seg a:ana="N" b1:ana="h" c1:ana="GEFAHR_durch_Kannibalismus" b2:ana="H" c2:ana="Verstecken_als_Rettung" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="rEHDem" d2:ana="rEHDaM" d3:ana="rEANeU" d4:ana="N" d5:ana="N">Inzwischen war nicht viel Zeit vergangen, da kommt viel Volk, den Platz beleuchtend, sie voraus lassend. Als wir sie erblickten, liefen wir und versteckten uns inmitten der Schafe. Sie kamen hin und suchten uns. Als sie uns nicht fanden, schlugen sie auf sie ein und führten sie weg: “Warum hast du uns getäuscht?”</seg>
+     </p>
+    </body>
+   </text>
+  </TEI>
+  
+<TEI n="0850">
+   <teiHeader>
+    <fileDesc>
+     <titleStmt>
+      <title xml:lang="deu">III. Das kluge Mädchen</title>
+      <author>
+       <persName key="gnd:116977795">
+        <forename>Ernst</forename>
+        <surname>Lewy</surname>
+       </persName>
+      </author>
+      <respStmt>
+       <resp>Annotated according to the ATU system</resp>
+       <name>
+        <persName key="gnd:133557154">
+         <forename>Elguja</forename>
+         <surname>Dadunashvili</surname>
+        </persName>
+       </name>
+       <name>
+        <persName key="gnd:1154734161">
+         <forename>Diana</forename>
+         <surname>Forker</surname>
+        </persName>
+       </name>
+      </respStmt>
+     </titleStmt>
+     <publicationStmt>
+      <publisher>
+       <name ref="gnd:4028557-1">Institute of Slavic and Caucasus Studies. Friedrich Schiller University Jena</name>
+      </publisher>
+      <pubPlace>
+       <genName ref="https://www.geonames.org/2895044/jena.html">Jena</genName>
+      </pubPlace>
+      <date>2024</date>
+      <distributor>
+       <addName>DFG project “Caucasian narratives in the discourse of comparative fairy tale research”</addName>
+       <ref target="https://github.com/edadunashvili">Software und Texte</ref>
+      </distributor>
+      <availability>
+       <p>
+        <ref target="https://creativecommons.org/licenses/by/4.0/">CC BY</ref>
+       </p>
+      </availability>
+     </publicationStmt>
+     <sourceDesc>
+      <biblFull>
+       <titleStmt>
+        <title xml:lang="eng">Ernst Lewy Avar texts with translation. With comments, corrections and contributions from Johannes Bechert† and M.-K. M. Gimbatov, Aina Kazimagomedova, P. A. Saidova and S. Šaxtamanov</title>
+        <title xml:lang="deu">Ernst Lewy Awarische Texte mit Übersetzung. Mit Kommentaren, Korrekturen und Beiträgen von Johannes Bechert† sowie von M.-K. M. Gimbatov, Aina Kazimagomedova, P. A. Saidova und S. Šaxtamanov</title>
+        <author role="editor">
+         <persName key="gnd:12368806X">
+          <forename>Winfried</forename>
+          <surname>Boeder</surname>
+         </persName>
+        </author>
+        <author role="contributor">
+         <persName key="gnd:115823581">
+          <forename>Johannes</forename>
+          <surname>Bechert</surname>
+         </persName>
+        </author>
+        <author role="author">
+         <persName key="gnd:116977795">
+          <forename>Ernst</forename>
+          <surname>Lewy</surname>
+         </persName>
+        </author>
+        <respStmt>
+         <resp></resp>
+         <name></name>
+        </respStmt>
+       </titleStmt>
+       <extent>
+        <measure unit="words"></measure>
+        <measure unit="pages"></measure>
+       </extent>
+       <publicationStmt>
+        <publisher>BIS-Verlag der Carl von Ossietzky Universität Oldenburg</publisher>
+        <distributor>
+         <ref target="http://oops.uni-oldenburg.de/3182/">Verlag, kostenfrei zugänglich</ref>
+        </distributor>
+        <date when="2007">The year 2007</date>
+        <availability>
+         <licence></licence>
+        </availability>
+       </publicationStmt>
+      </biblFull>
+     </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+     <langUsage>
+      <language ident="deu">
+       <index indexName="iso639-3"></index>
+       <ref target="http://www-01.sil.org/iso639-3/codes.asp"></ref>
+      </language>
+     </langUsage>
+     <textClass>
+      <keywords>
+       <term type="writingSystem">utf-8</term>
+      </keywords>
+      <keywords scheme="http://uri.gbv.de/terminology/bk/">
+       <term type="text.libraryClassification.basisklassifikation" key="18.92">Sonstige asiatische Sprachen und Literaturen</term>
+       <term type="text.libraryClassification.basisklassifikation" key="73.63">Orale Traditionen</term>
+      </keywords>
+     </textClass>
+     <creation>
+      <placeName>
+       <country ref="https://www.geonames.org/2921044/federal-republic-of-germany.html">Germany</country>
+       <region ref="https://www.geonames.org/2842566/saxony.html">Saxony</region>
+       <district></district>
+       <settlement ref="https://www.geonames.org/2940130/chemnitz.html">Kriegsgefangenenlager Chemnitz</settlement>
+       <geo></geo>
+      </placeName>
+      <date>1950</date>
+     </creation>
+     <particDesc>
+      <person role="speaker">
+       <persName>
+        <forename>Nazmuddin</forename>
+        <surname>Sajpudin</surname>
+       </persName>
+       <age>31</age>
+       <birth>
+        <date when="1887">The year 1887</date>
+        <placeName>
+         <country ref="https://www.geonames.org/2017370/russian-federation.html">Russian-Federation</country>
+         <region ref="https://www.geonames.org/567293/dagestan.html">Dagestan</region>
+         <district ref="https://www.geonames.org/557977/gunibskiy-rayon.html">Gunibskiy Rayon</district>
+         <settlement>Gunib</settlement>
+        </placeName>
+       </birth>
+      </person>
+      <person role="researcher">
+       <persName key="gnd:116977795">
+        <forename>Ernst</forename>
+        <surname>Lewy</surname>
+       </persName>
+      </person>
+      <person role="translator">
+       <persName key="gnd:116977795">
+        <forename>Ernst</forename>
+        <surname>Lewy</surname>
+       </persName>
+      </person>
+     </particDesc>
+    </profileDesc>
+    <revisionDesc>
+     <listChange>
+      <change>
+       <name></name>
+       <date></date>
+      </change>
+     </listChange>
+    </revisionDesc>
+   </teiHeader>
+   <text xml:id="zyx_cc_ava_deu_207">
+    <body>
+     <head>III. Das kluge Mädchen </head>
+     <p>
+      <seg a:ana="a875" b1:ana="F" c1:ana="Raten_wie_man_jenes_meistern_kann" b2:ana="F" c2:ana="BOTSCHAFTEN_versenden" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="N" d2:ana="N" d3:ana="N" d4:ana="N" d5:ana="N"> Es war ein König. Er hatte einen Sohn. Des Königs Sohn wollte gerne die Tochter eines armen Mannes heiraten. Da sie die Tochter eines armen Mannes war und er zu stolz war, sie zu heiraten, schickte er seinen Arbeiter mit verfaulten Dreschbrettern (“verfaulte Bretter mitgenommen habend”), um das Mädchen zu prüfen (“um den Zustand des Mädchens zu sehen”): “Aus diesen Dreschbrettern mache ihm einen Halbrock. Wenn du von heute an bis zum kommenden Donnerstag diesen Halbrock für ihn fertig gemacht hast, schicke (ihn ihm).”</seg>
+      <seg a:ana="a875" b1:ana="F" c1:ana="Raten_wie_man_jenes_meistern_kann" b2:ana="H" c2:ana="Auf_BOTSCHAFTEN_reagieren" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="N" d2:ana="N" d3:ana="N" d4:ana="N" d5:ana="N">Der Arbeiter ging zu dem Mädchen. Sie sagte zu ihm: “Warum bist du gekommen?” “Mich hat des Königs Sohn geschickt, mache du ihm aus diesen Dreschbrettern einen Halbrock.” “Gut, mit Vergnügen. Ich mache ihn. Komme ihn zu holen.” Sie schickte den Mann nach Hause. </seg>
+      <seg a:ana="a875" b1:ana="H" c1:ana="Raten_eingehen" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="N" d2:ana="N" d3:ana="N" d4:ana="N" d5:ana="N">Jetzt dachte das Mädchen darüber nach, den Halbrock zu machen. Sie ging zum Wasser, nahm einen Beutel mit. Von dort nahm sie einen Beutel voll runder, kleiner Steine mit. </seg>
+      <seg a:ana="a875" b1:ana="H" c1:ana="Raten_wie_man_jenes_meistern_kann" b2:ana="F" c2:ana="BOTSCHAFTEN_versenden" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="N" d2:ana="N" d3:ana="N" d4:ana="N" d5:ana="N">Der Donnerstag kam, ein Mann wurde geschickt, um den Halbrock zu holen. “Nun, Mädchen, des Königs Sohn hat mich geschickt, ob der Halbrock fertig ist (“ob der Halbrock fertig ist, gesagt habend schickte mich des Königs Sohn”)” “Er ist nicht fertig.” “Warum?” “Weil ich keinen Nähfaden habe. Hier, gib ihm diesen Beutel (und) sage: «Davon lass Faden machen und schick ihn mir».”</seg>
+      <seg a:ana="a875" b1:ana="H" c1:ana="Raten_wie_man_jenes_meistern_kann" b2:ana="h" c2:ana="Auf_BOTSCHAFTEN_reagieren" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="N" d2:ana="N" d3:ana="N" d4:ana="N" d5:ana="N"> Er nahm den Beutel und gab ihn dem Königssohn: “Der Halbrock ist nicht fertig geworden, da der Nähfaden zu Ende war. «Davon lass Nähfaden machen und schicke ihn schnell», sagte sie.” Er sah auf den Beutel, machte die Öffnung auf und fand den Beutel voll mit Steinen. Er sagte: “Ist sie verrückt? «Aus Steinen mach’ Nähfaden», hat sie gesagt.” Der Arbeiter sagte zu ihm: “Aus Steinen Nähfaden zu machen wird dir nicht schwer sein, wenn sie aus verfaulten Dreschbrettern einen Halbrock machen soll.” Das Mädchen hatte ihn geschlagen. </seg>
+      <seg a:ana="a875" b1:ana="F" c1:ana="Raten_wie_man_jenes_meistern_kann" b2:ana="F" c2:ana="BOTSCHAFTEN_versenden" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="N" d2:ana="N" d3:ana="N" d4:ana="N" d5:ana="N">Wiederum sandte er sieben Hammel, und als achtes einen Ziegenbock. “«Die Zeit kommt, dass sie zickeln, pass gut auf sie auf», sage zu ihr (“sagend sage zu ihr”), zu diesem Mädchen.”</seg>
+      <seg a:ana="a875" b1:ana="F" c1:ana="Raten_wie_man_jenes_meistern_kann" b2:ana="H" c2:ana="Auf_BOTSCHAFTEN_reagieren" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="N" d2:ana="N" d3:ana="N" d4:ana="N" d5:ana="N"> Der Arme ging, führte die Hammel zu dem Mädchen. Sie sagte: “Wozu bist du gekommen? Was sind das für Hammel?” Er sagte: “Mich hat des Königs Sohn zu dir geschickt. Die Zeit kommt, dass sie zickeln, pass eine Woche lang gut auf sie auf. In einer Woche werde ich sie holen kommen.” Sie sagte: “Gut, mit Vernügen,” und schickte ihn nach Hause.</seg>
+      <seg a:ana="a875" b1:ana="H" c1:ana="Raten_eingehen" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="N" d2:ana="N" d3:ana="N" d4:ana="N" d5:ana="N"> Als er gegangen war, holte dieses Mädchen jemanden, der ihr gerade gefiel. Nachdem diese Hammel geschlachtet waren, aßen sie sie. </seg>
+      <seg a:ana="a875" b1:ana="H" c1:ana="Raten_wie_man_jenes_meistern_kann" b2:ana="F" c2:ana="BOTSCHAFTEN_versenden" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="N" d2:ana="N" d3:ana="N" d4:ana="N" d5:ana="N">Nach dieser Woche schickte der Königssohn den Armen: “Geh du zu dem Mädchen, die Hammel holen.” Der Arme ging zu dem Mädchen: “Ich bin geschickt wegen der Hammel, ob sie mit dem Zickeln fertig sind.” Sie sagte: “Sie sind nicht fertig. Ich hatte heute keine Zeit, auf sie aufzupassen. Mein Vater ist dabei zu gebären. Er ist dabei auch schwer krank. Ich muss heute auf den Vater aufpassen.” Sie schickte ihn nach Hause.</seg>
+      <seg a:ana="a875" b1:ana="H" c1:ana="Raten_wie_man_jenes_meistern_kann" b2:ana="h" c2:ana="Auf_BOTSCHAFTEN_reagieren" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="N" d2:ana="N" d3:ana="N" d4:ana="N" d5:ana="N"> Er sagte zu des Königs Sohn: “Deine Hammel haben nicht fertig gezickelt. Heute ihr eigener Vater dabei zu gebären. «Ich selbst habe keine Zeit, auf sie aufzupassen»,” hat sie zu mir gesagt.” Da sagte des Königs Sohn zu ihm: “Ist sie verrückt? Wo hat sie einen Mann gebären sehen?” Der Arme sagte zu dem Königssohn: “Wenn deine acht oder sieben Hammel zickeln, kann auch ihr Vater gebären.” Wiederum hatte dieses Mädchen den Sohn des Königs hierin geschlagen. </seg>
+      <seg a:ana="a875" b1:ana="H" c1:ana="Heiraten" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="N" d2:ana="N" d3:ana="N" d4:ana="N" d5:ana="N">Jetzt heiratete er jenes Mädchen. Nachdem er sie zur Frau genommen hatte, eine Woche danach, stand sie morgens auf und sah hinaus.</seg>
+      <seg a:ana="a875E" b1:ana="f" c1:ana="Umgang_mit_der_Absurdität" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="N" d2:ana="N" d3:ana="N" d4:ana="N" d5:ana="N"> Sie sah auf einem Wege einen Menschen mit einer Stute, hinter ihr ein Fohlen, herabgehen und einen Menschen hinaufsteigen mit einer Fuhre voll Holz. Diese beiden begegneten sich. Das Fohlen jenes erschrak vor der Fuhre von diesem und lief rückwärts und rückwärts. Der Eigentümer jener Stute rief: “Ho! Mach, dass dieses Fohlen hinter mir getrieben wird.” Jener Fuhrmann rief diesem zu: “Warum soll (ich) es hinter dir getrieben werden lassen (“warum soll ich es dich von hinten sehen lassen”, d.h., das Fohlen soll meinen Rücken sehen)? Meine Fuhre hat hier dieses Fohlen bekommen.” Die beiden stritten sich an diesem Ort. Der Fuhrmann sagte zum anderen: “Lass uns zum König gehen wegen eines Urteils (“zum Divan”).” </seg>
+      <seg a:ana="a875E" b1:ana="F" c1:ana="Streit_schlichten" b2:ana="H" c2:ana="Streit_schlichten" b3:ana="H" c3:ana="Umgang_mit_der_Absurdität" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="N" d2:ana="N" d3:ana="N" d4:ana="N" d5:ana="N">Zu jenem Mädchen kamen die beiden. “He, Mädchen, ist der König zu Hause?” fragte der Fuhrmann das Mädchen. Sie antwortete: “Nein.” Er sagte: “Wo ist er hingegangen?” Sie antwortete: “Auf Schneebergen brennt Feuer. Er hat in ein Sieb gegossenes Wasser mitgenommen (“in ein Sieb gegossenes Wasser nehmend”) und ist weggegangen.” Der Fuhrmann sagte zu dem Mädchen: “Bist du verrückt? Wie kann Feuer auf Schneebergen brennen? Selbst wenn es brennt, wie kann man in ein Sieb gegossenes Wasser bis dorthin bringen?” Sie antwortete dem Fuhrmann: “Dass auf Schneebergen kein Feuer brennen kann, das weißt du; dass, selbst wenn es brennen würde, in ein Sieb gegossenes Wasser dahin zu bringen unmöglich ist, das weißt du auch. Dass deine Holzfuhre kein Fohlen aus Fleisch (und Blut) haben kann, warum weißt du das nicht? Lass das Fohlen hinter dem Besitzer des Fohlens getrieben werden, und du nimm die Fuhre und geh nach Hause,” so sagte das Mädchen zu ihm. </seg>
+      <seg a:ana="a875E" b1:ana="f" c1:ana="Ungewünschtes_Wesen_beseitigen" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="N" d2:ana="N" d3:ana="N" d4:ana="N" d5:ana="N">Dieser ganzen Unterhaltung hörte der König zu. Er dachte: “Dieses Mädchen am Ende tut mir nichts Gutes. Es ist gut, sie zurück zu schicken.” Er rief seinen Sohn zu sich: “Schicke diese deine Frau zurück,” sagte er zu dem Sohne. Der sagte: “Gut, ich schicke sie zurück.”</seg>
+      <seg a:ana="aTMJ1545_4" b1:ana="f" c1:ana="#" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="N" d2:ana="N" d3:ana="N" d4:ana="N" d5:ana="N"> Jetzt wurde der Sohn sehr betrübt: “Wie kann ich das vom Vater Gesagte unvollzogen lassen; die so geliebte Frau, wie kann ich mich von ihr trennen?” (“sagend”), dachte der Sohn besorgt. Jene Frau sagte zu ihm: “Warum bist du betrübt? Was ist dir zugestoßen?” Er sagte: “Der Vater hat so und so zu mir gesagt. «Was soll ich tun?» (zu mir) sagend bin ich betrübt.” Das Mädchen sagte: “Es macht nichts (“es ist keine Notwendigkeit”). Schicke mich meines Weges.” Da sagte er zu der Frau: “Geh du dann hinaus aus (diesem) meinem Hause. Drei dir liebe Dinge nimm dir mit.”</seg>
+      <seg a:ana="aTMJ1545_4" b1:ana="H" c1:ana="#" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="N" d2:ana="N" d3:ana="N" d4:ana="N" d5:ana="N"> Da dachte sie nach (und) machte es so: Am Abend, als alles schlief, stand sie auf und machte den Wagen fertig. Es gab Pferde, die nur nach draußen gelassen wurden, um den König spazieren zu fahren. Diese Pferde spannte sie vor den Wagen. Den Königssohn und ihrer beider Bettstelle nahm sie und band sie hinten an den Wagen. Der Sohn schlief. Als das Mädchen, den Wagen raubend, fuhr, wachte der Sohn auf: “Wehe, was ist das, was du jetzt machst?” sagte er zu ihr. Sie sagte: “Du hast zu mir gesagt: Nimm drei Dinge aus meinem Hause. Hast du das nicht gesagt? Mir liebere Dinge als dich, diese Pferde, dies Bett, sind in deinem Hause nicht. Bevor ich gehe, bringe ich euch zuerst in mein Haus.” Er hat wieder verloren (“Das Seine hat wiederum nicht gewonnen”). “Gehen wir, kehren wir jetzt nach Hause zurück.” </seg>
+      <seg a:ana="a875E" b1:ana="H" c1:ana="Vorgang_deuten" b2:ana="H" c2:ana="STERBEN" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="N" d2:ana="N" d3:ana="N" d4:ana="N" d5:ana="N">Jetzt rief der König am Morgen seinen Sohn und sagte zu ihm: “Warum hast du die Frau nicht weggeschickt? Was ist mit euch geschehen?” Er sagte: “Das ist mit uns geschehen.” Dem König brach das Herz, und er starb. Man setzte das Mädchen als Königin ein; Mann und Frau trennten sich nicht und blieben in Frieden. </seg>
+     </p>
+    </body>
+   </text>
+  </TEI>
+  
+<TEI n="1200">
+   <teiHeader>
+    <fileDesc>
+     <titleStmt>
+      <title xml:lang="deu">IV. Die beiden Freunde</title>
+      <author>
+       <persName key="gnd:116977795">
+        <forename>Ernst</forename>
+        <surname>Lewy</surname>
+       </persName>
+      </author>
+      <respStmt>
+       <resp>Annotated according to the ATU system</resp>
+       <name>
+        <persName key="gnd:133557154">
+         <forename>Elguja</forename>
+         <surname>Dadunashvili</surname>
+        </persName>
+       </name>
+       <name>
+        <persName key="gnd:1154734161">
+         <forename>Diana</forename>
+         <surname>Forker</surname>
+        </persName>
+       </name>
+      </respStmt>
+     </titleStmt>
+     <publicationStmt>
+      <publisher>
+       <name ref="gnd:4028557-1">Institute of Slavic and Caucasus Studies. Friedrich Schiller University Jena</name>
+      </publisher>
+      <pubPlace>
+       <genName ref="https://www.geonames.org/2895044/jena.html">Jena</genName>
+      </pubPlace>
+      <date>2024</date>
+      <distributor>
+       <addName>DFG project “Caucasian narratives in the discourse of comparative fairy tale research”</addName>
+       <ref target="https://github.com/edadunashvili">Software und Texte</ref>
+      </distributor>
+      <availability>
+       <p>
+        <ref target="https://creativecommons.org/licenses/by/4.0/">CC BY</ref>
+       </p>
+      </availability>
+     </publicationStmt>
+     <sourceDesc>
+      <biblFull>
+       <titleStmt>
+        <title xml:lang="eng">Ernst Lewy Avar texts with translation. With comments, corrections and contributions from Johannes Bechert† and M.-K. M. Gimbatov, Aina Kazimagomedova, P. A. Saidova and S. Šaxtamanov</title>
+        <title xml:lang="deu">Ernst Lewy Awarische Texte mit Übersetzung. Mit Kommentaren, Korrekturen und Beiträgen von Johannes Bechert† sowie von M.-K. M. Gimbatov, Aina Kazimagomedova, P. A. Saidova und S. Šaxtamanov</title>
+        <author role="editor">
+         <persName key="gnd:12368806X">
+          <forename>Winfried</forename>
+          <surname>Boeder</surname>
+         </persName>
+        </author>
+        <author role="contributor">
+         <persName key="gnd:115823581">
+          <forename>Johannes</forename>
+          <surname>Bechert</surname>
+         </persName>
+        </author>
+        <author role="author">
+         <persName key="gnd:116977795">
+          <forename>Ernst</forename>
+          <surname>Lewy</surname>
+         </persName>
+        </author>
+        <respStmt>
+         <resp></resp>
+         <name></name>
+        </respStmt>
+       </titleStmt>
+       <extent>
+        <measure unit="words"></measure>
+        <measure unit="pages"></measure>
+       </extent>
+       <publicationStmt>
+        <publisher>BIS-Verlag der Carl von Ossietzky Universität Oldenburg</publisher>
+        <distributor>
+         <ref target="http://oops.uni-oldenburg.de/3182/">Verlag, kostenfrei zugänglich</ref>
+        </distributor>
+        <date when="2007">The year 2007</date>
+        <availability>
+         <licence></licence>
+        </availability>
+       </publicationStmt>
+      </biblFull>
+     </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+     <langUsage>
+      <language ident="deu">
+       <index indexName="iso639-3"></index>
+       <ref target="http://www-01.sil.org/iso639-3/codes.asp"></ref>
+      </language>
+     </langUsage>
+     <textClass>
+      <keywords>
+       <term type="writingSystem">utf-8</term>
+      </keywords>
+      <keywords scheme="http://uri.gbv.de/terminology/bk/">
+       <term type="text.libraryClassification.basisklassifikation" key="18.92">Sonstige asiatische Sprachen und Literaturen</term>
+       <term type="text.libraryClassification.basisklassifikation" key="73.63">Orale Traditionen</term>
+      </keywords>
+     </textClass>
+     <creation>
+      <placeName>
+       <country ref="https://www.geonames.org/2921044/federal-republic-of-germany.html">Germany</country>
+       <region ref="https://www.geonames.org/2842566/saxony.html">Saxony</region>
+       <district></district>
+       <settlement ref="https://www.geonames.org/2940130/chemnitz.html">Kriegsgefangenenlager Chemnitz</settlement>
+       <geo></geo>
+      </placeName>
+      <date>1950</date>
+     </creation>
+     <particDesc>
+      <person role="speaker">
+       <persName>
+        <forename>Nazmuddin</forename>
+        <surname>Sajpudin</surname>
+       </persName>
+       <age>31</age>
+       <birth>
+        <date when="1887">The year 1887</date>
+        <placeName>
+         <country ref="https://www.geonames.org/2017370/russian-federation.html">Russian-Federation</country>
+         <region ref="https://www.geonames.org/567293/dagestan.html">Dagestan</region>
+         <district ref="https://www.geonames.org/557977/gunibskiy-rayon.html">Gunibskiy Rayon</district>
+         <settlement>Gunib</settlement>
+        </placeName>
+       </birth>
+      </person>
+      <person role="researcher">
+       <persName key="gnd:116977795">
+        <forename>Ernst</forename>
+        <surname>Lewy</surname>
+       </persName>
+      </person>
+      <person role="translator">
+       <persName key="gnd:116977795">
+        <forename>Ernst</forename>
+        <surname>Lewy</surname>
+       </persName>
+      </person>
+     </particDesc>
+    </profileDesc>
+    <revisionDesc>
+     <listChange>
+      <change>
+       <name></name>
+       <date></date>
+      </change>
+     </listChange>
+    </revisionDesc>
+   </teiHeader>
+   <text xml:id="zyx_cc_ava_deu_208">
+    <body>
+     <head>IV. Die beiden Freunde </head>
+     <p>
+      <seg a:ana="a1525E" b1:ana="#" c1:ana="#" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="#" d2:ana="N" d3:ana="N" d4:ana="N" d5:ana="N"> Es waren zwei Freunde, der eine sehr tapfer, der andere im Stehlen gut. Es gab ein Mädchen, das beide liebten, ohne dass einer es den anderen erkennen ließ. Eines Tages stritten sie miteinander. “Meine Tapferkeit ist besser,” sagte der eine. “Stehlen ist meine bessere Fähigkeit,” sagte der andere. Da machten die beiden aus, fortzugehen, um einander ihre Fähigkeiten zu beweisen.</seg>
+      <seg a:ana="a1525E" b1:ana="#" c1:ana="#" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="#" d2:ana="N" d3:ana="N" d4:ana="N" d5:ana="N">Jetzt ging der eine und ließ das von ihm geliebte Mädchen wissen: “Morgen gehen wir auf die Reise.” </seg>
+      <seg a:ana="a1525E" b1:ana="#" c1:ana="#" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="#" d2:ana="N" d3:ana="N" d4:ana="N" d5:ana="N">Dann ging der andere und ließ dasselbe Mädchen wissen: “Morgen gehe ich auf die Reise.” </seg>
+      <seg a:ana="a1525E" b1:ana="#" c1:ana="#" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="#" d2:ana="N" d3:ana="N" d4:ana="N" d5:ana="N">Dann machte das Mädchen ein Brot und schlachtete eine Henne und teilte sie in gleiche Stücke. Jenes Brot und jene Henne zerschnitt sie. Morgens stand der eine auf und ging zu dem Mädchen, Abschied zu nehmen (“Lebewohl zu machen”). Sie gab ihm ein halbes Brot und eine halbe Henne.</seg>
+      <seg a:ana="a1525E" b1:ana="#" c1:ana="#" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="#" d2:ana="N" d3:ana="N" d4:ana="N" d5:ana="N"> Dann ging der andere Freund zu dem Mädchen Abschied nehmen. Auch ihm gab sie ein halbes Brot, eine halbe Henne. </seg>
+      <seg a:ana="a1525E" b1:ana="#" c1:ana="#" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="#" d2:ana="N" d3:ana="N" d4:ana="N" d5:ana="N">Dann gingen sie beide aus dem Dorfe weg, um einander ihre Fähigkeit zu zeigen. Da näherten sich ihnen etwa zwanzig Soldaten mit Lastfuhrwerken, die auf die Jagd gegangen waren. Da sagte der Mutige: “Wohlan, nun zeige deine Fähigkeit.” Da sagte der zum Stehle Gute: “Ich habe keine Fähigkeit, die gezeigt werden könnte, zeige mir die deine.” </seg>
+      <seg a:ana="a1525E" b1:ana="#" c1:ana="#" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="#" d2:ana="N" d3:ana="N" d4:ana="N" d5:ana="N">Da ging der Mutige den Soldaten entgegen. Da verwundete er die einen, tötete andere; andere flohen. Er vernichtete (“zerstreute”) sie. </seg>
+      <seg a:ana="a1525E" b1:ana="#" c1:ana="#" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="#" d2:ana="N" d3:ana="N" d4:ana="N" d5:ana="N">Die beiden Kameraden liefen von dort weg und kamen zu einem Orte, wo Wasser war. Dort stiegen sie beide ab. Da sagte der Mutige zu dem zum Stehlen Guten: “Geh du und bring mir aus meinem Quersack Brot, da es hier gutes Wasser gibt.” Da sagte der zum Stehlen Gute: “Warum soll (ich) aus deinem Quersack Brot holen, da doch in meinem Quersack Brot ist?” Da ging er, aus seinem eigenen Quersack nahm er Brot und Huhn. Jetzt sagte der Mutige: “Als du zu mir sagtest (“zu mir gesagt habend”): «In meinem Quersack ist doch Brot», warum hast du es da aus meinem Quersack genommen? Aus meinem Quersack Brot zu stehlen, ist das (der Beweis) deine(r) Fähigkeit?” Da sagte der zum Stehlen Gute: “Aus deinem Quersack ist dies Brot nicht, in meinem Quersack war dies Brot.” “Es war nicht da,” sagte er. “Es war da,” sagte der Dieb. Beide stritten dort. Jetzt ging der Mutige und sah in seinem Quersack nach. Er fand in seinem Quersack sein Brot und seine Henne. Da wussten die beiden, dass sie ein (und dieselbe) Freundin hatten. Jetzt sagte er: “Die Hure hat uns wahrhaftig nur zum Narren gehalten.” Da brachen sie von dort auf. </seg>
+      <seg a:ana="a1525E" b1:ana="#" c1:ana="#" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="#" d2:ana="N" d3:ana="N" d4:ana="N" d5:ana="N">Sie gelangten zum Rand einer Stadt. In dieser Stadt lebte ein großer König. Um sein Haus herum gingen immer zwölf Wächter, unaufhörlich herumgehend. Da sagte der Dieb zu dem Mutigen: “Heute abend werden wir in dies Haus hineingehen.” Da wurde der Mutige bange davor, in dies Haus hineinzugehen (“vor ihrem in dieses Haus Hineingehen”). Da sagte der Dieb: “Kümmere dich nicht darum (“das ist nicht deine Sache”). Du hast mir deine Fähigkeit gezeigt, ich werde dir die meine zeigen.” Dann gingen sie abends in diese Stadt hinein. Sie gingen um das Haus des Königs herum und besahen es. Da sagte der Dieb: “Heute Abend werden wir in dieses Haus hineingehen und sehen, was dort vorhanden ist.” Der Mutige war sehr bange. Er sagte: “Bist du verrückt? Wie können wir in dieses Haus hineingehen? Ich weiß nicht, wie (“kenne nicht das Muster, wie”) man in einen befestigten Platz hineingeht, um den unaufhörlich Wächter herumgehen.” “Kümmere dich nicht darum! Komm hinter mir her”, sagte der Dieb zu ihm.</seg>
+      <seg a:ana="a1525E" b1:ana="#" c1:ana="#" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="#" d2:ana="N" d3:ana="N" d4:ana="N" d5:ana="N"> Als die Wächter sich an einer Stelle versammelten und sich Zigaretten drehten und sie anzündeten, da gingen jene in das Haus. Jetzt sahen sie in des Königs Zimmer hinein. Durch das Fenster sahen sie den auf seiner Pritsche liegenden König, den ihn massierenden Diener und eine große Gans, die dort gehalten wurde. Da sagte der Dieb: “Nachdem wir diesen Diener getötet haben, werden wir diese Gans schlachten; ohne dass es der König bemerkt, essen wir sie und gehen nach Hause.”</seg>
+      <seg a:ana="a1525E" b1:ana="#" c1:ana="#" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="#" d2:ana="N" d3:ana="N" d4:ana="N" d5:ana="N"> Da fing der Mutige an, vor Furcht sehr zu zittern. Da schliefen der König und des Königs Diener. Da enthauptete der Dieb, nachdem er hineingegangen war, den Diener und schlachtete die Gans. Jetzt begann der Dieb den König zu massieren, wie der Diener, und die Gans zu kochen begann der Mutige. Als er die Gans fertig gekocht hatte, sagte der Dieb zu dem König: “Immerfort dich zu massieren, wird mir etwas langweilig, du könntest mir eine Geschichte erzählen.” “Was für eine Geschichte? Ich weiß dir keine Geschichte zu erzählen,” sagte der König. “Du erzähle mir eine Geschichte, gleichgültig was.” Da erzählte ihm der Dieb: “Es waren einmal zwei Freunde, der eine ein Dieb, der andere mutig, die stritten miteinander. «Ich bin besser», sagte der eine; «Ich bin besser», sagte der andere. Dann gingen die beiden Freunde fort, um einander ihre Fähigkeit zu zeigen. Von etwa zwanzig Soldaten, die sie trafen, tötete der Mutige die einen, die anderen verwundete er, die anderen flohen, er vernichete (“zerstreute”) sie. Dieser Dieb: Ein Haus wie das unsere war es. Wie um das unsere wandelten zwölf Wächter herum. Da war ein Diener, so wie ich deiner. Jetzt kam der Dieb hier herein und tötete den Diener und schlachtete die Gans. Nachdem sie sie gegessen hatten, gingen sie von da wieder weg, ohne dass der König es wusste und ohne dass es die Wächter wussten. Wer von den beiden war der Bessere?” fragte der Dieb den König. Da sagte der König: “Jener Platz war bestimmt nicht wie unserer, wer könnte hier hereinkommen?” Dann liefen die beiden von dort weg. </seg>
+      <seg a:ana="a1525E" b1:ana="#" c1:ana="#" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="#" d2:ana="N" d3:ana="N" d4:ana="N" d5:ana="N">Dann am Morgen erwachte der König und sah das Zimmer voll von Blut, den Diener getötet, die Gans geschlachtet. Da erstaunte der König sehr. Er rief seine Wächter zu sich. Er fragte jene Wächter: “Wen habt ihr hereingelassen?” Da blickten sie aufeinander. Weiter sagte der König zu ihnen: “Das ist nicht euer Fehler. Diese mir von Seiten des Diebs getane Sache hat man mir selbst heute Abend erzählt. Sogar als es mir erzählt wurde, habe ich es nicht bemerkt, und ihr, die ihr da draußen seid, werdet es noch weniger wissen,” sagte der König. Wer der Bessere ist, der Dieb oder der Mutige, entscheide (“unterscheide”) der, der es gelesen hat.</seg>
+     </p>
+    </body>
+   </text>
+  </TEI>
+  
+<TEI n="0300">
+   <teiHeader>
+    <fileDesc>
+     <titleStmt>
+      <title xml:lang="deu">V. Die drei Brüder</title>
+      <author>
+       <persName key="gnd:116977795">
+        <forename>Ernst</forename>
+        <surname>Lewy</surname>
+       </persName>
+      </author>
+      <respStmt>
+       <resp>Annotated according to the ATU system</resp>
+       <name>
+        <persName key="gnd:133557154">
+         <forename>Elguja</forename>
+         <surname>Dadunashvili</surname>
+        </persName>
+       </name>
+       <name>
+        <persName key="gnd:1154734161">
+         <forename>Diana</forename>
+         <surname>Forker</surname>
+        </persName>
+       </name>
+      </respStmt>
+     </titleStmt>
+     <publicationStmt>
+      <publisher>
+       <name ref="gnd:4028557-1">Institute of Slavic and Caucasus Studies. Friedrich Schiller University Jena</name>
+      </publisher>
+      <pubPlace>
+       <genName ref="https://www.geonames.org/2895044/jena.html">Jena</genName>
+      </pubPlace>
+      <date>2024</date>
+      <distributor>
+       <addName>DFG project “Caucasian narratives in the discourse of comparative fairy tale research”</addName>
+       <ref target="https://github.com/edadunashvili">Software und Texte</ref>
+      </distributor>
+      <availability>
+       <p>
+        <ref target="https://creativecommons.org/licenses/by/4.0/">CC BY</ref>
+       </p>
+      </availability>
+     </publicationStmt>
+     <sourceDesc>
+      <biblFull>
+       <titleStmt>
+        <title xml:lang="eng">Ernst Lewy Avar texts with translation. With comments, corrections and contributions from Johannes Bechert† and M.-K. M. Gimbatov, Aina Kazimagomedova, P. A. Saidova and S. Šaxtamanov</title>
+        <title xml:lang="deu">Ernst Lewy Awarische Texte mit Übersetzung. Mit Kommentaren, Korrekturen und Beiträgen von Johannes Bechert† sowie von M.-K. M. Gimbatov, Aina Kazimagomedova, P. A. Saidova und S. Šaxtamanov</title>
+        <author role="editor">
+         <persName key="gnd:12368806X">
+          <forename>Winfried</forename>
+          <surname>Boeder</surname>
+         </persName>
+        </author>
+        <author role="contributor">
+         <persName key="gnd:115823581">
+          <forename>Johannes</forename>
+          <surname>Bechert</surname>
+         </persName>
+        </author>
+        <author role="author">
+         <persName key="gnd:116977795">
+          <forename>Ernst</forename>
+          <surname>Lewy</surname>
+         </persName>
+        </author>
+        <respStmt>
+         <resp></resp>
+         <name></name>
+        </respStmt>
+       </titleStmt>
+       <extent>
+        <measure unit="words"></measure>
+        <measure unit="pages"></measure>
+       </extent>
+       <publicationStmt>
+        <publisher>BIS-Verlag der Carl von Ossietzky Universität Oldenburg</publisher>
+        <distributor>
+         <ref target="http://oops.uni-oldenburg.de/3182/">Verlag, kostenfrei zugänglich</ref>
+        </distributor>
+        <date when="2007">The year 2007</date>
+        <availability>
+         <licence></licence>
+        </availability>
+       </publicationStmt>
+      </biblFull>
+     </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+     <langUsage>
+      <language ident="deu">
+       <index indexName="iso639-3"></index>
+       <ref target="http://www-01.sil.org/iso639-3/codes.asp"></ref>
+      </language>
+     </langUsage>
+     <textClass>
+      <keywords>
+       <term type="writingSystem">utf-8</term>
+      </keywords>
+      <keywords scheme="http://uri.gbv.de/terminology/bk/">
+       <term type="text.libraryClassification.basisklassifikation" key="18.92">Sonstige asiatische Sprachen und Literaturen</term>
+       <term type="text.libraryClassification.basisklassifikation" key="73.63">Orale Traditionen</term>
+      </keywords>
+     </textClass>
+     <creation>
+      <placeName>
+       <country ref="https://www.geonames.org/2921044/federal-republic-of-germany.html">Germany</country>
+       <region ref="https://www.geonames.org/2842566/saxony.html">Saxony</region>
+       <district></district>
+       <settlement ref="https://www.geonames.org/2940130/chemnitz.html">Kriegsgefangenenlager Chemnitz</settlement>
+       <geo></geo>
+      </placeName>
+      <date>1950</date>
+     </creation>
+     <particDesc>
+      <person role="speaker">
+       <persName>
+        <forename>Nazmuddin</forename>
+        <surname>Sajpudin</surname>
+       </persName>
+       <age>31</age>
+       <birth>
+        <date when="1887">The year 1887</date>
+        <placeName>
+         <country ref="https://www.geonames.org/2017370/russian-federation.html">Russian-Federation</country>
+         <region ref="https://www.geonames.org/567293/dagestan.html">Dagestan</region>
+         <district ref="https://www.geonames.org/557977/gunibskiy-rayon.html">Gunibskiy Rayon</district>
+         <settlement>Gunib</settlement>
+        </placeName>
+       </birth>
+      </person>
+      <person role="researcher">
+       <persName key="gnd:116977795">
+        <forename>Ernst</forename>
+        <surname>Lewy</surname>
+       </persName>
+      </person>
+      <person role="translator">
+       <persName key="gnd:116977795">
+        <forename>Ernst</forename>
+        <surname>Lewy</surname>
+       </persName>
+      </person>
+     </particDesc>
+    </profileDesc>
+    <revisionDesc>
+     <listChange>
+      <change>
+       <name></name>
+       <date></date>
+      </change>
+     </listChange>
+    </revisionDesc>
+   </teiHeader>
+   <text xml:id="zyx_cc_ava_deu_209">
+    <body>
+     <head>V. Die drei Brüder </head>
+     <p>
+      <seg a:ana="a530" b1:ana="h" c1:ana="KRANKHEIT" b2:ana="F" c2:ana="Wache_halten" b3:ana="h" c3:ana="STERBEN" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="rEHDem" d2:ana="rHHDem" d3:ana="fEHDaM" d4:ana="N" d5:ana="N"> Ein Mann hatte drei Söhne, zwei gut, der kleinste ein Grindkopf, der nicht aus dem Hause ging. Jetzt wurde der Vater der drei krank. Er sagte: “Drei Tage bewacht mein Grab.” Jetzt starb der Vater.</seg>
+      <seg a:ana="a530" b1:ana="h" c1:ana="Wache_halten" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="fEHDam" d2:ana="N" d3:ana="N" d4:ana="N" d5:ana="N">Da ging der allerälteste das Grab bewachen. Er ging nicht zum Grabe, sondern legte sich an einem geeigneten Platze nieder und blieb da. </seg>
+      <seg a:ana="a530" b1:ana="h" c1:ana="Vorgang_deuten" b2:ana="f" c2:ana="Umgang_mit_Respektlosigkeit" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="rEHDem" d2:ana="fEHDam" d3:ana="N" d4:ana="N" d5:ana="N">Am Morgen kam er nach Hause. Der Grindkopf fragte: “Nun, Bruder, bist du zum Grabe gegangen? Was gibt’s Neues?” Er sagte: “Wozu dir etwas Neues? Kratze nur deinen Grind, und bleibe nur zu Hause.” </seg>
+      <seg a:ana="a530" b1:ana="h" c1:ana="Wache_halten" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="fEHDam" d2:ana="N" d3:ana="N" d4:ana="N" d5:ana="N">In der folgenden Nacht ging der mittlere Bruder das Grab hüten. Er ging nicht zum Grabe, sondern auch er blieb an einem ihm angenehmen Platze. Da ging der Grindkopf (und) sah nach dem Grabe. Dort fand er den mittleren Bruder nicht. </seg>
+      <seg a:ana="a530" b1:ana="H" c1:ana="Heimlich_beobachten" b2:ana="H" c2:ana="Zweikampf" b3:ana="H" c3:ana="TÖTUNG" b4:ana="H" c4:ana="Prächtige_Kleidung_erhalten" b5:ana="H" c5:ana="REITTIER_erfassen" d1:ana="rEHDem" d2:ana="rEANem" d3:ana="N" d4:ana="N" d5:ana="N">In dem Moment, als der grindköpfige Bursche dort stand, kam ein Nart zu des Vaters Grabe. Der Nart hatte die Absicht, den Vater aus dem Grabe herauszunehmen. Der Grindkopf sagte: “Lass du dieses Grab alleine, dies ist meines Vaters Grab.” Da ließ der Nart das Grab nicht (alleine). Der grindköpfige Bruder tötete den Nart, nahm seine Kleider und ging nach Hause. </seg>
+      <seg a:ana="a530" b1:ana="h" c1:ana="Vorgang_deuten" b2:ana="f" c2:ana="Umgang_mit_Respektlosigkeit" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="rEHDem" d2:ana="fEHDam" d3:ana="N" d4:ana="N" d5:ana="N">Da kam am Morgen der mittlere Bruder nach Hause. Da fragte der Grindkopf ihn: “Bist du zum Grabe gegangen, was gibt es Neues?” Da sagte der mittlere Bruder: “Kratze nur deinen Grind, und bleibe nur zu Hause; wozu brauchst du etwas Neues?” </seg>
+      <seg a:ana="a530" b1:ana="F" c1:ana="Tapferkeit_beweisen" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="rHPPem" d2:ana="N" d3:ana="N" d4:ana="N" d5:ana="N">Nun war da eines Tages ein Nart, der hatte eine Schwester. “Sie ist niemand anderem zu vergeben als einem Manne, der größere Kraft hat, als ich selbst sie habe,” dachte er (“sagend”) (und) zog er sie groß (“behütete er sie”). </seg>
+      <seg a:ana="a530" b1:ana="f" c1:ana="Umgang_mit_Werben_um_die_Frau" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="fEHDaM" d2:ana="N" d3:ana="N" d4:ana="N" d5:ana="N">Da brachen eines Tages die Leute dorthin auf, alles Menschen, die übermäßigen Heldenmut (“Fähigkeit”) hatten und sich durch Kraft auszeichneten: “Ich werde das Mädchen für mich erlangen”, sagten sie (“sagend”). Da kamen des grindköpfigen Burschen Brüder dorthin. </seg>
+      <seg a:ana="a530" b1:ana="H" c1:ana="IDENTITÄT_ändern" b2:ana="H" c2:ana="Reitkünste_zeigen" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="rEHDem" d2:ana="N" d3:ana="N" d4:ana="N" d5:ana="N">Da ging auch der Grindkopf hinter ihnen her. Er bestieg das Ross des von ihm selbst getöteten Narten, seine (“die”) Kleider zog er an. Dann fand er dort die Leute. Man fing an, die Pferde von einem Ort aus sprengen zu lassen. Keines Mannes Ross konnte von dort sprengen. Des Grindkopfes, früher dem Narten gehörendes Ross sprang von diesem Ort. Dann ging der Grindkopf nach Hause. </seg>
+      <seg a:ana="a530" b1:ana="h" c1:ana="Vorgang_deuten" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="rEHDem" d2:ana="fEHDaM" d3:ana="N" d4:ana="N" d5:ana="N">Dann kamen die Brüder. “Nun, Brüder, was ist geschehen? An wen ist des Narten Schwester gegangen?”, fragte sie der Grindkopf. “Tatsächlich ist ein Mann gekommen,” sagten sie, “auf einem großen Pferd reitend, in schmucken Kleidern; einzig (“nur”) seíne Kraft war dort unüberbietbar. Auch am nächsten Tag werden wir dorthin gehen. Man weiß nicht, an wen des Narten Schwester gehen wird.</seg>
+      <seg a:ana="a530" b1:ana="H" c1:ana="Tapferkeit_beweisen" b2:ana="H" c2:ana="SCHÖNE_erfassen" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="rEHDem" d2:ana="rHPPew" d3:ana="N" d4:ana="N" d5:ana="N">” Am nächsten Tag gingen die Leute dorthin, um ihre Fähigkeit zu zeigen. Keines Mannes Fähigkeit ließ der Grindkopf die seine übertreffen (“vor sich gehen”). Darauf gab der Nart seine Schwester dem Grindkopf. </seg>
+      <seg a:ana="a530" b1:ana="H" c1:ana="IDENTITÄT_ändern" b2:ana="h" c2:ana="Vorgang_deuten" b3:ana="f" c3:ana="Umgang_mit_Respektlosigkeit" b4:ana="H" c4:ana="Wechsel_der_IDENTITÄT_eingestehen" b5:ana="H" c5:ana="Umgang_mit_Respektlosigkeit" d1:ana="rEHDem" d2:ana="fEHDaM" d3:ana="N" d4:ana="N" d5:ana="N">Dieser ging nach seinem Hause und blieb, seinen Grind kratzend, zu Hause. Jetzt kamen die Brüder hinzu (“hinauf”). Der Grindkopf fragte die Brüder wiederum: “He, Brüder, was ist geschehen?” Dann sagten die Brüder zu ihm: “An wen sie auch gegangen sein mag, warum machst du dir darüber Gedanken? Kratze nur deinen Grind, und bleib’ nur zu Hause.” Da behandelten sie den eigenen grindigen Bruder (“Burschen”) geringschätzig. </seg>
+      <seg a:ana="a530" b1:ana="H" c1:ana="Heiraten" b2:ana="H" c2:ana="Zur_Welt_kommen" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="rEHDem" d2:ana="rEPPew" d3:ana="rJHDem" d4:ana="N" d5:ana="N">Da ging er und heiratete die Schwester des Narten. Da erst mussten sich ihm seine Brüder ergeben. Ein Jahr verging, nachdem er sie geheiratet hatte, da wurde ihm ein Sohn geboren. Da sagte er zu seinem Sohne: “Dein Vater ist von niemand besiegt worden; sei auch du nicht zu besiegen.” </seg>
+      <seg a:ana="a314A" b1:ana="F" c1:ana="HEIRATSABSICHT_kundtun" b2:ana="h" c2:ana="Auf_HEIRATSABSICHT_reagieren" b3:ana="h" c3:ana="KONTAKT_abbrechen" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="rEHDem" d2:ana="rJHDem" d3:ana="N" d4:ana="N" d5:ana="N">Da hörte er (sc. der Sohn), ein Nart habe eine schmucke Tochter, und er bereitete sich darauf vor hinzugehen, um sie für sich zu holen. Er sagte zum Vater: “Nun, mein Vater, ich gehe nach einem bestimmten Orte. Gib du mir Pferd und Kleider.” Der Vater antwortete ihm: “Geh du nicht.” Er aber blieb keineswegs da, er verzichtete nicht darauf zu gehen (“ohne zu gehen”). Der Vater gab ihm kein Pferd und keine Kleider. </seg>
+      <seg a:ana="a314A" b1:ana="H" c1:ana="Überrascht_werden_oder_geraten" b2:ana="f" c2:ana="BEHINDERUNG_durch_Verstümmelung" b3:ana="F" c3:ana="PROVOKATION" b4:ana="H" c4:ana="PROVOKATION" b5:ana="H" c5:ana="Adoption" d1:ana="rJHDem" d2:ana="rHHDpm" d3:ana="rHHDpw" d4:ana="N" d5:ana="N">Da ging er grollend von dem Vater weg, einen für sich geeigneten Ort zu suchen. Er ging von dort fort, erreichte einen wunderbaren Ort und fand auf einem Berge ein Haus. Er sah viele Schafe. Da gingen jene Schafe und der (dazu gehörende) Mann (“jener Mann”) nach Hause. Wie dieser (sc. Bursche) sie betrachtete, machte er sich Gedanken über sie: Man hat nur einen blinden Mann mit so vielen Schafen gehen lassen. Da ging er (sc. der Bursche) zwischen den Schafen in den Stall. Da nahm der blinde Mann ein Schaf zum Schlachten. Dann ging dieser Bursche durch die Tür, und blickte hinein. Er sah im Hause eine blinde Frau und den blinden Ehemann. Dann ging er und setzte sich auch zwischen sie, ohne dass sie etwas wussten. Dann, nachdem man das Fleisch zum Kochen (sc. ins Wasser) gelegt hatte, machte man Chinkal. Aber das Fleisch wurde nicht klein geschnitten. Es wurde gerecht geteilt (“halbiert”), kreuz und quer. Das große Brustteil war für den Mann. Als nun die blinden Leute Chinkal und Fleisch (aus dem Topf) herausgenommen hatten, riss der Bursche von dem Fleisch des Mannes das Brustbein weg, von dem Fleisch der Frau das Bein. Jetzt nahm der blinde Mann sein Fleisch in die Hände und fing an zu essen; er fand (aber) nicht das Brustbein. Dann fing die blinde Frau an zu essen. Auch sie fand nicht das Bein von ihrem Fleisch. Da sagte sie: “Wenn sie alt werden, werden die Menschen schlau. Schau, was dieser macht.” Dann schimpfte der blinde Mann: “Sieh mal, was für ein Wort sie spricht (“was erzählt für ein Wort”). Aus meinem Fleisch das Brustbein zu nehmen und mir die Schuld dafür zu geben: Das war also gemeint!” (“Aus meinem Fleisch das Brustbein weggerissen habend und mir die Schuld dafür gebend, so war wohl die Geschichte?”) Da sagte der Bursche zu ihnen: “Das ist keine Schuld von euch. Ich habe dieses euer Fleisch abgeschnitten.” Da sprach der blinde Mann zu dem Burschen: “He, mein Sohn, ein wie eine Katze heimlich tuender Mensch! Wie bist du gekommen, ohne es wissen zu lassen?” sagte der blinde Mann. Da erzählte der Bursche die Neuigkeit dessen, was geschehen war. Da sagte der blinde Mann: “Ich werde dich wie meinen leiblichen Sohn hüten, wenn du hier bleibst. Wenn wir gestorben sind, ist dieses Schafvieh dein, es wird dir überschrieben.” Da war der Bursche sehr zufrieden.</seg>
+      <seg a:ana="a314A" b1:ana="F" c1:ana="Umgang_mit_Werben_um_den_Auftrag" b2:ana="Hh" c2:ana="Umgang_mit_Werben_um_den_Auftrag" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="rJHDem" d2:ana="rHHDpm" d3:ana="N" d4:ana="N" d5:ana="N"> Am nächsten Tage sagte der blinde Mann: “Ich gehe zu den Schafen” und (“ "..." sagend”) (wollte) gehen. Da ließ ihn der Bursche nicht. “Du alter Mann, warum (willst du) zu den Schafen gehen? Ich gehe doch zu den Schafen, da (für dich) jetzt die Zeit gekommen ist, zu Hause zu bleiben, (denn) du bist alt geworden. Ein alter Mann sollte nicht (mehr) zu den Schafen gehen.” </seg>
+      <seg a:ana="a314A" b1:ana="H" c1:ana="Zweikampf" b2:ana="H" c2:ana="Fremdes_Gut_beschlagnahmen" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="rJHDem" d2:ana="rHOBeM" d3:ana="N" d4:ana="N" d5:ana="N">Da ging der Junge die Schafe auf den Berg treiben. Dort sah er einen Berg mit sehr gutem Futter, einen guten Platz. Da führte der Junge die Schafe an den Platz mit sehr gutem Futter zum Weiden. Da kamen sieben Narten zu ihm. Sie sagten zu dem Jungen: “Du wirst wahrscheinlich auch nicht gerade des Grindkopfs Sohn sein; warum hast du die Schafe hierher gebracht?” “Ist denn des Grindkopfs Sohn der Stärkste? Das bin ich. Was kannst du mir schon antun (“was tust du mir”)?” “Wenn du etwas tun kannst, tu das Deine.” Da schickten sich die Narten an, den Burschen zu töten. Dieser Bursche tötete die sieben Narten und nahm ihre Schafe für sich selbst.</seg>
+      <seg a:ana="a314A" b1:ana="H" c1:ana="Zweikampf" b2:ana="H" c2:ana="UNGEHEUER_erfassen" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="rJHDem" d2:ana="rHOBew" d3:ana="N" d4:ana="N" d5:ana="N"> Dann am Abend gingen er und die Schafe nach Hause. Dem blinden Mann erzählte der Bursche nichts. Am nächsten Tage brachte er die Schafe zum Weiden auf den Berg. Der an die Narten angrenzende Berg gehörte einer Qart. Zum Berge dieser Qart die Schafe bringend, ging der Bursche. Da sah die Qart den Burschen. Die Qart kommt angerannt und sagt zu ihm: “Nicht einmal ein Vogel kommt zu meinem Berge geflogen: Warum bist du hergekommen?” “Da es mir beliebt, bin ich gekommen, lässt du (mich) nicht kommen?” sagte (“sagend sprach”) der Bursche zu ihr. Da beabsichtigte sie den Burschen zu töten. Da band jener Bursche der Qart beide Hände hinter dem Rücken zusammen. Der Bursche hatte die Absicht, sie mitzunehmen. Jetzt nahm er ihre Schafe und auch sie gegen Abend nach Hause.</seg>
+      <seg a:ana="a314A" b1:ana="H" c1:ana="UNGEHEUER_herbeiholen" b2:ana="Ff" c2:ana="Angst_auslösen" b3:ana="F" c3:ana="TÖTUNG" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="rJHDem" d2:ana="rHHDpm" d3:ana="rHOBew" d4:ana="N" d5:ana="N"> Als die Schafe dort nicht ins Haus gingen, blieben sie draußen stehen. Der blinde Mann sagte zu dem Burschen: “He, mein Junge, ist der Lärm der Schafe nicht sehr laut (“ist die Stimme der Schafe nicht sehr groß”)? Was ist mit ihnen, dass sie heute einen solchen Lärm (“große Stimme”) machen?” Der Bursche sagte zu dem alten Manne: “Ich habe die Narten getötet und die Qart gefangen und hierher geführt und ihre Schafe hierher gebracht. Für uns brachte (ich) sie. Deshalb machen jene Schafe solchen Lärm.” Da fürchteten sich der blinde Mann und die blinde Frau sehr: “Warum hast du die Qart hierher gebracht? Sie wird uns doch töten.” “Um euch zu töten habe ich ihr doch nicht die Hände auf den Rücken gebunden und sie hierher geführt. Ich kann sie natürlich gleich töten.” </seg>
+      <seg a:ana="a314A" b1:ana="H" c1:ana="Wiedergutmachung_erzielen" b2:ana="H" c2:ana="BEHINDERUNG_beheben" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="rJHDem" d2:ana="rHHDpm" d3:ana="rHOBgu" d4:ana="rHHDpw" d5:ana="N">Da schickte sich der Bursche an, die Qart zu töten. Da sagte sie: “Du töte mich nicht.” Dann sagte er: “Sofort töte ich dich.” Da sagte sie: “Wenn du mich nicht tötest, werde ich eure blinden Leute (Licht) sehen machen.” Da sagte er: “Wenn du unsere blinden Leute (Licht) sehen machst, werde (ich) dich nicht töten.” Da nahm sie eine kleine Flasche, strich die Medizin auf die Augen. Da sahen sie (Licht). Da wurde sie weggeschickt, indem man sagte: “Geh du von diesem Ort weit weg!”.</seg>
+      <seg a:ana="N" b1:ana="h" c1:ana="Information_aus_zweiter_Hand" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="rJHDem" d2:ana="rEVMem" d3:ana="N" d4:ana="N" d5:ana="N"> Dann als dieser Bursche am nächsten Tage die Schafe wegtreibend ging, sah er einen Mann, der zu den blinden Leuten ging. Da kehrte er nach Hause zurück. Er begegnete dem Mann, der herauskam. Er fragte (ihn): “Warum bist du hierher gekommen? Was willst du (“was ist dir nötig”)?” Der Mann sagte zu ihm. “Das geht dich nichts an (“das ist nicht deine Sache”). Wegen meiner Angelegenheit (“Bedürfnis”) bin ich gekommen.” </seg>
+      <seg a:ana="N" b1:ana="f" c1:ana="Krieg_führen" b2:ana="H" c2:ana="WAFFE_Ausrüstung_oder_Reiseproviant_besorgen" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="rJHDem" d2:ana="rHHDpm" d3:ana="N" d4:ana="N" d5:ana="N">Da ging dieser Bursche nach Hause und fragte seine blinden Leute: “Wozu ist dieser Mann hierher gekommen? Was hatte er nötig?” Da sagte der blinde Mann zu jenem Burschen: “Es gibt einen sehr guten Freund von mir, einen König. Es ist Krieg zwischen ihm und einem anderen König. Dieser Mann ist gekommen und hat gesagt: «Komm ihm zu Hilfe». Jetzt muss ich wohl dorthin gehen” (sagend) sprach der blinde Mann. Da sagte der Bursche zu ihm: “Du alter Mann wirst nicht dorthin gehen, ich gehe dorthin zu kämpfen,” sagte er. Da gab der blinde Mann ihm ein gutes, dickes Pferd, er gab ihm ein schönes Gewand zum anziehen, er gab ihm eine leichte Waffe. </seg>
+      <seg a:ana="N" b1:ana="h" c1:ana="Krieg_führen" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="rJHDem" d2:ana="N" d3:ana="N" d4:ana="N" d5:ana="N">Dann ging er (sc. der Bursche) weg, um zu kämpfen. Dort angekommen, wurde er dort nach kurzer Zeit im Krieg getötet. Der blinde Mann blieb im Frieden. Der Grindkopf hatte nicht die Absicht, den Ort zu finden, wohin sein Sohn gegangen war. Wenn der grindköpfige Bursche ein guter Held gewesen wäre, hätte er den Ort gefunden, wohin sein Sohn gegangen war.</seg>
+     </p>
+    </body>
+   </text>
+  </TEI>
+  
+  <TEI n="test">
+   <teiHeader>
+    <fileDesc>
+     <titleStmt>
+      <title xml:lang="deu">VI. Cúchulain {= Cú Chulainn}</title>
+      <author>
+       <persName key="gnd:116977795">
+        <forename>Ernst</forename>
+        <surname>Lewy</surname>
+       </persName>
+      </author>
+      <respStmt>
+       <resp>Annotated according to the ATU system</resp>
+       <name>
+        <persName key="gnd:133557154">
+         <forename>Elguja</forename>
+         <surname>Dadunashvili</surname>
+        </persName>
+       </name>
+       <name>
+        <persName key="gnd:1154734161">
+         <forename>Diana</forename>
+         <surname>Forker</surname>
+        </persName>
+       </name>
+      </respStmt>
+     </titleStmt>
+     <publicationStmt>
+      <publisher>
+       <name ref="gnd:4028557-1">Institute of Slavic and Caucasus Studies. Friedrich Schiller University Jena</name>
+      </publisher>
+      <pubPlace>
+       <genName ref="https://www.geonames.org/2895044/jena.html">Jena</genName>
+      </pubPlace>
+      <date>2024</date>
+      <distributor>
+       <addName>DFG project “Caucasian narratives in the discourse of comparative fairy tale research”</addName>
+       <ref target="https://github.com/edadunashvili">Software und Texte</ref>
+      </distributor>
+      <availability>
+       <p>
+        <ref target="https://creativecommons.org/licenses/by/4.0/">CC BY</ref>
+       </p>
+      </availability>
+     </publicationStmt>
+     <sourceDesc>
+      <biblFull>
+       <titleStmt>
+        <title xml:lang="eng">Ernst Lewy Avar texts with translation. With comments, corrections and contributions from Johannes Bechert† and M.-K. M. Gimbatov, Aina Kazimagomedova, P. A. Saidova and S. Šaxtamanov</title>
+        <title xml:lang="deu">Ernst Lewy Awarische Texte mit Übersetzung. Mit Kommentaren, Korrekturen und Beiträgen von Johannes Bechert† sowie von M.-K. M. Gimbatov, Aina Kazimagomedova, P. A. Saidova und S. Šaxtamanov</title>
+        <author role="editor">
+         <persName key="gnd:12368806X">
+          <forename>Winfried</forename>
+          <surname>Boeder</surname>
+         </persName>
+        </author>
+        <author role="contributor">
+         <persName key="gnd:115823581">
+          <forename>Johannes</forename>
+          <surname>Bechert</surname>
+         </persName>
+        </author>
+        <author role="author">
+         <persName key="gnd:116977795">
+          <forename>Ernst</forename>
+          <surname>Lewy</surname>
+         </persName>
+        </author>
+        <respStmt>
+         <resp></resp>
+         <name></name>
+        </respStmt>
+       </titleStmt>
+       <extent>
+        <measure unit="words"></measure>
+        <measure unit="pages"></measure>
+       </extent>
+       <publicationStmt>
+        <publisher>BIS-Verlag der Carl von Ossietzky Universität Oldenburg</publisher>
+        <distributor>
+         <ref target="http://oops.uni-oldenburg.de/3182/">Verlag, kostenfrei zugänglich</ref>
+        </distributor>
+        <date when="2007">The year 2007</date>
+        <availability>
+         <licence></licence>
+        </availability>
+       </publicationStmt>
+      </biblFull>
+     </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+     <langUsage>
+      <language ident="deu">
+       <index indexName="iso639-3"></index>
+       <ref target="http://www-01.sil.org/iso639-3/codes.asp"></ref>
+      </language>
+     </langUsage>
+     <textClass>
+      <keywords>
+       <term type="writingSystem">utf-8</term>
+      </keywords>
+      <keywords scheme="http://uri.gbv.de/terminology/bk/">
+       <term type="text.libraryClassification.basisklassifikation" key="18.92">Sonstige asiatische Sprachen und Literaturen</term>
+       <term type="text.libraryClassification.basisklassifikation" key="73.63">Orale Traditionen</term>
+      </keywords>
+     </textClass>
+     <creation>
+      <placeName>
+       <country ref="https://www.geonames.org/2921044/federal-republic-of-germany.html">Germany</country>
+       <region ref="https://www.geonames.org/2842566/saxony.html">Saxony</region>
+       <district></district>
+       <settlement ref="https://www.geonames.org/2940130/chemnitz.html">Kriegsgefangenenlager Chemnitz</settlement>
+       <geo></geo>
+      </placeName>
+      <date>1950</date>
+     </creation>
+     <particDesc>
+      <person role="speaker">
+       <persName>
+        <forename>Nazmuddin</forename>
+        <surname>Sajpudin</surname>
+       </persName>
+       <age>31</age>
+       <birth>
+        <date when="1887">The year 1887</date>
+        <placeName>
+         <country ref="https://www.geonames.org/2017370/russian-federation.html">Russian-Federation</country>
+         <region ref="https://www.geonames.org/567293/dagestan.html">Dagestan</region>
+         <district ref="https://www.geonames.org/557977/gunibskiy-rayon.html">Gunibskiy Rayon</district>
+         <settlement>Gunib</settlement>
+        </placeName>
+       </birth>
+      </person>
+      <person role="researcher">
+       <persName key="gnd:116977795">
+        <forename>Ernst</forename>
+        <surname>Lewy</surname>
+       </persName>
+      </person>
+      <person role="translator">
+       <persName key="gnd:116977795">
+        <forename>Ernst</forename>
+        <surname>Lewy</surname>
+       </persName>
+      </person>
+     </particDesc>
+    </profileDesc>
+    <revisionDesc>
+     <listChange>
+      <change>
+       <name></name>
+       <date></date>
+      </change>
+     </listChange>
+    </revisionDesc>
+   </teiHeader>
+   <text xml:id="zyx_cc_ava_deu_210">
+    <body>
+     <head>VI. Cúchulain {= Cú Chulainn}</head>
+     <p>
+      <seg a:ana="a650B" b1:ana="#" c1:ana="#" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="#" d2:ana="N" d3:ana="N" d4:ana="N" d5:ana="N"> Es war ein König. Dieser König hatte keine Kinder. Er war fünfzig Jahre alt geworden. Da bekam er einen Sohn. Man sagte: “Wenn man ihn selbst erzieht, wird er schwach,” und man gab ihn einer Dienerin zur Erziehung. Da erzog sie diesen Sohn, ihn in einem Zimmer lassend, wo kein Licht war. Als dann der Sohn fünfzehn Jahre alt wurde und sie hinausging, um spazieren zu gehen, ließ sie das Fenster offen im Zimmer, wo er lag. Es war am Morgen gerade die Zeit, wo die Sonne aufgeht. Da wachte der Sohn, der geschlafen hatte, auf. Da sah er die Sonne, die durch das Fenster hereinkam. Da sprang er auf (“aufspringend erhob er sich”), die aufgehende Sonne zu ergreifen. Er hatte noch niemals die Sonne gesehen, und ebenso hatte er nicht draußen die Welt gesehen. Da versuchte er sehr, die Sonne zu fangen. Schwitzend setzte er sich ermüdet nieder. Da kam seine Ziehmutter herein. Da sagte sie zu ihm: “Warum schwitzt du? Was hast du gemacht?” Da sagte der Sohn: “Sieh Mutter! In unser Haus ist ein von mir noch nie gesehenes Wunder gekommen. Dies wunderbare Ding zu fangen habe ich sehr versucht, es zu fangen ist mir unmöglich. Was es ist, weiß ich nicht.” Da antwortete die (Zieh–)Mutter ihm: “Es gibt sowohl eine Sonne, als auch einen Himmel, als auch viele wunderbare Dinge.” Die Mutter ließ den Sohn durch das Fenster hinaussehen. Da sah er viele Menschen. Da bat er die Mutter sehr: “Lass mich draußen mit den Menschen herumgehen.” Da ließ die Mutter ihn nach draußen. Da fand er Jünglinge Ball spielend. Da ging er unter sie und spielte Ball. Er schlug den Ball mit dem Bein und der Ball fiel auf den Nacken eines (Jünglings). Dieser Mann fiel zu Boden. Von dort gingen die Leute nach Hause. Ein solcher, der, wenn er den Ball wirft (“den Ball werfend”), Leute zu Boden fallen lässt, einer mit so viel Kraft wurde der drinnen gehalten aufgezogene Königssohn. Da ging er, einen ihm an Fähigkeit überlegenen Menschen auf der Welt zu finden. Da erzählte er es seiner Ziehmutter: “Ich muss deshalb gehen.” Da sagte die Mutter zu dem Sohne: “Es gibt viele solche Menschen, die Leute wie dich verschwinden lassen, ohne den Ort wissen zu lassen. Gehe du nicht. Bleibe in deinem Hause.” So sagte die Mutter oft zu ihm. Indessen kümmerte er sich nicht um die Mutter. Da er nicht blieb, wurde er von der Mutter instruiert: “Es gibt ein Pferd von deines Vaters Vater, das seit fünfzig Jahre drinnen gehalten wird, ohne herausgelassen zu werden. Du wirst nach draußen gehen können, wenn der Vater dir jenes Pferd und eine Waffe gibt. Wenn er es nicht gibt, gehe nirgendwohin.” Er bat seinen Vater um das Pferd, einen Sattel und eine Waffe für sich. Der Vater sagte zu ihm: “Man hat dir etwas gesagt, was nicht gesagt werden durfte. Nun hat man es dir gesagt, daher wäre es ungenügend, es dir nicht zu geben. Geh los, hole es, in jenem Stalle ist das Pferd angebunden. Seit mein Vater gestorben ist, sind es fünfzig Jahre. Seitdem er gestorben ist, hat niemand nach diesem Pferd gesehen. Ob es tot ist, ob es lebendig ist, wie es ist, weiß ich nicht.” Der Bursche gelangte bis zur Tür des Stalles. Da fand er dort an der Tür große Schlüssel und ein Schloss. Der Bursche öffnete das Schloss. Dann in dem Stall fand er das Pferd, das Steine fraß. Wie es den Burschen sah, wieherte es laut (“machte es große Stimme”). Die Leute fürchteten sich sehr. “Was ist das für ein großer Lärm (“große Stimme”)?” Er sagte: “Du bist nicht in Ordnung (“gesund, stark”); wenn du ein gutes Pferd wärest, hättest du nicht fünfzig Jahre lang Steine gefressen.” Als er das gesagt hatte, nahm er das Pferd an der Mähne am Halse und warf es, es drehend, hinaus (auf den Hof). Dann kam dieser Bursche, nahm den Sattel und sattelte das Pferd, zog seine Kleider an und bestieg das Pferd. Nachdem er das Pferd bestiegen hatte, ließ er es laufen, und nichts konnte dieser Bursche sehen, so gewaltig war der schnelle Lauf des Pferdes (“infolge der Kraft des schnellen Laufens dieses Pferdes”).</seg>
+      <seg a:ana="a650B" b1:ana="#" c1:ana="#" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="#" d2:ana="N" d3:ana="N" d4:ana="N" d5:ana="N"> Dann kam dieser Bursche an einer Stelle zu einem Berg. Auf dem Berge fand er ein Haus der Narten und ihre die Spindel drehende Mutter. Die Mutter fragte den Burschen: Mein Sohn, wohin gehst du?” Da sagte er zu der Mutter der Narten: “Ich gehe, um nach einem seiner Fähigkeit nach Besseren als ich zu suchen.” Da sagte sie: “Ich habe auch sieben Söhne. Sie sind ihrer Fähigkeit nach nicht besser als du. Bis sie kommen, bleibe hier” Sie ließ den an der Spindel befindlichen Griff vor den Burschen fallen. Sie sagte: “Pass auf, mein Sohn, wirf diesen Griff hier herauf.” Da bemühte er sich lange, den Griff dort hinauf zu werfen. Er konnte den Griff aber durchaus nicht in die Hände nehmen. Da lachte die Mutter sehr über den Burschen. Dann ließ sie von ihrem Kopf eine Flechte herab zu dem Burschen und sagte: “Binde du diesen Griff an meine Flechte.” Da band er diesen Griff an ihre Flechte. </seg>
+      <seg a:ana="a650B" b1:ana="#" c1:ana="#" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="#" d2:ana="N" d3:ana="N" d4:ana="N" d5:ana="N"> Dann versteckte sie den Burschen. Jetzt am Abend sah der Bursche ihre sieben Narten nach Hause kommen, jeden einen an der Wurzel ausgerissenen Baum über die Schulter gelegt und an jedem Zweig des Baumes Wild angebunden. Als der Bursche sie sah, floh er. Hinter ihm rannten die Narten. </seg>
+      <seg a:ana="a650B" b1:ana="#" c1:ana="#" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="#" d2:ana="N" d3:ana="N" d4:ana="N" d5:ana="N"> Da begegnete der Bursche einem Krüppel, der eine verdorrte Hand und einen verdorrten Fuß hatte. Er führte hinter sich fünfzig Wagen hintereinander gebunden, in der Hand knautschte er ein Büffelfell. Zu diesem Manne, die mit dem Nacken gezogenen fünfzig Wagen voll Salz, in den Händen ein mit der Hand geknautschte Büffelfell, er selbst war auch am halben Körper verdorrt: Einem solchen Mann begegnete dieser Bursche. Er sagte zu diesem Manne: “Schnell verstecke du mich.” Dann nahm (dies)er ihn und steckte ihn in seine Tasche. </seg>
+      <seg a:ana="a650B" b1:ana="#" c1:ana="#" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="#" d2:ana="N" d3:ana="N" d4:ana="N" d5:ana="N"> Da kamen die Narten zu dem Mann, und diese Narten sagten zu ihm: “Hast du nicht einen derartigen Mann gesehen? Du hast ihn bestimmt versteckt. Du sollst ihn uns schnell geben. Wenn du ihn nicht gibst, werden wir dich so machen.” Dies sagten sie und nahmen sie vom Boden einen Stein und drückten ihn in der Hand, bis Wasser herausfloss. Er zerriss das in seinen Händen befindliche Büffelfell und sagte zu ihnen: “Euch werde ich so zerreißen.” Da kehrten die Narten von dort nach Hause zurück.</seg>
+      <seg a:ana="a650B" b1:ana="#" c1:ana="#" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="#" d2:ana="N" d3:ana="N" d4:ana="N" d5:ana="N"> Als sie gegangen waren, nahm er den Burschen aus seiner Tasche. Der Mann fragte ihn: “Wo bist du gewesen, was ist mit euch geschehen?” Dann erzählte der Bursche: “Ich ging nach einem Menschen suchen, der seiner Fähigkeit nach besser als ich wäre. Nachdem ich sah, dass diese Menschen ihrer Fähigkeit nach besser waren, bin ich weggerannt.” Da sagte der Mann zu dem Burschen: “Solche wie du und ich sind keine starken Leute. Ich hatte sieben Brüder. Wir waren in einem Walde. Als wir so in einem Baume waren, kam ein großer Mann mit vielen Schafen. Seine Schafe waren zu einem schlechten Platze gegangen. Da riss er den Baum mit mir und meinen Brüdern zusammen heraus und warf ihn vor die Herde, damit sie zurückkämen. Unter diesen Baum geraten starben meine sieben Brüder. Auch mich schlug ein Ast so, dass mein halber Körper verdorrt ist. Solche Menschen gibt es auch auf der Welt. Du bist noch ein kleiner Mann, bleib zu Hause und iss die von deiner Mutter gemachten Knödel (“essend bleibe zu Hause”).” Der Mann schickte den Burschen nach Hause, nahm seine Wagen mit und ging er seines Weges. </seg>
+     </p>
+    </body>
+   </text>
+  </TEI>
+  
+<TEI n="0300">
+   <teiHeader>
+    <fileDesc>
+     <titleStmt>
+      <title xml:lang="deu">VII. Das hölzerne Pferd</title>
+      <author>
+       <persName key="gnd:116977795">
+        <forename>Ernst</forename>
+        <surname>Lewy</surname>
+       </persName>
+      </author>
+      <respStmt>
+       <resp>Annotated according to the ATU system</resp>
+       <name>
+        <persName key="gnd:133557154">
+         <forename>Elguja</forename>
+         <surname>Dadunashvili</surname>
+        </persName>
+       </name>
+       <name>
+        <persName key="gnd:1154734161">
+         <forename>Diana</forename>
+         <surname>Forker</surname>
+        </persName>
+       </name>
+      </respStmt>
+     </titleStmt>
+     <publicationStmt>
+      <publisher>
+       <name ref="gnd:4028557-1">Institute of Slavic and Caucasus Studies. Friedrich Schiller University Jena</name>
+      </publisher>
+      <pubPlace>
+       <genName ref="https://www.geonames.org/2895044/jena.html">Jena</genName>
+      </pubPlace>
+      <date>2024</date>
+      <distributor>
+       <addName>DFG project “Caucasian narratives in the discourse of comparative fairy tale research”</addName>
+       <ref target="https://github.com/edadunashvili">Software und Texte</ref>
+      </distributor>
+      <availability>
+       <p>
+        <ref target="https://creativecommons.org/licenses/by/4.0/">CC BY</ref>
+       </p>
+      </availability>
+     </publicationStmt>
+     <sourceDesc>
+      <biblFull>
+       <titleStmt>
+        <title xml:lang="eng">Ernst Lewy Avar texts with translation. With comments, corrections and contributions from Johannes Bechert† and M.-K. M. Gimbatov, Aina Kazimagomedova, P. A. Saidova and S. Šaxtamanov</title>
+        <title xml:lang="deu">Ernst Lewy Awarische Texte mit Übersetzung. Mit Kommentaren, Korrekturen und Beiträgen von Johannes Bechert† sowie von M.-K. M. Gimbatov, Aina Kazimagomedova, P. A. Saidova und S. Šaxtamanov</title>
+        <author role="editor">
+         <persName key="gnd:12368806X">
+          <forename>Winfried</forename>
+          <surname>Boeder</surname>
+         </persName>
+        </author>
+        <author role="contributor">
+         <persName key="gnd:115823581">
+          <forename>Johannes</forename>
+          <surname>Bechert</surname>
+         </persName>
+        </author>
+        <author role="author">
+         <persName key="gnd:116977795">
+          <forename>Ernst</forename>
+          <surname>Lewy</surname>
+         </persName>
+        </author>
+        <respStmt>
+         <resp></resp>
+         <name></name>
+        </respStmt>
+       </titleStmt>
+       <extent>
+        <measure unit="words"></measure>
+        <measure unit="pages"></measure>
+       </extent>
+       <publicationStmt>
+        <publisher>BIS-Verlag der Carl von Ossietzky Universität Oldenburg</publisher>
+        <distributor>
+         <ref target="http://oops.uni-oldenburg.de/3182/">Verlag, kostenfrei zugänglich</ref>
+        </distributor>
+        <date when="2007">The year 2007</date>
+        <availability>
+         <licence></licence>
+        </availability>
+       </publicationStmt>
+      </biblFull>
+     </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+     <langUsage>
+      <language ident="deu">
+       <index indexName="iso639-3"></index>
+       <ref target="http://www-01.sil.org/iso639-3/codes.asp"></ref>
+      </language>
+     </langUsage>
+     <textClass>
+      <keywords>
+       <term type="writingSystem">utf-8</term>
+      </keywords>
+      <keywords scheme="http://uri.gbv.de/terminology/bk/">
+       <term type="text.libraryClassification.basisklassifikation" key="18.92">Sonstige asiatische Sprachen und Literaturen</term>
+       <term type="text.libraryClassification.basisklassifikation" key="73.63">Orale Traditionen</term>
+      </keywords>
+     </textClass>
+     <creation>
+      <placeName>
+       <country ref="https://www.geonames.org/2921044/federal-republic-of-germany.html">Germany</country>
+       <region ref="https://www.geonames.org/2842566/saxony.html">Saxony</region>
+       <district></district>
+       <settlement ref="https://www.geonames.org/2940130/chemnitz.html">Kriegsgefangenenlager Chemnitz</settlement>
+       <geo></geo>
+      </placeName>
+      <date>1950</date>
+     </creation>
+     <particDesc>
+      <person role="speaker">
+       <persName>
+        <forename>Nazmuddin</forename>
+        <surname>Sajpudin</surname>
+       </persName>
+       <age>31</age>
+       <birth>
+        <date when="1887">The year 1887</date>
+        <placeName>
+         <country ref="https://www.geonames.org/2017370/russian-federation.html">Russian-Federation</country>
+         <region ref="https://www.geonames.org/567293/dagestan.html">Dagestan</region>
+         <district ref="https://www.geonames.org/557977/gunibskiy-rayon.html">Gunibskiy Rayon</district>
+         <settlement>Gunib</settlement>
+        </placeName>
+       </birth>
+      </person>
+      <person role="researcher">
+       <persName key="gnd:116977795">
+        <forename>Ernst</forename>
+        <surname>Lewy</surname>
+       </persName>
+      </person>
+      <person role="translator">
+       <persName key="gnd:116977795">
+        <forename>Ernst</forename>
+        <surname>Lewy</surname>
+       </persName>
+      </person>
+     </particDesc>
+    </profileDesc>
+    <revisionDesc>
+     <listChange>
+      <change>
+       <name></name>
+       <date></date>
+      </change>
+     </listChange>
+    </revisionDesc>
+   </teiHeader>
+   <text xml:id="zyx_cc_ava_deu_211">
+    <body>
+     <head>VII. Das hölzerne Pferd </head>
+     <p>
+      <seg a:ana="N" b1:ana="#" c1:ana="#" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="#" d2:ana="N" d3:ana="N" d4:ana="N" d5:ana="N"> In einem Dorfe gab es einen großen Ingenieur. Es gab auch zwei Meister, einen in Silber, den anderen in Holz. Da stritten die beiden. “Ich bin der Bessere,” sagte der eine. “Ich bin der Bessere,” sagte der andere. Da gingen beide zu dem Ingenieur. Sie fragten ihn: “Welcher von uns beiden Meistern ist der Bessere?” Da sagte er zu den beiden: “Ich weiß nicht, welcher von euch der Bessere, welcher der Schlechtere ist. In einer Woche mache jeder ein Ding, um es mir zu zeigen. Dieses bringt hierher, dann werde ich sagen, wer von euch beiden der Bessere oder der Schlechtere ist.”</seg>
+      <seg a:ana="N" b1:ana="#" c1:ana="#" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="#" d2:ana="N" d3:ana="N" d4:ana="N" d5:ana="N"> Dann gingen sie nach Hause und machten ein Ding. Der Silbermeister machte einen Revolver aus einer Nähnadel. Der Holzmeister machte ein hölzernes Pferd. Nach der Woche gingen sie zu dem Ingenieur. Der Injenieur legte die Pistole auf den Tisch, betrachtete sie und war sehr erstaunt. Der Holzmeister ließ das hölzerne Pferd auf dem Hof und ging auch zu ihm. Dann fragte er: “He, jetzt sage, welcher von uns der bessere Meister ist.” Da sagte der Ingenieur: “(Auch) wenn ich dieses Pferd sehe, kann ich auch an dieser Pistole keinen Mangel finden (d.h., beide sind sehr gut). Aber etwas wie dieses Pferd, habe ich noch nie gesehen und auch nicht davon erzählen hören.” Dann ging der Meister in Silber sehr betrübt nach Hause. </seg>
+      <seg a:ana="N" b1:ana="#" c1:ana="#" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="#" d2:ana="N" d3:ana="N" d4:ana="N" d5:ana="N"> Zu dem Meister in Holz sagte der Sohn des Ingenieurs: “Verkaufe mir dieses Pferd.” Der Holzmeister sagte (“sagend”): “Verkaufen werde ich es dir nicht, als Geschenk will ich es dir geben”, gab (“gebend”) ihm das Pferd und ging nach Hause. </seg>
+      <seg a:ana="N" b1:ana="#" c1:ana="#" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="#" d2:ana="N" d3:ana="N" d4:ana="N" d5:ana="N"> Dann bestieg dieser Sohn eines Tages das hölzerne Pferd und ritt fort. Nachdem er die sieben Meere hinter sich gelassen hatte, stieg er in einem Dorfe ab. Er geriet in dem Dorfe zu einer Witwe. Da sah er mitten im Meer ein Haus. Er fragte die Witwe: “Was ist das für ein Haus da mitten im Meere?” Sie erzählte dem Sohn: “Dies Haus gehört einem König. Darin ist des Königs Tochter. Der König hat gesagt: «Ich lasse sie nicht an einem Ort, wo eines Mannes Blick auf sie fallen kann» und hat mitten im Meer ein Haus gebaut; seine Tochter und eine Dienerin (“Sklavin”) ließ er (dort) und sagte: «Dorthin werde ich nach einem Jahr selbst gehen, um nach ihnen zu sehen».” So erzählte die Witwe dem Sohn. Da wollte der Sohn sehr dorthin gehen. </seg>
+      <seg a:ana="N" b1:ana="#" c1:ana="#" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="#" d2:ana="N" d3:ana="N" d4:ana="N" d5:ana="N"> Da bestieg er das hölzerne Pferd und ging dorthin. Da ließ er das Pferd auf dem Dach, und er selbst schlüpfte in das Haus. Er fand dort des Königs Tochter und die Dienerin (“Sklavin”) spielend. Da liebte die Königstochter den Sohn sehr, und er liebte sie. Da wurde sie von dem Sohn schwanger. Da sagte sie: “Jetzt ist die Zeit gekommen, wo mein Vater herkommt. Was soll ich jetzt tun?” Da bestieg er das hölzerne Pferd, nahm sie, und sie flohen von dort.</seg>
+      <seg a:ana="N" b1:ana="#" c1:ana="#" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="#" d2:ana="N" d3:ana="N" d4:ana="N" d5:ana="N">  Dann erreichten sie den Rand eines Waldes. Dort bekam sie einen Sohn. Nachdem sie den Sohn gewaschen hatten, hatten sie ein Feuer nötig, um ihn zu trocknen. Da ließ der Sohn (d.h. der Vater des Kindes) das Mädchen bei dem Sohn und ging Feuer holen. Als er von einem weit entfernten Orte Feuer geholt hatte und zurückkam, fiel kleines (Stück) Feuer herab, und eine Schraube des hölzernen Pferdes verbrannte. Das Pferd starb. </seg>
+      <seg a:ana="N" b1:ana="#" c1:ana="#" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="#" d2:ana="N" d3:ana="N" d4:ana="N" d5:ana="N"> Da vergaß er den Sohn und die Frau nach dem Tode des Pferdes. Da begann er eine Schraube für das hölzerne Pferd zu machen. Es gelang ihm nicht, sie zu machen. Während er sie noch einmal machte und noch einmal machte und viel gearbeitet hatte, nutzten sich seine Kleider ab, am ganzen Körper wuchsen Haare, und auf solche Weise arbeitete er dort weiter. </seg>
+      <seg a:ana="N" b1:ana="#" c1:ana="#" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="#" d2:ana="N" d3:ana="N" d4:ana="N" d5:ana="N"> Nun hatte das Mädchen ihren Sohn an den Fuß (“an die Ecke”) eines Baumes gelegt und ging in eine Schlucht. Dort fand sie eine Mühle und einen Müller. Der Müller hielt das Mädchen sehr gut wie eine eigene Tochter. </seg>
+      <seg a:ana="N" b1:ana="#" c1:ana="#" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="#" d2:ana="N" d3:ana="N" d4:ana="N" d5:ana="N"> Zehn Leute des Ingenieurs gingen eines Tages in den Wald Holz fällen. Da fanden sie den kleinen Sohn an den Fuß des Baumes gelegt. Da brachten sie das Kind: “Wir geben es dem Ingenieur. Sein Sohn ist verlorengegangen, wir geben ihm diesen.” Sie brachten also das Kind, um es dem Ingenieur zu geben.</seg>
+      <seg a:ana="N" b1:ana="#" c1:ana="#" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="#" d2:ana="N" d3:ana="N" d4:ana="N" d5:ana="N">  Der Ingenieur (davon) war sehr angetan (“zufrieden”), er sorgte sehr gut für das Kind. Als es fünfzehn Jahre alt wurde, wuchs es zu einem jungen Mann heran. Da überlegten der Ingenieur und (seine) Vertrauten: “Welche Frau könnten wir ihm zuführen (d.h., mit welcher Frau können wir ihn verheiraten)?” Da sagte einer von den Leuten: “Der Müller hat eine schöne Tochter. Sie könnten wir diesem Jüngling zuführen.” </seg>
+      <seg a:ana="N" b1:ana="#" c1:ana="#" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="#" d2:ana="N" d3:ana="N" d4:ana="N" d5:ana="N"> Dann ging der Ingenieur zu dem Müller und sagte: “Würdest du deine Tochter meinem Sohn geben?” Da sagte der Müller: “Ich gebe sie (ihm).” Da wurde dieses Mädchen diesem Jüngling zugeführt und das Brautgeld gegeben. Dass sie die Mutter des Sohns war, wusste niemand. Aber dem Mädchen selbst war es bekannt, dass sie dem eigenen Sohn zur Frau gegeben wurde. Ohne irgend etwas zu tun, schwieg sie. Dann brachte (“führte”) man sie zu ihm. Dann brachten sie sie zu(aller)erst zu ihm zum Liegen. Als er zu ihr gekommen war, sagte sie zu dem Jüngling: “Du bist mein von mir geborener Sohn. Wenn du willst, lege dich zu mir; wenn du willst, lege dich nicht (zu mir). Das, was du tun willst, das Recht steht bei dir.” Da legte sich der Jüngling nicht zu ihr. Dann dachte er viel und sehr nach: “Was bedeutet das, was sie zu mir gesagt hat (“das von ihr zu mir gesagte Wort”)?” </seg>
+      <seg a:ana="N" b1:ana="#" c1:ana="#" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="#" d2:ana="N" d3:ana="N" d4:ana="N" d5:ana="N"> Dann am Morgen ging der Sohn und erzählte seinem Vater: “Mir hat diese Frau solches gesagt. Was ist das für eine Geschichte? Ich weiß es nicht.” </seg>
+      <seg a:ana="N" b1:ana="#" c1:ana="#" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="#" d2:ana="N" d3:ana="N" d4:ana="N" d5:ana="N"> Da rief der Vater sie zu sich: “Was hast du zu meinem Sohne gesagt?” “Was ich zu deinem Sohne gesagt habe, ist wahr (“das wahre Wort”). Ich war eines Königs Tochter. Er ließ mich mitten im Meere, nachdem er ein Haus gemacht hatte. Nachdem man das Allernötigste gegeben hatte, gab man mir eine Dienerin (“Sklavin”). Ein Mann mit einem hölzernen Pferd kam in unser Haus, von ihm wurde ich schwanger. Weil wir Angst hatten vor dem Vater, flohen wir von dort. Als wir zu einem Waldrand gekommen waren, gebar ich einen Sohn. Als er diesen Sohn abgewaschen hatte, ging dieser mein Ehemann Feuer holen, um es zu trocknen. Da er nicht zurückkam, legte ich den kleinen Jungen an den Fuß eines Baumes und ging zu einem Müller. Der kleine Junge wurde von deinen Leuten, die in den Wald gegangen waren, um Holz zu schneiden, gefunden. Sie brachten ihn von dort und gaben dir diesen Sohn. Ihr habt mich zu ihm als Ehefrau gebracht. Er ist mein Sohn, den ich geboren habe. Weil es so ist, sagte ich jenes zu ihm.” </seg>
+      <seg a:ana="N" b1:ana="#" c1:ana="#" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="#" d2:ana="N" d3:ana="N" d4:ana="N" d5:ana="N"> Der Ingenieur veranlasste Leute in seinem Dorf (“in seinem Dorf seiende Leute”), in diesen Wald zu gehen, um seinen Sohn, der mit dem hölzernen Pferd gegangen war, zu suchen. Diese Leute fanden den Mann, und das Pferd fanden sie verfault. Sie fanden ihn, der viel Holz zu Spänen gemacht und eine große Schlucht damit gefüllt hatte. Kleider hatte er nicht an. Dass ihm langes Haar gewachsen war, fanden sie. Diese Leute, das Haar entfernt habend, führten ihn nach Hause. Diese seine eigene Frau brachten sie zu ihm selbst und verheirateten auch dem Sohn mit einem anderen schönen, guten Mädchen. </seg>
+     </p>
+    </body>
+   </text>
+  </TEI>
+  
+
+  <TEI n="test">
+   <teiHeader>
+    <fileDesc>
+     <titleStmt>
+      <title xml:lang="deu">VIII. Der fromme Sohn</title>
+      <author>
+       <persName key="gnd:116977795">
+        <forename>Ernst</forename>
+        <surname>Lewy</surname>
+       </persName>
+      </author>
+      <respStmt>
+       <resp>Annotated according to the ATU system</resp>
+       <name>
+        <persName key="gnd:133557154">
+         <forename>Elguja</forename>
+         <surname>Dadunashvili</surname>
+        </persName>
+       </name>
+       <name>
+        <persName key="gnd:1154734161">
+         <forename>Diana</forename>
+         <surname>Forker</surname>
+        </persName>
+       </name>
+      </respStmt>
+     </titleStmt>
+     <publicationStmt>
+      <publisher>
+       <name ref="gnd:4028557-1">Institute of Slavic and Caucasus Studies. Friedrich Schiller University Jena</name>
+      </publisher>
+      <pubPlace>
+       <genName ref="https://www.geonames.org/2895044/jena.html">Jena</genName>
+      </pubPlace>
+      <date>2024</date>
+      <distributor>
+       <addName>DFG project “Caucasian narratives in the discourse of comparative fairy tale research”</addName>
+       <ref target="https://github.com/edadunashvili">Software und Texte</ref>
+      </distributor>
+      <availability>
+       <p>
+        <ref target="https://creativecommons.org/licenses/by/4.0/">CC BY</ref>
+       </p>
+      </availability>
+     </publicationStmt>
+     <sourceDesc>
+      <biblFull>
+       <titleStmt>
+        <title xml:lang="eng">Ernst Lewy Avar texts with translation. With comments, corrections and contributions from Johannes Bechert† and M.-K. M. Gimbatov, Aina Kazimagomedova, P. A. Saidova and S. Šaxtamanov</title>
+        <title xml:lang="deu">Ernst Lewy Awarische Texte mit Übersetzung. Mit Kommentaren, Korrekturen und Beiträgen von Johannes Bechert† sowie von M.-K. M. Gimbatov, Aina Kazimagomedova, P. A. Saidova und S. Šaxtamanov</title>
+        <author role="editor">
+         <persName key="gnd:12368806X">
+          <forename>Winfried</forename>
+          <surname>Boeder</surname>
+         </persName>
+        </author>
+        <author role="contributor">
+         <persName key="gnd:115823581">
+          <forename>Johannes</forename>
+          <surname>Bechert</surname>
+         </persName>
+        </author>
+        <author role="author">
+         <persName key="gnd:116977795">
+          <forename>Ernst</forename>
+          <surname>Lewy</surname>
+         </persName>
+        </author>
+        <respStmt>
+         <resp></resp>
+         <name></name>
+        </respStmt>
+       </titleStmt>
+       <extent>
+        <measure unit="words"></measure>
+        <measure unit="pages"></measure>
+       </extent>
+       <publicationStmt>
+        <publisher>BIS-Verlag der Carl von Ossietzky Universität Oldenburg</publisher>
+        <distributor>
+         <ref target="http://oops.uni-oldenburg.de/3182/">Verlag, kostenfrei zugänglich</ref>
+        </distributor>
+        <date when="2007">The year 2007</date>
+        <availability>
+         <licence></licence>
+        </availability>
+       </publicationStmt>
+      </biblFull>
+     </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+     <langUsage>
+      <language ident="deu">
+       <index indexName="iso639-3"></index>
+       <ref target="http://www-01.sil.org/iso639-3/codes.asp"></ref>
+      </language>
+     </langUsage>
+     <textClass>
+      <keywords>
+       <term type="writingSystem">utf-8</term>
+      </keywords>
+      <keywords scheme="http://uri.gbv.de/terminology/bk/">
+       <term type="text.libraryClassification.basisklassifikation" key="18.92">Sonstige asiatische Sprachen und Literaturen</term>
+       <term type="text.libraryClassification.basisklassifikation" key="73.63">Orale Traditionen</term>
+      </keywords>
+     </textClass>
+     <creation>
+      <placeName>
+       <country ref="https://www.geonames.org/2921044/federal-republic-of-germany.html">Germany</country>
+       <region ref="https://www.geonames.org/2842566/saxony.html">Saxony</region>
+       <district></district>
+       <settlement ref="https://www.geonames.org/2940130/chemnitz.html">Kriegsgefangenenlager Chemnitz</settlement>
+       <geo></geo>
+      </placeName>
+      <date>1950</date>
+     </creation>
+     <particDesc>
+      <person role="speaker">
+       <persName>
+        <forename>Nazmuddin</forename>
+        <surname>Sajpudin</surname>
+       </persName>
+       <age>31</age>
+       <birth>
+        <date when="1887">The year 1887</date>
+        <placeName>
+         <country ref="https://www.geonames.org/2017370/russian-federation.html">Russian-Federation</country>
+         <region ref="https://www.geonames.org/567293/dagestan.html">Dagestan</region>
+         <district ref="https://www.geonames.org/557977/gunibskiy-rayon.html">Gunibskiy Rayon</district>
+         <settlement>Gunib</settlement>
+        </placeName>
+       </birth>
+      </person>
+      <person role="researcher">
+       <persName key="gnd:116977795">
+        <forename>Ernst</forename>
+        <surname>Lewy</surname>
+       </persName>
+      </person>
+      <person role="translator">
+       <persName key="gnd:116977795">
+        <forename>Ernst</forename>
+        <surname>Lewy</surname>
+       </persName>
+      </person>
+     </particDesc>
+    </profileDesc>
+    <revisionDesc>
+     <listChange>
+      <change>
+       <name></name>
+       <date></date>
+      </change>
+     </listChange>
+    </revisionDesc>
+   </teiHeader>
+   <text xml:id="zyx_cc_ava_deu_212">
+    <body>
+     <head>VIII. Der fromme Sohn </head>
+     <p>
+      <seg a:ana="a726" b1:ana="f" c1:ana="Umgang_mit_der_Versuchung" b2:ana="h" c2:ana="Umgang_mit_der_Versuchung" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="rEHDem" d2:ana="N" d3:ana="N" d4:ana="N" d5:ana="N"> Geschichte. Eine Witwe hatte einen guten und gelehrten Sohn. Immer am Freitag hielt er die Freitagspredigt (“machte er die Chutma”). Immer wenn er die Predigt hielt, weinten alle Leute. Da an einem Tage ging er am Ufer eines Flusse entlang. Einen Apfel, den der Fluss brachte, fand der gelehrte Sohn. Der Apfel war zur Hälfte rot, zur Hälfte weiß. Da nahm der Sohn diesen Apfel und aß ihn. Nachdem er den Apfel gegessen hatte, wenn er die Gebete las, weinten die Leute nicht. Da wurde der Sohn sehr traurig. </seg>
+      <seg a:ana="a726" b1:ana="H" c1:ana="Auf_Hilfsquelle_zurückgreifen" b2:ana="H" c2:ana="Eigene_Misshandlung_nachforschen" b3:ana="H" c3:ana="Krisenursachen_ergründen" b4:ana="HF" c4:ana="Wiedergutmachung_erzielen" b5:ana="N" c5:ana="N" d1:ana="rEHDem" d2:ana="rHHDew" d3:ana="N" d4:ana="N" d5:ana="N"> Er ging und erzählte seiner Mutter: “Früher, wenn ich die Gebete las, weinten die Leute immer; jetzt, wenn ich die Gebete lese, weinen die Leute nicht mehr. Was das bedeutet, weiß ich nicht.” Da sagte die Mutter zu dem Sohne: “Du musst irgend etwas Verbotenes getan haben.” Da sagte der Sohn: “Ich bin mir dessen nicht bewusst, dass ich irgend etwas Verbotenes getan habe.” Dann sagte die Mutter zu ihm: “Denke nach, du hast wahrscheinlich irgend etwas getan.” Da dachte der Sohn lange nach. Er erinnerte sich, dass er jenen Apfel gegessen hatte. Da erzählte er der Mutter: “Dieser unser Fluss brachte einen schönen Apfel, ich fand ihn und aß ihn. Mehr habe ich nicht getan.” Da sagte die Mutter zu dem Sohne: “Geh schnell los den Fluss entlang aufwärts. Suche den Herrn dieses Apfels, wo auch immer er sich findet. Dann bitte diesen Mann um Einverständnis für diesen Apfel.” Nachdem sie ihn so belehrt hatte, schickte die Mutter den Sohn. </seg>
+      <seg a:ana="a726" b1:ana="H" c1:ana="Begegnung" b2:ana="HF" c2:ana="Weiterverweisung_an_andere_Figur" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="rEHDem" d2:ana="rHPPam" d3:ana="N" d4:ana="N" d5:ana="N"> Da ging er den Fluss entlang aufwärts. Er fand einen alten Mann mit weißem Bart, der viele Äpfel hatte. Da sagte er zu dem Manne: “Hast du einen Apfel von solcher Farbe?” Der alte Mann sagte zu diesem Burschen: “Einen solchen Apfel habe ich nicht. Von mir aus weiter aufwärts befindet sich mein älterer Bruder. Bei ihm wird es möglich sein, einen solchen Apfel zu finden. Gehe zu ihm.” So beraten, wurde der Bursche von dem Manne geschickt. </seg>
+      <seg a:ana="a726" b1:ana="H" c1:ana="Begegnung" b2:ana="HF" c2:ana="Weiterverweisung_an_andere_Figur" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="rEHDem" d2:ana="rHPPam" d3:ana="N" d4:ana="N" d5:ana="N"> Da fand der Bursche einen Mann, der keinen weißen, sondern einen grauen Bart hatte. Zu ihm sagte dieser Sohn: “Hast du einen derartigen Apfel?” Da sagte der Mann zu dem Sohne: “Ich habe keinen derartigen Apfel. Unser ältester Bruder da weiter aufwärts hat einen derartigen Apfel.” </seg>
+      <seg a:ana="a726" b1:ana="F" c1:ana="Ursache_des_Altaussehens_deuten" b2:ana="H" c2:ana="Begegnung" b3:ana="F" c3:ana="Wiedergutmachung_erzielen" b4:ana="F" c4:ana="Verlobung_arrangieren" b5:ana="F" c5:ana="Heiraten" d1:ana="rEHDem" d2:ana="rHPPem" d3:ana="N" d4:ana="N" d5:ana="N"> Da ging der Sohn von dort weg, zu dem am weitesten aufwärts lebenden Manne. Während er dorthin ging, dachte der Sohn: “Der weißbärtige Mann hat mir gesagt: «Mein älterer Bruder lebt weiter aufwärts.» Der weiter aufwärts Lebende ist doch jünger (“kleiner”) als er. Warum wohl hat er mir das so gesagt?” Viel dachte der Sohn nach. Da gelangte dieser Sohn zu dem am weitesten aufwärts lebenden Mann. Diesen Mann fand er als einen sehr schönen trefflichen Mann mit einem schwarzen Bart. Da sagte der Sohn zu ihm: “He, Freund, hast du einen Apfel von solcher Farbe?” Da sagte der Mann zu dem Sohne: “Ich habe einen solchen Apfel.” Da sagte der Sohn zu ihm: “Gib mir dein Einverständnis für jenen Apfel.” Da sagte der Mann: “Für was für einen Apfel soll ich dir mein Einverständnis geben?” Da sagte der Sohn: “Ich habe einen solchen Apfel gefunden, den der Fluss gebracht hatte. Da habe ich den Apfel gegessen. Jetzt will ich, dass du mir dein Einverständnis dafür gibst.” Da sagte der Mann zu dem Burschen: “Ich habe eine Tochter, beide Hände hat sie nicht, beide Beine hat sie nicht, beide Augen hat sie nicht, beide Ohren hat sie nicht. Solch eine Tochter ohne alles habe ich. Wenn du diese Tochter heiratest, werde ich dir mein Einverständnis für diesen Apfel geben. Wenn du sie nicht heiratest, werde ich dir diesen Apfel nicht geben.” Da dachte der Sohn lange: “Ein solches Mädchen, das beide Hände nicht hat, beide Beine nicht hat, beide Augen nicht hat, beide Ohren nicht hat, wie (soll ich es) heiraten? Wenn ich sie nicht heirate, wird mir das Einverständnis für den Apfel nicht gegeben.”</seg>
+      <seg a:ana="a726" b1:ana="H" c1:ana="Auf_Hilfsquelle_zurückgreifen" b2:ana="HF" c2:ana="UNGEWOLLTE_VERLOBUNG_akzeptieren" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="rEHDem" d2:ana="rHHDew" d3:ana="N" d4:ana="N" d5:ana="N">  Dies sagte der Sohn und kehrte von dort zurück zu seiner Mutter. Er erzählte seiner Mutter das, was der Mann ihm selbst gesagt hatte. Da sagte die Mutter zu dem Sohne: “Gehe schnell, ohne dich aufzuhalten, und heirate jene seine Tochter.” </seg>
+      <seg a:ana="a726" b1:ana="F" c1:ana="Bedingungslose_Gehorsamkeit" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="rEHDem" d2:ana="rHPPem" d3:ana="rHPPew" d4:ana="N" d5:ana="N"> Da ging der Sohn zurück zu dem Manne und sagte ihm: “Ich werde diese deine Tochter heiraten, (nur) gib mir dein Einverständnis für diesen Apfel.” Da sagte der Mann zu dem Sohne: “Komm ins Haus, ich gebe dir mein Einverständnis für den Apfel.” Da kam der Sohn in dessen Haus und setzte sich nieder. Da sagte der Mann zu seiner Frau, als sie fertig gegessen hatten: “Geh los und bringe eine Melone für uns.” Sie ging und brachte eine kleine Melone. Da sagte der Mann zu der Frau: “Nicht diese, jene sollst du bringen.” Sie ging und brachte dieselbe Melone noch einmal, und der Mann sagte zu der Frau: “Nicht diese, jene sollst du bringen.” Da brachte sie zum dritten Male dieselbe Melone. Da zerschnitten sie und aßen jene Melone. </seg>
+      <seg a:ana="a726" b1:ana="H" c1:ana="Heiraten" b2:ana="hf" c2:ana="GEFAHR_durch_Fluch" b3:ana="h" c3:ana="STERBEN" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="rEHDem" d2:ana="rEPPew" d3:ana="N" d4:ana="N" d5:ana="N"> Jetzt als der Geistliche gekommen war, wurde die Trauung jenes Sohns und jenes Mädchens vollzogen (“wurde dem jungen Mann das Brautgeld (mahari) des Mädchens gegeben”). Da wurde der Sohn nahe zu dem Mädchen in ein anderes Zimmer geschickt. Da fand er jenes Mädchen, ein sehr schönes und treffliches Mädchen fand er. Er betrachtete sie und dachte: “Und ihr Vater hat mir gesagt: «Sie ist ein Mädchen, das keine Hände, Beine, Augen, Ohren hat.» Diese hat alles.” Da machte sich der Sohn daran, zu ihr zu gehen. Sie sagte: “Bleibe einen Augenblick stehen.” Da blieb der Sohn stehen. Da bat sie Gott: “Wenn es mir nicht gelingen wird, für ihn zu sorgen (“wenn es sich nicht erweist, dass es geschieht, dass ich für ihn Dienst tue”), wie diese meine Mutter für diesen meinen Vater, möge mich Gott von ihm trennen.” Da starb dieses Mädchen dort.</seg>
+      <seg a:ana="a726" b1:ana="Hh" c1:ana="Ursache_des_Altaussehens_deuten" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="rEHDem" d2:ana="rHPPem" d3:ana="N" d4:ana="N" d5:ana="N">  Da ging der Sohn und erzählte ihrem Vater, dass die Tochter gestorben war. Da sagte ihr Vater zu dem Burschen: “Der von dir zuerst angetroffene alte Mann war unser jüngster Bruder, durch die Schlechtigkeit seiner Frau ist er so alt geworden. Der zweite von dir angetroffene Mann ist unser mittlerer Bruder. Seine Frau war ein wenig gut. Deshalb ist jener ein wenig jung geblieben. Ich bin der älteste Bruder von ihnen. In meinem Hause war gestern Abend außer der einen Melone, die wir aßen, keine andere da. Ich habe die Frau dreimal mit den Worten: «Nicht diese, sondern jene» fortgeschickt. Sie hat nicht zu mir gesagt: «Wir haben doch keine andere mehr», sondern dreimal dieselbe Melone gebracht. So, was auch immer ich sage, sie gibt keine Widerrede. Da sie solch eine Frau ist, bin ich nicht weißbärtig geworden. Jetzt bat das Mädchen: “Wenn es mir nicht gelingen wird, für ihn zu sorgen, wie diese meine Mutter für diesen meinen Vater, möge ich von ihm getrennt werden.” Danach starb sie. Etwas Böses zu tun, hatte sie beide Hände nicht. Auf einen bösen Ort zu schauen, hatte sie beide Augen nicht. An einen verbotenen Ort zu gehen, hatte sie beide Beine nicht. Etwas Verbotenes zu hören, hatte sie beide Ohren nicht. Dir habe ich sie gegeben, sprechend: «Ein Mann, der geeigneter wäre als du, um sie ihm zu geben, gibt es nicht». Gott hat sie dir nicht gelassen. Was kann man da tun?” sagte der Vater. Der Sohn wurde sehr traurig und ging heim.</seg>
+     </p>
+    </body>
+   </text>
+  </TEI>
+    
+<TEI n="0300">
+   <teiHeader>
+    <fileDesc>
+     <titleStmt>
+      <title xml:lang="deu">IX. Der Traum</title>
+      <author>
+       <persName key="gnd:116977795">
+        <forename>Ernst</forename>
+        <surname>Lewy</surname>
+       </persName>
+      </author>
+      <respStmt>
+       <resp>Annotated according to the ATU system</resp>
+       <name>
+        <persName key="gnd:133557154">
+         <forename>Elguja</forename>
+         <surname>Dadunashvili</surname>
+        </persName>
+       </name>
+       <name>
+        <persName key="gnd:1154734161">
+         <forename>Diana</forename>
+         <surname>Forker</surname>
+        </persName>
+       </name>
+      </respStmt>
+     </titleStmt>
+     <publicationStmt>
+      <publisher>
+       <name ref="gnd:4028557-1">Institute of Slavic and Caucasus Studies. Friedrich Schiller University Jena</name>
+      </publisher>
+      <pubPlace>
+       <genName ref="https://www.geonames.org/2895044/jena.html">Jena</genName>
+      </pubPlace>
+      <date>2024</date>
+      <distributor>
+       <addName>DFG project “Caucasian narratives in the discourse of comparative fairy tale research”</addName>
+       <ref target="https://github.com/edadunashvili">Software und Texte</ref>
+      </distributor>
+      <availability>
+       <p>
+        <ref target="https://creativecommons.org/licenses/by/4.0/">CC BY</ref>
+       </p>
+      </availability>
+     </publicationStmt>
+     <sourceDesc>
+      <biblFull>
+       <titleStmt>
+        <title xml:lang="eng">Ernst Lewy Avar texts with translation. With comments, corrections and contributions from Johannes Bechert† and M.-K. M. Gimbatov, Aina Kazimagomedova, P. A. Saidova and S. Šaxtamanov</title>
+        <title xml:lang="deu">Ernst Lewy Awarische Texte mit Übersetzung. Mit Kommentaren, Korrekturen und Beiträgen von Johannes Bechert† sowie von M.-K. M. Gimbatov, Aina Kazimagomedova, P. A. Saidova und S. Šaxtamanov</title>
+        <author role="editor">
+         <persName key="gnd:12368806X">
+          <forename>Winfried</forename>
+          <surname>Boeder</surname>
+         </persName>
+        </author>
+        <author role="contributor">
+         <persName key="gnd:115823581">
+          <forename>Johannes</forename>
+          <surname>Bechert</surname>
+         </persName>
+        </author>
+        <author role="author">
+         <persName key="gnd:116977795">
+          <forename>Ernst</forename>
+          <surname>Lewy</surname>
+         </persName>
+        </author>
+        <respStmt>
+         <resp></resp>
+         <name></name>
+        </respStmt>
+       </titleStmt>
+       <extent>
+        <measure unit="words"></measure>
+        <measure unit="pages"></measure>
+       </extent>
+       <publicationStmt>
+        <publisher>BIS-Verlag der Carl von Ossietzky Universität Oldenburg</publisher>
+        <distributor>
+         <ref target="http://oops.uni-oldenburg.de/3182/">Verlag, kostenfrei zugänglich</ref>
+        </distributor>
+        <date when="2007">The year 2007</date>
+        <availability>
+         <licence></licence>
+        </availability>
+       </publicationStmt>
+      </biblFull>
+     </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+     <langUsage>
+      <language ident="deu">
+       <index indexName="iso639-3"></index>
+       <ref target="http://www-01.sil.org/iso639-3/codes.asp"></ref>
+      </language>
+     </langUsage>
+     <textClass>
+      <keywords>
+       <term type="writingSystem">utf-8</term>
+      </keywords>
+      <keywords scheme="http://uri.gbv.de/terminology/bk/">
+       <term type="text.libraryClassification.basisklassifikation" key="18.92">Sonstige asiatische Sprachen und Literaturen</term>
+       <term type="text.libraryClassification.basisklassifikation" key="73.63">Orale Traditionen</term>
+      </keywords>
+     </textClass>
+     <creation>
+      <placeName>
+       <country ref="https://www.geonames.org/2921044/federal-republic-of-germany.html">Germany</country>
+       <region ref="https://www.geonames.org/2842566/saxony.html">Saxony</region>
+       <district></district>
+       <settlement ref="https://www.geonames.org/2940130/chemnitz.html">Kriegsgefangenenlager Chemnitz</settlement>
+       <geo></geo>
+      </placeName>
+      <date>1950</date>
+     </creation>
+     <particDesc>
+      <person role="speaker">
+       <persName>
+        <forename>Nazmuddin</forename>
+        <surname>Sajpudin</surname>
+       </persName>
+       <age>31</age>
+       <birth>
+        <date when="1887">The year 1887</date>
+        <placeName>
+         <country ref="https://www.geonames.org/2017370/russian-federation.html">Russian-Federation</country>
+         <region ref="https://www.geonames.org/567293/dagestan.html">Dagestan</region>
+         <district ref="https://www.geonames.org/557977/gunibskiy-rayon.html">Gunibskiy Rayon</district>
+         <settlement>Gunib</settlement>
+        </placeName>
+       </birth>
+      </person>
+      <person role="researcher">
+       <persName key="gnd:116977795">
+        <forename>Ernst</forename>
+        <surname>Lewy</surname>
+       </persName>
+      </person>
+      <person role="translator">
+       <persName key="gnd:116977795">
+        <forename>Ernst</forename>
+        <surname>Lewy</surname>
+       </persName>
+      </person>
+     </particDesc>
+    </profileDesc>
+    <revisionDesc>
+     <listChange>
+      <change>
+       <name></name>
+       <date></date>
+      </change>
+     </listChange>
+    </revisionDesc>
+   </teiHeader>
+   <text xml:id="zyx_cc_ava_deu_213">
+    <body>
+     <head>IX. Der Traum </head>
+     <p>
+      <seg a:ana="a460A" b1:ana="h" c1:ana="STERBEN" b2:ana="F" c2:ana="TRAUM" b3:ana="F" c3:ana="Jenseitswanderung_unternehmen" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="rEHDem" d2:ana="rJHDem" d3:ana="N" d4:ana="N" d5:ana="N"> Geschichte. Es war ein guter Mann, der immer in der Moschee lag. Er hatte einen Sohn. Nachdem jener Sohn starb, verging ein Monat. Eines Nachts träumte ihm: “«Dein Sohn – wohin ist er gegangen?» Um das zu fragen, warum gehst du nicht zu Gott?”</seg>
+      <seg a:ana="a460A" b1:ana="F" c1:ana="Folge_von_Kriminalität_deuten" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="rEHDem" d2:ana="rEVMeU" d3:ana="N" d4:ana="N" d5:ana="N">Da am Morgen stand er auf, und der zu Gott Gehende gelangte an einen fernen Ort. Ihm begegneten sieben Räuber. Sie sagten zu dem Manne: “Wohin gehst du?” Er sagte: “Ich gehe zu Gott.” </seg>
+      <seg a:ana="a460A" b1:ana="F" c1:ana="Lösungsweg_für_leidendes_Tier_deuten" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="rEHDem" d2:ana="fEVMeu" d3:ana="N" d4:ana="N" d5:ana="N">Als der Mann ein wenig weiter aufwärts gelangt war, fand er eine große Schlange. Auch sie sagte zu dem Manne: “Wo gehst du hin (“ein wohin gehender Mann bist du”)?” Da sagte er zu der Schlange: “Ich gehe zu Gott.” Da sagte die Schlange zu ihm: “Wenn du Gott siehst, sage ihm, «Gib mir Hände oder Beine. Ohne eines von beiden zu haben, ist es sehr schwer für mich.»” Da sagte der Mann: “Wenn ich Gott sehe, werde ich es ihm sagen.” </seg>
+      <seg a:ana="a460A" b1:ana="F" c1:ana="Folge_von_Bigotterie_deuten" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="rEHDem" d2:ana="fEVMew" d3:ana="N" d4:ana="N" d5:ana="N">Dann gelangte der Mann auf einen hohen Berg und fand einen Mann, der immerfort betete. Jener kam und fragte auch diesen Mann: “Wohin gehst du?” Da sagte dieser zu jenem: “Ich gehe zu Gott.” Da sagte jener: “Ich weiß, dass mir ein Paradies gegeben wird. Frage Gott, welches Paradies mir gegeben wird.” “Gut, ich werde ihn fragen,” sagte er auch zu jenem. </seg>
+      <seg a:ana="a460A" b1:ana="F" c1:ana="Lösungsweg_für_sonstiges_Leid_deuten" b2:ana="N" c2:ana="N" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="rEHDem" d2:ana="rEVMeu" d3:ana="N" d4:ana="N" d5:ana="N">Zu einem anderen Ort gelangte jener Mann. Da ging die Sonne, hinter einem Berggipfel hervorkommend, auf. Auch sie fragte diesen Mann: “Wo gehst du hin?” Auch zur Sonne sagte jener Mann: “Ich gehe zu Gott.” Da sagte die Sonne: “Wenn ich aufgegangen bin, lässt man mich weder abends noch morgens stehen bleiben. Dass ich sehr müde bin, sage zu Gott: «Ist es nicht möglich für mich, eine ganz kleine Zeit stehen zu bleiben?»” “Ich werde es sagen,” sagte dieser Mann zu jener. </seg>
+      <seg a:ana="a460A" b1:ana="H" c1:ana="Begegnung" b2:ana="H" c2:ana="Vermittlung" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="rEHDem" d2:ana="rEHFeu" d3:ana="N" d4:ana="N" d5:ana="N">Der Sohn gelangte zu einem fernen Ort, und da traf dieser eine kleine Wolke. Aus ihrer Mitte kam ein kleiner Vogel heraus. Dieser Vogel fragte den Mann: “Wohin gehst du?” Da erzählte jener von dem Ort, wohin er ging. Da sagte der Vogel: “Bleibe, du darfst nicht zu Gott gehen. Was du von Gott wünschst, erzähle mir. Ich werde zu Gott gehen,” sagte der Vogel. Dann erzählte er, was ihm die Schlange gesagt hatte. Dann erzählte er, was der viel betende Mann gesagt hatte. Dann erzählte er das von der Sonne Gesagte. Dann erzählte er den Traum, den er gesehen hatte. </seg>
+      <seg a:ana="a460A" b1:ana="H" c1:ana="Information_aus_zweiter_Hand" b2:ana="h" c2:ana="Lösungsweg_für_leidendes_Tier_deuten" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="rEHDem" d2:ana="rEHFeu" d3:ana="N" d4:ana="N" d5:ana="N">Da flog (“ging”) der Vogel weg und kam nach Verlauf einer Stunde zurück. Da sagte der Vogel zu dem Manne: “Jener Schlange sage du: Wenn Arme oder Beine an ihr angebracht würden, würde sie die Menschen töten. Man darf ihr keine Arme oder Beine geben. </seg>
+      <seg a:ana="a460A" b1:ana="H" c1:ana="Information_aus_zweiter_Hand" b2:ana="h" c2:ana="Folge_von_Bigotterie_deuten" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="rEHDem" d2:ana="rEHFeu" d3:ana="N" d4:ana="N" d5:ana="N">Dann dem von dir angetroffenen, viele Gebete sprechenden Manne sage du, dass er selbst in das immer währende Feuer gehen wird. </seg>
+      <seg a:ana="a460A" b1:ana="H" c1:ana="Information_aus_zweiter_Hand" b2:ana="h" c2:ana="Lösungsweg_für_sonstiges_Leid_deuten" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="rEHDem" d2:ana="rEHFeu" d3:ana="N" d4:ana="N" d5:ana="N">Dann sage zur Sonne: Wenn man sie selbst, nachdem sie aufgegangen ist, am Abend und Mittag stehen lassen würde, würde sie die Welt verbrennen. Sie stehen bleiben zu lassen, ist unmöglich, sage zur Sonne. </seg>
+      <seg a:ana="a460A" b1:ana="H" c1:ana="Information_aus_zweiter_Hand" b2:ana="h" c2:ana="Lösungsweg_für_sonstiges_Leid_deuten" b3:ana="N" c3:ana="N" b4:ana="N" c4:ana="N" b5:ana="N" c5:ana="N" d1:ana="rEHDem" d2:ana="rEHFeu" d3:ana="N" d4:ana="N" d5:ana="N">Dann ist dein Sohn gestorben. Weil er gestorben ist, legte man ihn ins Grab. Der Traum, den du gesehen hast, ist ein Traum vom Satan. Viele verschiedene Dinge sieht der Mensch im Traum. Man darf nicht alle im Traum gesehenen Dinge glauben.” </seg>
+     </p>
+    </body>
+   </text>
+  </TEI>
+ </teiCorpus>
+</teiCorpus>

@@ -1,0 +1,139 @@
+:root {
+    --background: #f7f7f7;
+    --saturated-background: #fafafa;
+    --saturated-background-lighter: #f4f4f4;
+    --forground: black;
+    --border-radius: 8px;
+
+    --form-field-w: 155px;
+    --form-open-w: 200px;
+    --form-closed-w: 0px;
+    --transition: 500ms ease;
+
+    --card-open-h: 70vh;
+    --card-closed-h: 20px;
+    --card-width: 98vw;
+
+    --search-height: 3.5em;
+    --error-height: 2.2em;
+    font-family: Calibri, sans-serif;
+}
+
+body {
+    background: white;
+    color: black;
+}
+
+input,
+textarea,
+button,
+table {
+    background: white;
+    color: black;
+}
+
+@media (prefers-color-scheme: dark) {
+
+    :root {
+        --background: #222;
+        --saturated-background: #0f0f0f;
+        --saturated-background-lighter: #0a0a0a;
+        --forground: #ddd;
+    }
+
+    body {
+        background: var(--background);
+        color: var(--forground);
+    }
+
+    input,
+    textarea,
+    button,
+    table {
+        background: var(--background);
+        color: var(--forground);
+        border-color: #444;
+    }
+
+    a {
+        color: #8ab4ff;
+    }
+}
+
+/* container */
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+/* form base */
+.form {
+    width: var(--form-open-w);
+    background: var(--saturated-background);
+    color: var(--forground);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 12px;
+    box-sizing: border-box;
+    border-radius: var(--border-radius);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    overflow: visible;
+    transition: width var(--transition), padding var(--transition);
+}
+
+/* output should fill remaining space */
+.image {
+    flex: 1;
+    padding: 0px;
+    gap: 0px;
+}
+
+
+input[type="number"],
+input[type="text"],
+textarea,
+select {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+
+.send-button {
+    padding: 10px 14px;
+    width: 100%;
+    background: #007710;
+    color: #fff;
+    border: 0;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.send-button:hover {
+    background: #1077cc;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.checkbox {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    user-select: none;
+    font-size: 14px;
+}
+
+.form-field {
+    max-width: var(--form-field-w);
+    margin-bottom: 4px;
+}

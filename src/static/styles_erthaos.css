@@ -1,0 +1,136 @@
+@import "styles_base.css";
+@import "styles_tooltip.css";
+@import "styles_togglable_card.css";
+
+#card-toggle-1:checked~#card-1 {
+    height: var(--card-closed-h);
+    padding-left: 2px;
+    padding-right: 2px;
+    visibility: hidden;
+    opacity: var(--panel-closed-opacity);
+}
+
+#card-toggle-2:checked~#card-2 {
+    height: var(--card-closed-h);
+    padding-left: 2px;
+    padding-right: 2px;
+    visibility: hidden;
+    opacity: var(--panel-closed-opacity);
+}
+
+#card-toggle-3:checked~#card-3 {
+    height: var(--card-closed-h);
+    padding-left: 2px;
+    padding-right: 2px;
+    visibility: hidden;
+    opacity: var(--panel-closed-opacity);
+}
+
+#card-toggle-label-1:before {
+    content: '-';
+}
+
+#card-toggle-1:checked+#card-toggle-label-1:before {
+    content: '+';
+}
+
+#card-toggle-label-2:before {
+    content: '-';
+}
+
+#card-toggle-2:checked+#card-toggle-label-2:before {
+    content: '+';
+}
+
+#card-toggle-label-3:before {
+    content: '-';
+}
+
+#card-toggle-3:checked+#card-toggle-label-3:before {
+    content: '+';
+}
+
+
+.sidepanel {
+    width: var(--form-open-w);
+    min-width: var(--form-open-w);
+    height: 100%;
+    background: var(--saturated-background);
+    color: var(--forground);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 12px;
+    box-sizing: border-box;
+    border-radius: var(--border-radius);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    overflow: visible;
+}
+
+.margined-container {
+    display: flex;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.text-container {
+    width: 100%;
+    /* height: 100%; */
+    height: 100vh;
+    display: flexbox;
+    direction: column;
+    background: var(--saturated-background);
+    color: var(--forground);
+    margin: 5px auto;
+    overflow: hidden;
+    border-radius: var(--border-radius);
+}
+
+
+#search {
+    min-height: var(--search-height);
+    max-height: var(--search-height);
+}
+
+.text-area {
+    border: 3px solid #ccc;
+    padding: 10px;
+    height: calc(100% - var(--search-height) - 20px);
+    overflow: auto;
+    white-space: pre-wrap;
+    background-color: var(--background);
+    color: var(--forground);
+    user-select: text;
+    pointer-events: auto;
+    border-radius: var(--border-radius);
+}
+
+
+.squeezed-height {
+    height: 90%;
+}
+
+.text-with-plot {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background: var(--saturated-background);
+    /* background-color: #ff0000; */
+    color: var(--forground);
+    margin: 5px auto;
+}
+
+
+.plot {
+    margin: 10px;
+    padding: 20px;
+    width: 100%;
+}
+
+.full-height {
+    height: 98%;
+}

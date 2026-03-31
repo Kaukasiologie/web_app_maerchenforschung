@@ -1,0 +1,403 @@
+:root {
+    --background: #f7f7f7;
+    --saturated-background: #fafafa;
+    --saturated-background-lighter: #f4f4f4;
+    --forground: black;
+    --border-radius: 8px;
+
+    --form-field-w: 155px;
+    --form-open-w: 200px;
+    --form-closed-w: 0px;
+    --transition: 500ms ease;
+
+    --card-open-h: 70vh;
+    --card-closed-h: 20px;
+    --card-width: 98vw;
+    font-family: Calibri, sans-serif;
+}
+
+body {
+    background: white;
+    color: black;
+}
+
+input,
+textarea,
+button,
+table {
+    background: white;
+    color: black;
+}
+
+@media (prefers-color-scheme: dark) {
+
+    :root {
+        --background: #222;
+        --saturated-background: #0f0f0f;
+        --saturated-background-lighter: #0a0a0a;
+        --forground: #ddd;
+    }
+
+    body {
+        background: var(--background);
+        color: var(--forground);
+    }
+
+    input,
+    textarea,
+    button,
+    table {
+        background: var(--background);
+        color: var(--forground);
+        border-color: #444;
+    }
+
+    a {
+        color: #8ab4ff;
+    }
+}
+
+/* container */
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.cardtainer {
+    background: var(--saturated-background-lighter);
+    color: var(--forground);
+    box-sizing: border-box;
+    border-radius: var(--border-radius);
+    transition: width var(--transition), padding var(--transition);
+}
+
+.card {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: var(--card-open-h);
+    background: var(--saturated-background-lighter);
+    color: var(--forground);
+    display: flex;
+    flex-direction: row;
+
+    width: --card-width;
+    gap: 8px;
+    padding: 12px;
+    box-sizing: border-box;
+    border-radius: var(--border-radius);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: height var(--transition), padding var(--transition);
+}
+
+.card-toggle-label {
+    z-index: 10;
+    position: relative;
+    left: calc(var(--card-width) - 36px);
+    top: 8px;
+    width: 10px;
+    height: 18px;
+    background: var(--background);
+    color: var(--forground);
+    padding: 1px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.card-toggle-label:hover {
+    background-color: #ff0000;
+}
+
+.invisible {
+    display: none;
+}
+
+#card-toggle-1:checked~#card-1 {
+    height: var(--card-closed-h);
+    padding-left: 2px;
+    padding-right: 2px;
+    visibility: hidden;
+    opacity: var(--panel-closed-opacity);
+}
+
+#card-toggle-2:checked~#card-2 {
+    height: var(--card-closed-h);
+    padding-left: 2px;
+    padding-right: 2px;
+    visibility: hidden;
+    opacity: var(--panel-closed-opacity);
+}
+
+#card-toggle-3:checked~#card-3 {
+    height: var(--card-closed-h);
+    padding-left: 2px;
+    padding-right: 2px;
+    visibility: hidden;
+    opacity: var(--panel-closed-opacity);
+}
+
+#card-toggle-label-1:before {
+    content: '-';
+}
+
+#card-toggle-1:checked+#card-toggle-label-1:before {
+    content: '+';
+}
+
+#card-toggle-label-2:before {
+    content: '-';
+}
+
+#card-toggle-2:checked+#card-toggle-label-2:before {
+    content: '+';
+}
+
+#card-toggle-label-3:before {
+    content: '-';
+}
+
+#card-toggle-3:checked+#card-toggle-label-3:before {
+    content: '+';
+}
+
+.sidepanel {
+    width: var(--form-open-w);
+    min-width: var(--form-open-w);
+    height: 100%;
+    background: var(--saturated-background);
+    color: var(--forground);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 12px;
+    box-sizing: border-box;
+    border-radius: var(--border-radius);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    overflow: visible;
+}
+
+.text-container {
+    width: 100%;
+    height: 100%;
+    display: flexbox;
+    direction: column;
+    background: var(--saturated-background);
+    color: var(--forground);
+    margin: 5px auto;
+    overflow: hidden;
+}
+
+
+#search {
+    /* min-height: 2em; */
+    /* height: 3em; */
+    min-height: 3.5em;
+    max-height: 3.5em;
+}
+
+.text-area {
+    border: 3px solid #ccc;
+    padding: 10px;
+    height: calc(100% - 3.5em - 20px);
+    overflow-y: auto;
+    white-space: pre-wrap;
+    background-color: var(--background);
+    color: var(--forground);
+    user-select: text;
+    pointer-events: auto;
+}
+
+
+.text-with-plot {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* direction: row; */
+    background: var(--saturated-background);
+    /* background-color: #ff0000; */
+    color: var(--forground);
+    margin: 5px auto;
+    /* overflow: hidden; */
+}
+
+
+.plot {
+    margin: 10px;
+    padding: 20px;
+    width: 100%;
+}
+
+.wrappable {
+    max-width: 120px;
+    /* word-wrap: break-word; */
+}
+
+.full-height {
+    height: 98%;
+}
+
+/* form base */
+.form {
+    width: var(--form-open-w);
+    background: var(--saturated-background);
+    color: var(--forground);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 12px;
+    box-sizing: border-box;
+    border-radius: var(--border-radius);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    overflow: visible;
+    transition: width var(--transition), padding var(--transition);
+}
+
+/* output should fill remaining space */
+.image {
+    flex: 1;
+    padding: 0px;
+    gap: 0px;
+}
+
+#output {
+    min-height: 100%
+}
+
+/* small toggle button visually positioned (optional) */
+.form-toggle-btn {
+    z-index: 10;
+    position: fixed;
+    left: 8px;
+    top: 8px;
+    background: var(--background);
+    color: var(--forground);
+    padding: 6px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* closed state when checkbox is checked */
+#form-toggle:checked~.container .form {
+    width: var(--form-closed-w);
+    padding-left: 2px;
+    padding-right: 2px;
+    visibility: hidden;
+    opacity: var(--panel-closed-opacity);
+}
+
+/* ensure buttons/icons remain centered when closed */
+.form button .icon {
+    width: 24px;
+    display: inline-block;
+    text-align: center;
+}
+
+input[type="number"],
+input[type="text"],
+textarea,
+select {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.send-button {
+    padding: 10px 14px;
+    width: 100%;
+    background: #007710;
+    color: #fff;
+    border: 0;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.send-button:hover {
+    background: #1077cc;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.checkbox {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    user-select: none;
+    font-size: 14px;
+}
+
+.form-field {
+    max-width: var(--form-field-w);
+    margin-bottom: 4px;
+}
+
+/* tooltip */
+.inline {
+    display: inline-block;
+    margin-right: 2px;
+}
+
+/* This is the i in a circle */
+.info {
+    --scale: 0;
+    --arrow-size: 13px;
+    --tooltip-color: #333;
+
+    position: relative;
+    display: inline-block;
+    background: #afaaaf;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    border-radius: 10px;
+    border-bottom: 1px dotted black;
+    cursor: pointer;
+    z-index: 10;
+}
+
+/* These are the tooltips for the i */
+.info::before,
+.info::after {
+    position: absolute;
+    top: 0;
+    left: 2rem;
+    transition: 80ms transform;
+    transform-origin: left center;
+}
+
+/* main tooltip with the information text */
+.info::before {
+    content: attr(data-tooltip);
+    color: white;
+    padding: .5rem;
+    width: max-content;
+    max-width: 200px;
+    text-justify: distribute-all-lines;
+    text-align: left;
+    background: var(--tooltip-color);
+    border-radius: 3px;
+    transform: translateY(-40%) scale(var(--scale));
+}
+
+.info:hover::before,
+.info:hover::after {
+    --scale: 1;
+}
+
+/* tooltip arrow */
+.info::after {
+    content: '';
+    left: 0.5rem;
+    border: var(--arrow-size) solid transparent;
+    border-right-color: var(--tooltip-color);
+    transform: translateY(-30%) scale(var(--scale));
+}
