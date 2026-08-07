@@ -1,3 +1,4 @@
+import os
 import sys
 from http.server import SimpleHTTPRequestHandler, HTTPServer
 from watchdog.observers import Observer
@@ -11,6 +12,10 @@ class ReloadHandler(FileSystemEventHandler):
 
     def on_modified(self, event):
         path: str = str(event.src_path)
+        if path == './shutdown.command':
+            server_process.terminate()
+            print("Shutting down")
+            os._exit(0)
         if path.startswith('./static') and path.endswith('.html'):
             return
 
