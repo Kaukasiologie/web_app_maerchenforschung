@@ -83,11 +83,13 @@ def sonderzeichen_entfernen(text: str, sonderzeichen_ersatz_paare):
     return res
 
 
+
 def parse_xml_kern(tei, namespace, referenz_liste, parse_labels, special_charachters):
-    LABELS = ['a', 'b1', 'b2', 'b3', 'b4', 'b5', 'c1', 'c2',
-              'c3', 'c4', 'c5', 'd1', 'd2', 'd3', 'd4', 'd5']
+    LABELS = ['a', 'b1', 'b2', 'b3', 'b4', 'b5', 'b6','b7','b8','b9', 'c1', 'c2',
+              'c3', 'c4', 'c5', 'c6', 'c7', 'c8', 'c9', 'd1', 'd2', 'd3', 'd4', 'd5', 'd6', 'd7']
     LABEL_PAAR_KEY_LISTE = [['b1', 'c1'], ['b2', 'c2'],
-                            ['b3', 'c3'], ['b4', 'c4'], ['b5', 'c5']]
+                            ['b3', 'c3'], ['b4', 'c4'], ['b5', 'c5'],
+						    ['b6', 'c6'], ['b7', 'c7'], ['b8', 'c8'], ['b9', 'c9']]
     maerchen = ''
     for ganze in tei.findall(".//tei:text", namespace):
         quelle = ganze.attrib.get(
@@ -110,8 +112,8 @@ def parse_xml_kern(tei, namespace, referenz_liste, parse_labels, special_charach
                             continue
 
                         dana = f"{label_dict['d1']}_{label_dict['d2']}_"
-                        dana += f"{label_dict['d3']}_{label_dict['d4']}_"
-                        dana += f"{label_dict['d5']}"
+                        dana += f"{label_dict['d3']}_{label_dict['d4']}_{label_dict['d5']}_{label_dict['d6']}_"
+                        dana += f"{label_dict['d7']}"
 
                         try:
                             sortierte_dana = sortiere_dana(
@@ -171,11 +173,9 @@ def parse_xml(root_node, namespace, referenz_liste, special_charachters,
 ###############################################################################
 # ########################## Daten preparieren ################################
 ###############################################################################
-
-
 def load_json_safely(config_file_name: str | Path, safe_return=[{}]):
     try:
-        with open(config_file_name, "r") as config_file:
+        with open(config_file_name, "r", encoding="utf-8") as config_file:
             config = json.load(config_file)
 
     except FileNotFoundError as e:

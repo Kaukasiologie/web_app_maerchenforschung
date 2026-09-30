@@ -4,8 +4,9 @@
         "label": "Repertoire",
         "type": "select",
         "value": [
-            "dagestanisch.xml",
-            "test.xml"
+            "test.xml",
+            "RU-DA_rus.xml",
+            "kat_kat.xml"
         ],
         "info": "Herkunft des jeweiligen Repertoires entsprechend dem Namen der XML-TEI-Korpusdatei (z. B. dagestanisch, georgisch, ossetisch usw.).",
         "public": true

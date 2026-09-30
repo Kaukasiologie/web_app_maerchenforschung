@@ -5,7 +5,6 @@
             "label": "Repertoire",
             "type": "select",
             "value": [
-                "dagestanisch.xml",
                 "test.xml"
             ],
             "info": "Herkunft des jeweiligen Repertoires entsprechend dem Namen der XML-TEI-Korpusdatei (z. B. dagestanisch, georgisch, ossetisch usw.).",
@@ -16,7 +15,6 @@
             "label": "Sprache",
             "type": "text",
             "value": {
-                "dagestanisch.xml": "russian",
                 "test.xml": "german"
             },
             "info": "Stopwort Sprache.",
