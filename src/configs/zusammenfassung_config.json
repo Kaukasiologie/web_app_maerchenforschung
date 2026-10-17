@@ -1,0 +1,22 @@
+[
+  {
+    "name": "xml_database_name",
+    "label": "Repertoire",
+    "type": "select",
+    "value": [
+      "dagestanisch.xml",
+      "test.xml"
+    ],
+    "info": "Herkunft des jeweiligen Repertoires entsprechend dem Namen der XML-TEI-Korpusdatei (z. B. dagestanisch, georgisch, ossetisch usw.).",
+    "public": true
+  },
+  {
+    "name": "typ_input",
+    "label": "Gesuchter Typ",
+    "type": "text",
+    "value": "",
+    "info": "Beispiele: &quot;a300&quot; = rein a300 ohne Kombinationen, {&quot;AND&quot;:[&quot;a300&quot;]} = a300 rein oder kombiniert, {&quot;AND&quot;:[&quot;a300&quot;,&quot;a301&quot;]} = a300 und a301 beide miteinander oder beide mit anderen kombiniert",
+    "required": true,
+    "public": true
+  }
+]

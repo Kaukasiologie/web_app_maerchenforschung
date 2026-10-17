@@ -64,6 +64,9 @@ class Handler(BaseHTTPRequestHandler):
         if path == "/grundform":
             path = "/static/grundform.html"
 
+        if path == "/zusammenfassung":
+            path = "/static/zusammenfassung.html"
+
         # file based routing for paths that start with static
         elif path.startswith("/static/"):
             if path.endswith(".css"):
@@ -194,6 +197,34 @@ class Handler(BaseHTTPRequestHandler):
             log(err, context=__name__, log_type=LogType.Error)
             self._send_response(None, err)
 
+    def _zusammenfassung_request(self):
+        form_data = self._basic_form_handling()
+
+        try:
+            from pathlib import Path
+            XML_SOURCES = Path("xml_sources")
+            Repertoire = XML_SOURCES / form_data['xml_database_name']
+        except KeyError:
+            err = 'Repertoire feld muss einen wert haben!'
+            self._send_response(None, err)
+            return
+
+        Gesuchter_Typ = form_data.get('typ_input', None)
+
+        from zusammenfassung import (
+            zusammenfassung_notebook,
+            zeige_zusammenfassung
+        )
+        text, mit_treffern, ohne_treffern = zusammenfassung_notebook(
+            Repertoire,
+            Gesuchter_Typ
+        )
+        # zeige_zusammenfassung(mit_treffern, ohne_treffern)
+
+        print(text)
+
+        self._send_response(text, None)
+
     def _grundform_request(self):
         data = self._basic_form_handling()
         if data is None:
@@ -242,6 +273,10 @@ class Handler(BaseHTTPRequestHandler):
 
         if self.path == "/grundform_request":
             self._grundform_request()
+            return
+
+        if self.path == "/zusammenfassung_request":
+            self._zusammenfassung_request()
             return
 
 
