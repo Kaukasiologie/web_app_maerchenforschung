@@ -23,12 +23,15 @@ CONFIGS = Path("configs")
 CONFIG_FILE_PATH_GRAPHS = CONFIGS/"default_forms_config.json"
 CONFIG_FILE_PATH_LABLER = CONFIGS/"labler_default_forms_config.json"
 CONFIG_FILE_PATH_GRUNDFORM = CONFIGS/"grundform_config.json"
+CONFIG_FILE_PATH_ZUSAMMENFASSUNG = CONFIGS/"zusammenfassung_config.json"
 
 
 def startup():
     make_graph_page("graph.html", CONFIG_FILE_PATH_GRAPHS)
     make_labler_page("erthaos.html", CONFIG_FILE_PATH_LABLER)
     make_grundform_page("grundform.html", CONFIG_FILE_PATH_GRUNDFORM)
+    make_zusammenfassung_page("zusammenfassung.html",
+                              CONFIG_FILE_PATH_ZUSAMMENFASSUNG)
 
 
 def checkbox_to_bool(val):
@@ -136,6 +139,15 @@ def make_labler_page(template_name, config_name):
 
     (STATIC / template_name).write_text(body1, encoding="utf-8")
     (STATIC / template_name).write_text(body2, encoding="utf-8")
+
+
+def make_zusammenfassung_page(template_name, config_name):
+    fields = load_json_safely(config_name, safe_return=[{}])
+
+    tpl = (TEMPLATES / template_name).read_text(encoding="utf-8")
+    body = tpl.replace("{{ forms }}", _make_form(fields))
+
+    (STATIC / template_name).write_text(body, encoding="utf-8")
 
 
 def make_grundform_page(template_name, config_name):
